@@ -183,8 +183,9 @@ static PlacePageRoadType convertRoadType(RoadWarningMarkType roadType) {
 - (void)processCountryEvent:(NSString *)countryId {
   if ([countryId isEqualToString:self.mapNodeAttributes.countryId]) {
     _mapNodeAttributes = [[MWMStorage sharedStorage] attributesForCountry:countryId];
-    _osmContributionData = [[PlacePageOSMContributionData alloc] initWithRawData:rawData()
-                                                                   mapAttributes:_mapNodeAttributes];
+    if ([PlacePageData hasData])
+      _osmContributionData = [[PlacePageOSMContributionData alloc] initWithRawData:rawData()
+                                                                     mapAttributes:_mapNodeAttributes];
     if (self.onMapNodeStatusUpdate != nil) {
       self.onMapNodeStatusUpdate();
     }
