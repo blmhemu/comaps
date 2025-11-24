@@ -829,10 +829,7 @@ XMLFeature ToXML(osm::EditableMapObject const & object, bool serializeType)
     toFeature.SetCuisine(cuisineStr);
   }
 
-  object.ForEachMetadataItem([&toFeature](string_view tag, string_view value)
-  {
-      toFeature.SetTagValue(tag, value);
-  });
+  object.ForEachMetadataItem([&toFeature](string_view tag, string_view value) { toFeature.SetTagValue(tag, value); });
 
   return toFeature;
 }
