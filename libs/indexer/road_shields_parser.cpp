@@ -511,12 +511,11 @@ class AustriaRoadShieldParser : public SimpleRoadShieldParser
 {
 public:
   explicit AustriaRoadShieldParser(std::string const & baseRoadNumber)
-    : SimpleRoadShieldParser(baseRoadNumber,
-                             {{"A", RoadShieldType::Generic_Blue_Bordered},
-                             {"S", RoadShieldType::Generic_Blue_Bordered},
-                             {"B", RoadShieldType::Generic_Blue, false, true},
-                             {"P", RoadShieldType::Generic_Pill_Red, false, true},
-                             {"L", RoadShieldType::Generic_Pill_White_Bordered, false, true}})
+    : SimpleRoadShieldParser(baseRoadNumber, {{"A", RoadShieldType::Generic_Blue_Bordered},
+                                              {"S", RoadShieldType::Generic_Blue_Bordered},
+                                              {"B", RoadShieldType::Generic_Blue, false, true},
+                                              {"P", RoadShieldType::Generic_Pill_Red, false, true},
+                                              {"L", RoadShieldType::Generic_Pill_White_Bordered, false, true}})
   {}
 };
 
@@ -715,12 +714,11 @@ class GermanyRoadShieldParser : public SimpleRoadShieldParser
 {
 public:
   explicit GermanyRoadShieldParser(std::string const & baseRoadNumber)
-    : SimpleRoadShieldParser(baseRoadNumber,
-                             {{"A", RoadShieldType::Highway_Hexagon_Blue, false, true},
-                             {"D", RoadShieldType::Hidden},
-                             {"B", RoadShieldType::Generic_Orange_Bordered},
-                             {"K", RoadShieldType::Generic_White_Bordered},
-                             {"L", RoadShieldType::Generic_White_Bordered}})
+    : SimpleRoadShieldParser(baseRoadNumber, {{"A", RoadShieldType::Highway_Hexagon_Blue, false, true},
+                                              {"D", RoadShieldType::Hidden},
+                                              {"B", RoadShieldType::Generic_Orange_Bordered},
+                                              {"K", RoadShieldType::Generic_White_Bordered},
+                                              {"L", RoadShieldType::Generic_White_Bordered}})
   {}
 };
 
