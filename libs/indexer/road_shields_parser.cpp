@@ -398,7 +398,7 @@ public:
     {
       simpleShieldTypes.push_back(SimpleRoadShieldParser::Entry(p.m_name, p.m_type, p.m_isRedundant, p.m_shouldTrimName));
     }
-    return SimpleRoadShieldParser(m_baseRoadNumber, std::move(simpleShieldTypes)).ParseRoadShield(rawText, index);
+    return SimpleRoadShieldParser(m_baseRoadNumber, std::move(simpleShieldTypes), m_defaultType).ParseRoadShield(rawText, index);
   }
 
 private:
