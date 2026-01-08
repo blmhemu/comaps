@@ -77,6 +77,8 @@ TagMapping const kVehicleTagMapping = {
     {OsmElement::Tag("vehicle", "private"), RoadAccess::Type::Private},
     {OsmElement::Tag("vehicle", "destination"), RoadAccess::Type::Destination},
     {OsmElement::Tag("vehicle", "permit"), RoadAccess::Type::Permit},
+    {OsmElement::Tag("service", "parking_aisle"), RoadAccess::Type::Private},
+    {OsmElement::Tag("amenity", "parking_entrance"), RoadAccess::Type::Private},
 };
 
 TagMapping const kCarBarriersTagMapping = {
