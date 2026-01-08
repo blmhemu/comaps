@@ -253,8 +253,9 @@
     <item name="android:fontFamily">@string/robotoMedium</item>
   </style>
 
-  <style name="MwmTheme.ProgressDialog" parent="MwmTheme.AlertDialog">
+  <style name="MwmTheme.ProgressDialog" parent="MwmTheme.M3.AlertDialog">
     <item name="android:textColor">?textDialogTheme</item>
+    <item name="android:background">?attr/colorSurfaceContainerHigh</item>
   </style>
 
   <style name="MwmTheme.Downloader">
