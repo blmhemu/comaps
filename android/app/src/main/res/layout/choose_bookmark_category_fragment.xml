@@ -5,9 +5,10 @@
   xmlns:tools="http://schemas.android.com/tools"
   android:layout_width="match_parent"
   android:layout_height="wrap_content"
-  style="@style/Widget.Material3.CardView.Filled"
+  style="@style/Widget.Material3.CardView.Elevated"
   app:cardBackgroundColor="?attr/colorSurfaceContainerHigh"
-  app:cardCornerRadius="28dp">
+  app:cardCornerRadius="28dp"
+  app:cardElevation="@dimen/m3_sys_elevation_level3">
 <LinearLayout
   android:orientation="vertical"
   android:minWidth="@dimen/bookmark_purchase_img_width"

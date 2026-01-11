@@ -3,12 +3,13 @@
   xmlns:android="http://schemas.android.com/apk/res/android"
   xmlns:app="http://schemas.android.com/apk/res-auto"
   xmlns:tools="http://schemas.android.com/tools"
-  style="@style/Widget.Material3.CardView.Filled"
+  style="@style/Widget.Material3.CardView.Elevated"
   android:layout_width="match_parent"
   android:layout_height="match_parent"
   android:paddingBottom="@dimen/margin_half"
   app:cardBackgroundColor="?attr/colorSurfaceContainerHigh"
-  app:cardCornerRadius="28dp">
+  app:cardCornerRadius="28dp"
+  app:cardElevation="@dimen/m3_sys_elevation_level3">
 <LinearLayout
   android:orientation="vertical"
   android:layout_width="match_parent"
