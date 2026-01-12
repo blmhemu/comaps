@@ -2456,6 +2456,9 @@ emergency-phone                                     # icon z17- (also has captio
 man_made-telescope                                  # icon z18- (also has caption(optional) z18-)
 === -9980
 
+emergency-access_point-address                      # caption z20-
+=== -9981
+
 amenity-hydrant                                     # icon z19- (also has caption(optional) z19-)
 amenity-waste_basket                                # icon z18- (also has caption(optional) z19-)
 emergency-fire_hydrant                              # icon z19- (also has caption(optional) z19-)

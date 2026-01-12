@@ -376,6 +376,7 @@
     <string name="type.cuisine.vietnamese">Vietnamese</string>
     <string name="type.emergency">Emergency</string>
     <string name="type.emergency.access_point">Emergency Rescue Point</string>
+    <string name="type.emergency.access_point.address">Emergency Rescue Address</string>
     <string name="type.emergency.assembly_point">Emergency Assembly Point</string>
     <string name="type.emergency.disaster_help_point">Emergency Disaster Help Point</string>
     <string name="type.emergency.life_ring">Lifebuoy</string>

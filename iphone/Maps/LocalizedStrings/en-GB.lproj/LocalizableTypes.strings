@@ -372,6 +372,7 @@
 "type.cuisine.vietnamese" = "Vietnamese";
 "type.emergency" = "Emergency";
 "type.emergency.access_point" = "Emergency Rescue Point";
+"type.emergency.access_point.address" = "Emergency Rescue Address";
 "type.emergency.assembly_point" = "Emergency Assembly Point";
 "type.emergency.disaster_help_point" = "Emergency Disaster Help Point";
 "type.emergency.life_ring" = "Lifebuoy";

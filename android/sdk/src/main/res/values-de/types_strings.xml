@@ -339,6 +339,7 @@
     <string name="type.cuisine.vietnamese">Vietnamesisch</string>
     <string name="type.emergency">Notfall</string>
     <string name="type.emergency.access_point">Rettungspunkt</string>
+    <string name="type.emergency.access_point.address">Rettungsadresse</string>
     <string name="type.emergency.assembly_point">Notfall-Sammelpunkt</string>
     <string name="type.emergency.disaster_help_point">Notfall-Treffpunkt</string>
     <string name="type.emergency.life_ring">Rettungsring</string>
