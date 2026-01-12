@@ -1101,7 +1101,7 @@ node|z17-[amenity=fire_station],
 node|z18-[amenity=internet_cafe],
 node|z18-[emergency=defibrillator],
 node|z18-[emergency=access_point],
-node|z18-[emergency=assembly_point],
+node|z19-[emergency=assembly_point],
 node|z18-[emergency=disaster_help_point],
 node|z19-[emergency=life_ring],
 node|z18-[emergency=lifeguard],
@@ -1711,7 +1711,7 @@ node|z18-[emergency=defibrillator],
 node|z18-[emergency=access_point],
 {icon-image: access_point-m.svg;font-size: 11;}
 
-node|z18-[emergency=assembly_point],
+node|z19-[emergency=assembly_point],
 {icon-image: assembly_point-m.svg;font-size: 11;}
 
 node|z18-[emergency=disaster_help_point],
