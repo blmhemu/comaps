@@ -1,2 +1,3 @@
 Types;Related Subtypes
 amenity|charging_station;amenity|charging_station|motorcar,amenity|charging_station|motorcycle,amenity|charging_station|bicycle,amenity|charging_station|small,amenity|charging_station|carless
+amenity|bench;amenity|bench|backless

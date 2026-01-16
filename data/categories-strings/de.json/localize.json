@@ -125,7 +125,7 @@
 "historic-wayside_shrine": "4Bildstock|4Marterl|4Wegstock|4Helgenstöckli",
 "leisure-dog_park": "4Hundezone|4Hundeauslaufzone|4Hundeauslauffläche|5Hunde|5Hundepark|U+1F436|U+1F415|U+1F9AE|U+1F429",
 "leisure-garden": "2Garten",
-"amenity-bench|amenity-bench-backless": "4Sitzbank|4Parkbank",
+"amenity-bench": "4Sitzbank|4Parkbank",
 "amenity-bicycle_rental": "4Fahrradverleih|4Fahrrad|4Fahrradvermietung|4Radfahren|4Radverleih|3Velo|3Veloverleih|3Velovermietung|5Verleih|5Vermietung|U+1F6B2|U+1F510|U+1F6B4|U+1F6B5",
 "amenity-bicycle_repair_station": "4Fahrradreparatur|4Radservicestation|4Radreparatur|Velomechaniker|Veloreparatur|U+1F6B2|U+1F527|U+1F529|U+26D3|U+1FA9B|U+1F6DE",
 "amenity-car_sharing": "4Carsharing|4Car-Sharing|4Carsharing-Dienste|5Auto teilen|4Auto|5Fahrgemeinschaft|4Mitfahrzentrale|U+1F690|U+1F697|U+1F698|U+1F699|U+1F6FB|U+1F46B|U+1F465",

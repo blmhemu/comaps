@@ -27,7 +27,7 @@
     <string name="type.amenity.bar">Bar</string>
     <string name="type.amenity.bbq">Barbecue Grill</string>
     <string name="type.amenity.bench">Bench</string>
-    <string name="type.amenity.bench.backless">Backless Bench</string>
+    <string name="type.amenity.bench.backless">Without Backrest</string>
     <string name="type.amenity.bicycle_parking">Bicycle Parking</string>
     <string name="type.amenity.bicycle_parking.covered">Covered Bicycle Parking</string>
     <string name="type.amenity.boat_rental">Boat Rental</string>

@@ -28,7 +28,7 @@
 "type.amenity.bar" = "Bar";
 "type.amenity.bbq" = "Barbecue Grill";
 "type.amenity.bench" = "Bench";
-"type.amenity.bench.backless" = "Backless Bench";
+"type.amenity.bench.backless" = "Without Backrest";
 "type.amenity.bicycle_parking" = "Bicycle Parking";
 "type.amenity.bicycle_parking.covered" = "Covered Bicycle Parking";
 "type.amenity.boat_rental" = "Boat Rental";

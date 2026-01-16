@@ -124,7 +124,7 @@
 "leisure-dance|@category_entertainment": "4Baile|Escuela de baile|4Danza|Escuela de danza",
 "leisure-garden": "2Jardín",
 "leisure-firepit": "3Fogón|Fogata",
-"amenity-bench|amenity-bench-backless": "Asiento|3Banco de sentarse",
+"amenity-bench": "Asiento|3Banco de sentarse",
 "amenity-bicycle_rental": "3Alquiler de bicicletas|4bicicleta|alquiler|Alquiler de bicis|Bicicletas|Bicis|Ciclismo",
 "amenity-bicycle_repair_station": "4Reparación de bicicletas|Reparación de bicis|Bicicletas|Bicis",
 "amenity-car_sharing": "Coche compartido|4carsharing",

@@ -2438,8 +2438,10 @@ building-address                                    # caption z16-
 man_made-telescope-optical                          # icon z17- (also has caption(optional) z17-)
 === -9970
 
-amenity-bench                                       # icon z18- (also has caption(optional) z19-)
 amenity-bench-backless                              # icon z18- (also has caption(optional) z19-)
+=== -9979
+
+amenity-bench                                       # icon z18- (also has caption(optional) z19-)
 amenity-lounger                                     # icon z18- (also has caption(optional) z19-)
 amenity-waste_disposal                              # icon z18- (also has caption(optional) z18-)
 emergency-access_point                              # icon z18- (also has caption(optional) z18-)

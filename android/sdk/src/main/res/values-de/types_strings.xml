@@ -25,7 +25,7 @@
     <string name="type.amenity.bank">Bankfiliale</string>
     <string name="type.amenity.bbq">Grillstelle</string>
     <string name="type.amenity.bench">Sitzbank</string>
-    <string name="type.amenity.bench.backless">Sitzbank ohne Rückenlehne</string>
+    <string name="type.amenity.bench.backless">Ohne Rückenlehne</string>
     <string name="type.amenity.bicycle_parking">Fahrradständer</string>
     <string name="type.amenity.boat_rental">Bootsverleih</string>
     <string name="type.amenity.bicycle_rental">Fahrradverleih</string>
