@@ -133,7 +133,7 @@ unordered_map<string, vector<string>> const kSynonyms = {
     {"apto", {"apartamento"}},
     {"aptos", {"apartamentos"}},
     {"aps", {"apskritis"}},
-    {"apskr", {"apskritis"}}
+    {"apskr", {"apskritis"}},
     {"apts", {"apartments"}},
     {"arb", {"arboleda"}},
     {"arc", {"arcade", "arcades"}},
