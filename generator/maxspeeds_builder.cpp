@@ -139,7 +139,7 @@ public:
     };
     auto const GetHighwayType = [&](uint32_t fid) { return GetRoad(fid).GetHighwayType(); };
 
-    auto const & converter = GetMaxspeedConverter();
+    //auto const & converter = GetMaxspeedConverter();
     using HwTypeT = std::optional<routing::HighwayType>;
     auto const CalculateSpeed = [&](uint32_t parentFID, Maxspeed const & s,
                                     HwTypeT hwType) -> std::optional<SpeedInUnits>
