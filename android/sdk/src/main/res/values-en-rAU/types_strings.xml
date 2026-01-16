@@ -49,4 +49,5 @@
     <string name="type.shop.lottery">Lotto</string>
     <string name="type.sport.australian_football">AFL</string>
     <string name="type.sport.table_tennis">Ping Pong</string>
+    <string name="type.amenity.ice_cream">Ice Cream Shop</string>
 </resources>

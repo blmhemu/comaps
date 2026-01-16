@@ -2,7 +2,7 @@
 <resources>
     <!-- SECTION: Types -->
     <string name="type.amenity.motorcycle_rental">Motociklu noma</string>
-    <string name="type.amenity.charging_station.bicycle">Velosipēdu uzlāde</string>
+    <string name="type.amenity.charging_station.bicycle">Divriteņi</string>
     <!-- SECTION: Types: Recycling -->
     <!-- A place where a lifeguard is on duty. -->
     <string name="type.emergency.lifeguard">Glābējs</string>
@@ -42,7 +42,7 @@
     <string name="type.amenity.car_wash">Automazgātuve</string>
     <string name="type.amenity.casino">Kazino</string>
     <string name="type.amenity.charging_station">Uzlādes stacija</string>
-    <string name="type.amenity.charging_station.motorcar">Auto uzlādes stacija</string>
+    <string name="type.amenity.charging_station.motorcar">Mašīnas</string>
     <string name="type.amenity.cinema">Kinoteātris</string>
     <string name="type.amenity.clinic">Poliklīnika</string>
     <string name="type.amenity.college">Koledža</string>
@@ -184,4 +184,6 @@
     <string name="type.railway.disused.tunnel">Neizmantots dzelzceļa tunelis</string>
     <string name="type.railway.funicular">Funikulieris</string>
     <string name="type.railway.disused.bridge">Neizmantots dzelzceļa tilts</string>
+    <string name="type.amenity.charging_station.small">Ierobežots vietu skaits</string>
+    <string name="type.amenity.charging_station.motorcycle">Motocikli</string>
 </resources>

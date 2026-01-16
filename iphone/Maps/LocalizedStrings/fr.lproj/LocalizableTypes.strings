@@ -1324,7 +1324,7 @@
 "type.sport.multi" = "Sports multiples";
 
 /* Used to tag a scuba diving site. */
-"type.sport.scuba_diving" = "Site de plongée sous-marine";
+"type.sport.scuba_diving" = "Plongée sous-marine";
 "type.sport.shooting" = "Tir sportif";
 "type.sport.skateboard" = "Skateboard";
 "type.sport.skiing" = "Ski";
@@ -1575,8 +1575,8 @@
 "type.spherical_buoy.special_purpose" = "Bouée sphérique, marque spéciale";
 "type.lateral.port" = "Bâbord";
 "type.lateral.starboard" = "Tribord";
-"type.cardinal.east" = "Est";
-"type.cardinal.north" = "Nord";
+"type.cardinal.east" = "Est :";
+"type.cardinal.north" = "Nord :";
 "type.cardinal.south" = "Sud";
 "type.cardinal.west" = "Ouest";
 "type.entrance.house" = "Entrée de la maison";

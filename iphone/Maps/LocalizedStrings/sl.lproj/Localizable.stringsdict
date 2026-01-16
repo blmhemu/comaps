@@ -5,7 +5,7 @@
 	<key>bookmarks_places</key>
 	<dict>
 		<key>NSStringLocalizedFormatKey</key>
-		<string>%#@value@</string>
+		<string>bookmarks_places</string>
 		<key>value</key>
 		<dict>
 			<key>NSStringFormatSpecTypeKey</key>
@@ -44,7 +44,7 @@
 			<string>Najdenih je bilo %d datotek. Ogledate si jih lahko po pretvorbi.</string>
 		</dict>
 		<key>NSStringLocalizedFormatKey</key>
-		<string>%#@value@</string>
+		<string>bookmarks_detect_message</string>
 	</dict>
 	<key>tracks</key>
 	<dict>
@@ -66,7 +66,7 @@
 			<string>%d sledi</string>
 		</dict>
 		<key>NSStringLocalizedFormatKey</key>
-		<string>%#@value@</string>
+		<string>tracks</string>
 	</dict>
 </dict>
 </plist>

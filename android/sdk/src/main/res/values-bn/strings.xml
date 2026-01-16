@@ -9,7 +9,7 @@
     <string name="maps_storage_external">বহিরাগত শেয়ার্ড স্টোরেজ</string>
     <string name="category_wifi">ওয়াইফাই</string>
     <string name="maps_storage_shared">অভ্যন্তরীণ শেয়ার্ড স্টোরেজ</string>
-    <string name="postal_code">ডাক কোড</string>
+    <string name="postal_code">ডাক কোড|পিন কোড</string>
     <string name="today">আজকে</string>
     <string name="km">কিমি</string>
     <string name="yesterday">গতকাল</string>

@@ -103,7 +103,7 @@
     <!-- Search category for cafes, bars, restaurants; any changes should be duplicated in categories.txt @category_eat! -->
     <string name="category_eat">Dónde comer</string>
     <!-- Search category for grocery stores; any changes should be duplicated in categories.txt @category_food! -->
-    <string name="category_food">Tienda de comestibles</string>
+    <string name="category_food">Provisiones</string>
     <!-- Search category for public transport; any changes should be duplicated in categories.txt @category_transport! -->
     <string name="category_transport">Transporte</string>
     <!-- Search category for fuel stations; any changes should be duplicated in categories.txt @category_fuel! -->
@@ -848,7 +848,7 @@
     <string name="bookmark_color">Color del favorito</string>
     <string name="pref_backup_title">Respaldar favoritos</string>
     <string name="pref_backup_summary">Copia de seguridad automática a una carpeta de tu dispositivo</string>
-    <string name="pref_backup_now_title">Realizar copia de seguridad ahora</string>
+    <string name="pref_backup_now_title">Crear respaldo ahora</string>
     <string name="pref_backup_now_summary">Crear copia de seguridad inmediatamente</string>
     <string name="pref_backup_now_summary_progress">Copia de seguridad en progreso…</string>
     <string name="pref_backup_now_summary_ok">Copia de seguridad completada con éxito</string>

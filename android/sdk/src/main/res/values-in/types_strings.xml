@@ -1181,4 +1181,6 @@
     <string name="type.man_made.observatory">Observatorium</string>
     <string name="type.aeroway.runway">Landasan Pacu</string>
     <string name="type.emergency">Darurat</string>
+    <string name="type.office.security">Kantor Satpam</string>
+    <string name="type.building.guardhouse">Pos Satpam</string>
 </resources>

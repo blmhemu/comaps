@@ -44,8 +44,8 @@
     <string name="type.leisure.adult_gaming_centre">Gamingcentrum voor volwassenen</string>
     <string name="type.leisure.amusement_arcade">Speelhal</string>
     <string name="type.amenity.charging_station">Oplaadstation</string>
-    <string name="type.amenity.charging_station.bicycle">Oplaadstation voor fietsen</string>
-    <string name="type.amenity.charging_station.motorcar">Oplaadstation voor auto\'s</string>
+    <string name="type.amenity.charging_station.bicycle">Fietsen</string>
+    <string name="type.amenity.charging_station.motorcar">Auto\'s</string>
     <string name="type.amenity.childcare">Crèche</string>
     <string name="type.amenity.cinema">Bioscoop</string>
     <string name="type.leisure.bowling_alley">Bowlingbaan</string>
@@ -1505,4 +1505,8 @@
     <string name="type.tourism.information.tactile_map">Reliëfkaart</string>
     <string name="type.railway.disused.bridge">Niet meer gebruikte spoorbrug</string>
     <string name="type.railway.disused.tunnel">Niet meer gebruikte spoortunnel</string>
+    <string name="type.amenity.charging_station.motorcycle">Motorfietsen</string>
+    <string name="type.amenity.charging_station.small">Beperkte capaciteit</string>
+    <string name="type.emergency.disaster_help_point">Hulppunt voor noodrampen</string>
+    <string name="type.emergency.access_point.address">Noodreddingsadres</string>
 </resources>

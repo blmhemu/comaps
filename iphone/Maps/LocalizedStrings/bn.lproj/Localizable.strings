@@ -502,7 +502,7 @@
 "avoid_ferry" = "Avoid ferries";
 "elevation_profile_min_elevation" = "Min. elevation";
 "category_hotel" = "হোটেল";
-"postal_code" = "ডাক কোড";
+"postal_code" = "ডাক কোড|পিন কোড";
 "location_services_disabled_1" = "1. Open Settings";
 "whats_new_auto_update_title" = "Update downloaded maps";
 "power_managment_setting_auto" = "When battery is low";

@@ -44,8 +44,8 @@
     <string name="type.leisure.adult_gaming_centre">Hasartmängusaal</string>
     <string name="type.leisure.amusement_arcade">Videomängusaal</string>
     <string name="type.amenity.charging_station">Laadimisjaam</string>
-    <string name="type.amenity.charging_station.bicycle">Jalgratta laadimisjaam</string>
-    <string name="type.amenity.charging_station.motorcar">Autode laadimisjaam</string>
+    <string name="type.amenity.charging_station.bicycle">Jalgrattad</string>
+    <string name="type.amenity.charging_station.motorcar">Autod</string>
     <string name="type.amenity.childcare">Lastehoid</string>
     <string name="type.amenity.cinema">Kino</string>
     <string name="type.leisure.bowling_alley">Bowlingusaal</string>
@@ -1505,4 +1505,7 @@
     <string name="type.tourism.information.tactile_map">Kombatav kaart</string>
     <string name="type.railway.disused.bridge">Kasutuselt eemaldatud raudteesild</string>
     <string name="type.railway.disused.tunnel">Kasutuselt eemaldatud raudteetunnel</string>
+    <string name="type.amenity.charging_station.motorcycle">Mootorrattad</string>
+    <string name="type.amenity.charging_station.small">Väike laadimisjaam</string>
+    <string name="type.emergency.disaster_help_point">Katastroofiabi teenused</string>
 </resources>

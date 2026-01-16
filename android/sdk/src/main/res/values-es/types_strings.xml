@@ -68,9 +68,9 @@
     <string name="type.amenity.fast_food">Comida rápida</string>
     <string name="type.amenity.ferry_terminal">Transbordador de ferry</string>
     <string name="type.amenity.fire_station">Estación de bomberos</string>
-    <string name="type.amenity.food_court">Zona de comidas</string>
+    <string name="type.amenity.food_court">Plaza de comidas</string>
     <string name="type.amenity.fountain">Fuente</string>
-    <string name="type.amenity.fuel">Gasolinera</string>
+    <string name="type.amenity.fuel">Estación de servicio</string>
     <!-- In most (European) countries, сemeteries are usually independent of places of worship (e.g. military cemeteries), while grave yards are usually the yard of a place of worship. -->
     <string name="type.amenity.grave_yard">Cementerio</string>
     <!-- In most (European) countries, сemeteries are usually independent of places of worship (e.g. military cemeteries), while grave yards are usually the yard of a place of worship. -->
@@ -79,7 +79,7 @@
     <string name="type.amenity.hunting_stand">Puesto de caza</string>
     <string name="type.amenity.ice_cream">Heladería</string>
     <string name="type.amenity.internet_cafe">Cibercafé</string>
-    <string name="type.amenity.kindergarten">Guardería</string>
+    <string name="type.amenity.kindergarten">Jardín de infantes</string>
     <string name="type.amenity.library">Biblioteca</string>
     <string name="type.amenity.loading_dock">Muelle de carga</string>
     <string name="type.amenity.marketplace">Mercado</string>
@@ -88,7 +88,7 @@
     <string name="type.amenity.nursing_home">Residencia de ancianos</string>
     <string name="type.amenity.parking">Aparcamiento</string>
     <string name="type.amenity.parking.fee">Aparcamiento</string>
-    <string name="type.amenity.parking.multi.storey">Edificio de aparcamiento</string>
+    <string name="type.amenity.parking.multi.storey">Aparcamiento multinivel</string>
     <string name="type.amenity.parking.multi.storey.fee">Edificio de aparcamiento</string>
     <string name="type.amenity.parking.no.access">Aparcamiento privado</string>
     <string name="type.amenity.parking.permissive">Aparcamiento privado</string>
@@ -168,16 +168,16 @@
     <string name="type.amenity.townhall">Ayuntamiento</string>
     <string name="type.amenity.university">Universidad</string>
     <string name="type.amenity.vending_machine">Máquina expendedora</string>
-    <string name="type.amenity.vending_machine.cigarettes">Máquina expendedora de tabaco</string>
-    <string name="type.amenity.vending_machine.coffee">Máquina expendedora de café</string>
-    <string name="type.amenity.vending_machine.condoms">Máquina expendedora de condones</string>
-    <string name="type.amenity.vending_machine.drinks">Máquina expendedora de bebidas</string>
-    <string name="type.amenity.vending_machine.food">Máquina expendedora de comida</string>
-    <string name="type.amenity.vending_machine.newspapers">Máquina expendedora de periódicos</string>
+    <string name="type.amenity.vending_machine.cigarettes">Expendedora de tabaco</string>
+    <string name="type.amenity.vending_machine.coffee">Expendedora de café</string>
+    <string name="type.amenity.vending_machine.condoms">Expendedora de condones</string>
+    <string name="type.amenity.vending_machine.drinks">Expendedora de bebidas</string>
+    <string name="type.amenity.vending_machine.food">Expendedora de comida</string>
+    <string name="type.amenity.vending_machine.newspapers">Expendedora de periódicos</string>
     <string name="type.amenity.vending_machine.parking_tickets">Parquímetro</string>
-    <string name="type.amenity.vending_machine.public_transport_tickets">Máquina expendedora de billetes de transporte público</string>
-    <string name="type.amenity.vending_machine.sweets">Máquina expendedora de dulces</string>
-    <string name="type.amenity.vending_machine.excrement_bags">Maquina expendedora de bolsas para excrementos</string>
+    <string name="type.amenity.vending_machine.public_transport_tickets">Expendedora de billetes de transporte público</string>
+    <string name="type.amenity.vending_machine.sweets">Expendedora de dulces</string>
+    <string name="type.amenity.vending_machine.excrement_bags">Dispensador de bolsas para excrementos</string>
     <string name="type.amenity.parcel_locker">Taquilla de paquetes</string>
     <string name="type.amenity.vehicle_inspection">Inspección de vehículos</string>
     <string name="type.amenity.vending_machine.fuel">Surtidor de combustible</string>
@@ -257,7 +257,7 @@
     <string name="type.craft.photographer">Fotógrafo</string>
     <string name="type.shop.camera">Tienda de fotografía</string>
     <string name="type.craft.plumber">Fontanero</string>
-    <string name="type.craft.sawmill">Serrería</string>
+    <string name="type.craft.sawmill">Aserradero</string>
     <string name="type.craft.shoemaker">Zapatero</string>
     <string name="type.craft.winery">Bodega vinícola</string>
     <string name="type.craft.tailor">Sastre</string>
@@ -335,7 +335,7 @@
     <string name="type.cuisine.sandwich">Sándwiches</string>
     <string name="type.cuisine.sausage">Salchichas</string>
     <string name="type.cuisine.savory_pancakes">Tortitas saladas</string>
-    <string name="type.cuisine.seafood">del mar</string>
+    <string name="type.cuisine.seafood">Marina</string>
     <string name="type.cuisine.soba">Soba</string>
     <string name="type.cuisine.spanish">Española</string>
     <string name="type.cuisine.steak_house">Asador</string>
@@ -350,7 +350,7 @@
     <string name="type.emergency">Emergencia</string>
     <string name="type.emergency.assembly_point">Punto de reunión de emergencia</string>
     <string name="type.emergency.defibrillator">Desfibrilador</string>
-    <string name="type.emergency.fire_hydrant">Boca de incendio</string>
+    <string name="type.emergency.fire_hydrant">Hidrante de incendio</string>
     <string name="type.amenity.hydrant">Boca de riego</string>
     <string name="type.emergency.phone">Teléfono de emergencias</string>
     <!-- A place where a lifeguard is on duty. -->
@@ -499,12 +499,12 @@
     <string name="type.highway.tertiary_link.bridge">Puente</string>
     <!-- These translations are used for all type.highway.*.tunnel. -->
     <string name="type.highway.tertiary_link.tunnel">Túnel</string>
-    <string name="type.highway.track">Pista</string>
-    <string name="type.highway.track.area">Pista</string>
+    <string name="type.highway.track">Camino</string>
+    <string name="type.highway.track.area">Camino</string>
     <!-- These translations are used for all type.highway.*.bridge. -->
     <string name="type.highway.track.bridge">Puente</string>
-    <string name="type.highway.track.grade1">Pista</string>
-    <string name="type.highway.track.no.access">Pista</string>
+    <string name="type.highway.track.grade1">Camino</string>
+    <string name="type.highway.track.no.access">Camino</string>
     <!-- These translations are used for all type.highway.*.tunnel. -->
     <string name="type.highway.track.tunnel">Túnel</string>
     <string name="type.highway.traffic_signals">Semáforo</string>
@@ -536,7 +536,7 @@
     <string name="type.area_highway.service">Vía de servicio</string>
     <string name="type.area_highway.tertiary">Carretera terciaria</string>
     <string name="type.area_highway.steps">Escaleras</string>
-    <string name="type.area_highway.track">Pista</string>
+    <string name="type.area_highway.track">Camino</string>
     <string name="type.area_highway.trunk">Vía troncal</string>
     <string name="type.area_highway.unclassified">Carretera menor</string>
     <!-- SECTION: Types: Historic -->
@@ -737,7 +737,7 @@
     <string name="type.natural.tree_row">Fila de árboles</string>
     <string name="type.natural.vineyard">Viña</string>
     <string name="type.natural.volcano">Volcán</string>
-    <string name="type.natural.water">Cuerpo de agua</string>
+    <string name="type.natural.water">Agua</string>
     <string name="type.natural.wetland">Terreno pantanoso</string>
     <string name="type.natural.wetland.bog">Turbera</string>
     <string name="type.natural.wetland.marsh">Ciénaga</string>
@@ -1107,7 +1107,7 @@
     <string name="type.shop.car_repair.tyres">Reparación de neumáticos</string>
     <string name="type.shop.caravan">Concesionario de caravanas</string>
     <string name="type.shop.carpet">Tienda de alfombras</string>
-    <string name="type.shop.chemist">Droguería</string>
+    <string name="type.shop.chemist">Parafarmacia</string>
     <string name="type.shop.chocolate">Chocolatería</string>
     <string name="type.shop.clothes">Tienda de ropa</string>
     <string name="type.shop.coffee">Tienda de café</string>
@@ -1370,7 +1370,7 @@
     <string name="type.fee.yes">$</string>
     <string name="type.railway.narrow_gauge.tunnel">Túnel de vía férrea estrecha</string>
     <string name="type.railway.light_rail.bridge">Puente de tren ligero</string>
-    <string name="type.highway.ladder">Escalera</string>
+    <string name="type.highway.ladder">Escalerilla</string>
     <string name="type.amenity.studio">Estudio multimedia</string>
     <string name="type.landuse.plant_nursery">Vivero de plantas</string>
     <string name="type.barrier.guard_rail">Guardarraíl</string>
@@ -1383,7 +1383,7 @@
     <string name="type.natural.wetland.tidalflat">Llanura mareal</string>
     <string name="type.natural.wetland.swamp">Pantano</string>
     <string name="type.amenity.ranger_station">Estación de guardabosques</string>
-    <string name="type.amenity.luggage_locker">Casillero de maletas</string>
+    <string name="type.amenity.luggage_locker">Consigna de equipaje</string>
     <string name="type.natural.wetland.mangrove">Manglares</string>
     <string name="type.landuse.religious">Terrenos religiosos</string>
     <string name="type.natural.wetland.saltmarsh">Marisma salina</string>
@@ -1410,7 +1410,7 @@
     <string name="type.leisure.sports_centre.sport.basketball">Centro deportivo</string>
     <string name="type.leisure.sports_centre.sport.beachvolleyball">Centro deportivo</string>
     <string name="type.leisure.sports_centre.sport.bowls">Centro deportivo</string>
-    <string name="type.leisure.sports_centre.sport.climbing">Centro deportivo</string>
+    <string name="type.leisure.sports_centre.sport.climbing">Rocódromo</string>
     <string name="type.leisure.sports_centre.sport.cricket">Centro deportivo</string>
     <string name="type.leisure.sports_centre.sport.curling">Centro deportivo</string>
     <string name="type.leisure.sports_centre.sport.equestrian">Centro deportivo</string>
@@ -1508,4 +1508,5 @@
     <string name="type.railway.miniature.tunnel">Túnel de ferrocarril miniatura</string>
     <string name="type.railway.turntable">Plataforma giratoria ferroviaria</string>
     <string name="type.tourism.information.tactile_map">Mapa táctil</string>
+    <string name="type.emergency.disaster_help_point">Punto de ayuda para emergencias y desastres</string>
 </resources>

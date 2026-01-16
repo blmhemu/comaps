@@ -29,8 +29,8 @@
     <string name="type.leisure.adult_gaming_centre">Herní centrum pro dospělé</string>
     <string name="type.leisure.amusement_arcade">Pasáž</string>
     <string name="type.amenity.charging_station">Nabíjecí stanice</string>
-    <string name="type.amenity.charging_station.bicycle">Nabíjecí stanice pro jízdní kola</string>
-    <string name="type.amenity.charging_station.motorcar">Nabíjecí stanice pro automobily</string>
+    <string name="type.amenity.charging_station.bicycle">Jízdní kola</string>
+    <string name="type.amenity.charging_station.motorcar">Auta</string>
     <string name="type.amenity.childcare">Jesle</string>
     <string name="type.amenity.cinema">Kino</string>
     <string name="type.leisure.bowling_alley">Bowlingová dráha</string>
@@ -1393,7 +1393,7 @@
     <string name="type.office.security">Strážnice</string>
     <string name="type.building.guardhouse">Vrátnice</string>
     <string name="type.shop.lighting">Obchod s osvětlením</string>
-    <string name="type.amenity.bench.backless">Lavička bez opěradla</string>
+    <string name="type.amenity.bench.backless">Bez opěradla</string>
     <string name="type.leisure.bandstand">Otevřený altán</string>
     <string name="type.leisure.sports_centre.sport.multi">Sportovní centrum</string>
     <string name="type.leisure.sports_centre.sport.american_football">Sportovní centrum</string>
@@ -1502,4 +1502,8 @@
     <string name="type.railway.turntable">Železniční točna</string>
     <string name="type.railway.disused.bridge">Nepoužívaný železniční most</string>
     <string name="type.railway.disused.tunnel">Nepoužívaný železniční tunel</string>
+    <string name="type.amenity.charging_station.motorcycle">Motocykly</string>
+    <string name="type.amenity.charging_station.small">Omezená kapacita</string>
+    <string name="type.emergency.disaster_help_point">Nouzové centrum pomoci při katastrofách</string>
+    <string name="type.emergency.access_point.address">Nouzová adresa záchrany</string>
 </resources>

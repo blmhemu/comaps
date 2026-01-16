@@ -52,8 +52,8 @@
     <string name="type.leisure.adult_gaming_centre">Centar za igru odraslih</string>
     <string name="type.leisure.amusement_arcade">Igraonica za odrasle</string>
     <string name="type.amenity.charging_station">Stanica za punjenje EV</string>
-    <string name="type.amenity.charging_station.bicycle">Stanica za punjenje bicikala</string>
-    <string name="type.amenity.charging_station.motorcar">Stanica za punjenje automobila</string>
+    <string name="type.amenity.charging_station.bicycle">Bicikli</string>
+    <string name="type.amenity.charging_station.motorcar">Auta</string>
     <string name="type.amenity.childcare">Vrtić</string>
     <string name="type.amenity.cinema">Bioskop</string>
     <string name="type.amenity.studio">Medijski studio</string>
@@ -1411,4 +1411,8 @@
     <string name="type.xmas.tree">Božićna jelka</string>
     <string name="type.railway.disused.bridge">Napušteni železnički most</string>
     <string name="type.railway.disused.tunnel">Napušteni železnički tunel</string>
+    <string name="type.amenity.charging_station.motorcycle">Motocikli</string>
+    <string name="type.amenity.charging_station.small">Ograničen kapacitet</string>
+    <string name="type.emergency.disaster_help_point">Tačka za pomoć u hitnim slučajevima</string>
+    <string name="type.emergency.access_point.address">Adresa za hitno spašavanje</string>
 </resources>

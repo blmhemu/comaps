@@ -90,7 +90,7 @@
 "category_eat" = "Dónde comer";
 
 /* Search category for grocery stores; any changes should be duplicated in categories.txt @category_food! */
-"category_food" = "Tienda de comestibles";
+"category_food" = "Provisiones";
 
 /* Search category for public transport; any changes should be duplicated in categories.txt @category_transport! */
 "category_transport" = "Transporte";
@@ -869,7 +869,7 @@
 "not_all_shown_bookmarks_carplay" = "No se muestran todos los marcadores";
 "switch_to_phone_bookmarks_carplay" = "Cambie al teléfono para ver todos los marcadores";
 "ok" = "Aceptar";
-"speedcams_alert_title_carplay_1" = "Cám.velocidad";
+"speedcams_alert_title_carplay_1" = "Radares de velocidad";
 "speedcams_alert_title_carplay_2" = "Alertas de velocidad";
 "download_map_carplay" = "Descargue los mapas en la aplicación del dispositivo";
 "carplay_roundabout_exit" = "%@ salida";
