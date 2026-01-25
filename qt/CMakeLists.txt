@@ -75,7 +75,7 @@ target_link_libraries(${PROJECT_NAME}
 
 if (BUILD_DESIGNER)
   target_link_libraries(${PROJECT_NAME} generator)
-  set(BUNDLE_NAME "CoMaps.Designer")
+  set(BUNDLE_NAME "CoMaps-Designer")
   set(BUNDLE_DISPLAY_NAME "CoMaps Designer")
   set(BUNDLE_ICON designer.icns)
 else()
