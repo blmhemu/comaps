@@ -915,5 +915,5 @@
     <string name="download_resources_custom_url_message">Standardserver für Kartendownloads überschreiben. Leer lassen, um den CoMaps-Standardserver zu nutzen.</string>
     <string name="download_resources_custom_url_error_scheme">Bitte eine vollständige URL eingeben, die mit https:// oder http:// anfängt</string>
     <string name="pref_maplanguage_local">Lokale Sprache</string>
-    <string name="limit_map_language_alternatives_to_local">Verwende andere Systemsprachen nur in deiner Region</string>
+    <string name="limit_map_language_alternatives_to_local">Verwende andere Systemsprachen nur in deren Region</string>
 </resources>
