@@ -185,16 +185,12 @@
     <string name="downloading_is_active">Map download is in progress now</string>
     <!-- Share my position using SMS, %1$@ contains om:// and %2$@ https://comaps.app link WITHOUT NAME. @NOTE non-ascii symbols in the link will result in max 70 characters SMS instead of 140. -->
     <string name="my_position_share_sms">Check out my current location in CoMaps! %1$s or %2$s Don\'t have offline maps? Download here: https://www.comaps.app/download/</string>
-    <!-- Subject for emailed bookmark -->
-    <string name="bookmark_share_email_subject">Hey, check out my pin in CoMaps!</string>
+  <!-- Share a position using EMail, %1$@ is https://comaps.at link WITH NAME and %2$@ is the geo url containing only coordinates.  -->
+    <string name="bookmark_share_email_subject">Follow this link %1$s or paste these coordinates %2$s into your maps app to see this location.</string>
     <!-- Subject for emailed position -->
     <string name="my_position_share_email_subject">Hey, check out my current location on the CoMaps map!</string>
-    <!-- Share my position using EMail, %1$@ is om:// and %2$@ is https://comaps.app link WITHOUT NAME -->
-    <string name="my_position_share_email">Hi,
-\n
-\nI\'m here now: %1$s. Click this link %2$s or this one %3$s to see the place on the map.
-\n
-\nThanks.</string>
+    <!-- Share my position using EMail, %1$@ is https://comaps.at link WITHOUT NAME and %2$@ is the geo url  -->
+    <string name="my_position_share_email">Follow this link %1$s or paste these coordinates %2$s into your maps app to see my location.</string>
     <!-- Share button text which opens menu with more buttons, like Message, EMail, Facebook etc. -->
     <string name="share">Share</string>
     <!-- Share by email button text, also used in editor and About. -->

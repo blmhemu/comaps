@@ -194,9 +194,7 @@
     <string name="cant_change_this_setting">Sentímolo, a configuración da almacenaxe de mapas está desactivada</string>
     <string name="downloading_is_active">A descarga do mapa está en curso</string>
     <string name="my_position_share_sms">Olla a miña localización actual en CoMaps! %1$s ou %2$s Non ten mapas offline? Descárgueos aquí: https://www.comaps.app/download/</string>
-    <string name="bookmark_share_email_subject">Mira o meu marcador no mapa de CoMaps!</string>
     <string name="my_position_share_email_subject">Mira a miña localización actual no mapa en CoMaps!</string>
-    <string name="my_position_share_email">Ola: \n\nAgora estou aquí: %1$s. Fai clic nesta ligazón %2$s ou esta %3$s para velo no mapa. \n\nGrazas.</string>
     <string name="copied_to_clipboard">Copiado ao portarretallos: %s</string>
     <string name="data_version">Datos de OpenStreetMap: %s</string>
     <string name="share_my_location">Compartir a miña localización</string>

@@ -90,9 +90,7 @@
     <string name="cant_change_this_setting">Izvinite, podešavanje lokacije za čuvanje mapa je trenutno onemogućeno</string>
     <string name="downloading_is_active">Preuzimanje mapa je u toku</string>
     <string name="my_position_share_sms">Vidi moju trenutnu lokaciju u CoMaps-u! %1$s ili %2$s Još ne koristiš offline mape? Preuzmi ih ovde: https://www.comaps.app/download/</string>
-    <string name="bookmark_share_email_subject">Hej, vidi moj marker u CoMaps-u!</string>
     <string name="my_position_share_email_subject">Hej, vidi moju trenutnu lokaciju na CoMaps mapi!</string>
-    <string name="my_position_share_email">Zdravo, \n \nJa sam ovde: %1$s. Klikni na ovaj %2$s ili ovaj link %3$s da bi video to mesto na mapi. \n \nHvala.</string>
     <string name="share">Podeli</string>
     <string name="email">Email</string>
     <string name="copied_to_clipboard">Kopirano u klipbord: %s</string>

@@ -52,7 +52,6 @@
     <string name="category_rv">Komodytys Karavans</string>
     <string name="description">Notennow</string>
     <string name="load_kmz_title">Ow Karga Lyververkys</string>
-    <string name="bookmark_share_email_subject">Dydh da, checkyewgh ow pynn yn CoMaps!</string>
     <string name="my_position_share_email_subject">Dydh da, checkyewgh ow tyller a\'n jydh war an mappa CoMaps!</string>
     <string name="share">Kevrenna</string>
     <string name="email">Ebost</string>
@@ -411,7 +410,6 @@
     <string name="cant_change_this_setting">Drog yw genev, settyansyow Gwithyans Mappa yw marow y\'n eur ma</string>
     <string name="downloading_is_active">Iskarg mappa hwarvos lemmyn</string>
     <string name="my_position_share_sms">Mires orth ow tyller y\'n eur ma yn CoMaps! %1$s po %2$s Na kavos mappys dhywarlinen? Iskarga omma: https://www.comaps.app/download/</string>
-    <string name="my_position_share_email">Hou,\n\nOv omma lemmyn: %1$s. Klyckya an gorgevren ma %2$s po an unn ma %3$s dhe gweles an tyller war an mappa.\n\nMeur ras.</string>
     <string name="copied_to_clipboard">Kopys dhe astel glypp: %s</string>
     <string name="pref_zoom_title">Botonyow brashe</string>
     <string name="off">Marow</string>

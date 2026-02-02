@@ -168,12 +168,8 @@
     <string name="downloading_is_active">Η λήψη χάρτη βρίσκεται σε εξέλιξη</string>
     <!-- Share my position using SMS, %1$@ contains om:// and %2$@ https://comaps.app link WITHOUT NAME. @NOTE non-ascii symbols in the link will result in max 70 characters SMS instead of 140. -->
     <string name="my_position_share_sms">Δες την τρέχουσα τοποθεσία μου στο CoMaps! %1$s ή %2$s Αν δεν έχεις τους χάρτες εκτός σύνδεσης, μπορείς να τους κατεβάσεις εδώ: https://www.comaps.app/download/</string>
-    <!-- Subject for emailed bookmark -->
-    <string name="bookmark_share_email_subject">Γεια, δες τις τοποθεσίες που έχω καρφιτσώσει στο CoMaps!</string>
     <!-- Subject for emailed position -->
     <string name="my_position_share_email_subject">Γεια, δες την τρέχουσα τοποθεσία μου στο χάρτη του CoMaps!</string>
-    <!-- Share my position using EMail, %1$@ is om:// and %2$@ is https://comaps.app link WITHOUT NAME -->
-    <string name="my_position_share_email">Γεια, \n \nΑυτή τη στιγμή είμαι εδώ: %1$s. Κάνε κλικ σε αυτό το σύνδεσμο %2$s ή σε αυτόν %3$s για να δεις την τοποθεσία στο χάρτη. \n \nΕυχαριστώ.</string>
     <!-- Share button text which opens menu with more buttons, like Message, EMail, Facebook etc. -->
     <string name="share">Κοινοποίηση</string>
     <!-- Share by email button text, also used in editor and About. -->

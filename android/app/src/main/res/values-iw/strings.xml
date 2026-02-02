@@ -168,12 +168,8 @@
     <string name="downloading_is_active">הורדת מפת המדינה מתבצעת כעת.</string>
     <!-- Share my position using SMS, %1$@ contains om:// and %2$@ https://comaps.app link WITHOUT NAME. @NOTE non-ascii symbols in the link will result in max 70 characters SMS instead of 140. -->
     <string name="my_position_share_sms">קבלו את המיקום שלי ב-CoMaps! \n%1$s או %2$s \nאין לך מפות בלי אינטרנט? להוריד כאן: https://www.comaps.app/download/</string>
-    <!-- Subject for emailed bookmark -->
-    <string name="bookmark_share_email_subject">היי, בדוק את הסיכה שלי במפה של CoMaps!</string>
     <!-- Subject for emailed position -->
     <string name="my_position_share_email_subject">היי, בדקו את המיקום הנוכחי שלי במפה של CoMaps!</string>
-    <!-- Share my position using EMail, %1$@ is om:// and %2$@ is https://comaps.app link WITHOUT NAME -->
-    <string name="my_position_share_email">היי, \n \nאני כאן: %1$s. הקש על הלינק %2$s או על %3$s כדי לראות את המקום על המפה. \n \nתודה.</string>
     <!-- Share button text which opens menu with more buttons, like Message, EMail, Facebook etc. -->
     <string name="share">שיתוף</string>
     <!-- Share by email button text, also used in editor and About. -->

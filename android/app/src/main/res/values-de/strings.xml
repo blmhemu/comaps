@@ -170,12 +170,8 @@
     <string name="downloading_is_active">Die Karte wird jetzt heruntergeladen</string>
     <!-- Share my position using SMS, %1$@ contains om:// and %2$@ https://comaps.app link WITHOUT NAME. @NOTE non-ascii symbols in the link will result in max 70 characters SMS instead of 140. -->
     <string name="my_position_share_sms">Sieh dir meinen aktuellen Standort auf CoMaps an! %1$s oder %2$s Du hast CoMaps nicht installiert? Lade die App hier herunter: https://www.comaps.app/de/download/</string>
-    <!-- Subject for emailed bookmark -->
-    <string name="bookmark_share_email_subject">Hey, sieh dir mein Lesezeichen in der CoMaps-App an!</string>
     <!-- Subject for emailed position -->
     <string name="my_position_share_email_subject">Hey, sieh dir meinen aktuellen Standort auf der CoMaps-Karte an!</string>
-    <!-- Share my position using EMail, %1$@ is om:// and %2$@ is https://comaps.app link WITHOUT NAME -->
-    <string name="my_position_share_email">Hi, \n \nich bin gerade hier: %1$s. Klicke den Link %2$s oder %3$s, um den Ort auf der Karte anzuzeigen. \n \nVielen Dank.</string>
     <!-- Share button text which opens menu with more buttons, like Message, EMail, Facebook etc. -->
     <string name="share">Teilen</string>
     <!-- Share by email button text, also used in editor and About. -->

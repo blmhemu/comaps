@@ -197,9 +197,7 @@
     <string name="cant_change_this_setting">Leider sind d Iistellige für d Chartespeicherig aktuell deaktiviert</string>
     <string name="downloading_is_active">D Charte wird abeglade</string>
     <string name="my_position_share_sms">Lueg dir min aktuelle Standort uf CoMaps aa! %1$s oder %2$s Kei Offline-Charte installiert? Da abelade: https://www.comaps.app/download/</string>
-    <string name="bookmark_share_email_subject">Hey, lueg dir mini Stecknadle uf de CoMaps-Charte aa!</string>
     <string name="my_position_share_email_subject">Hey, lueg dir min aktuelle Standort uf de CoMaps-Charte aa!</string>
-    <string name="my_position_share_email">Hi, \n \nich bi grad da: %1$s. Klick de Link %2$s oder %3$s, zum de Ort uf de Charte aazzeige. \n \nViele Dank.</string>
     <string name="share">Teile</string>
     <string name="email">E-Mail</string>
     <string name="done">Fertig</string>

@@ -50,7 +50,6 @@
     <string name="load_kmz_failed">பிடித்தவைகளை ஏற்ற முடியவில்லை. கோப்பு சிதைந்திருக்கலாம் அல்லது குறைபாடுடையதாக இருக்கலாம்.</string>
     <string name="edit">தொகு</string>
     <string name="unknown_current_position">உங்கள் இருப்பிடம் இன்னும் தீர்மானிக்கப்படவில்லை</string>
-    <string name="bookmark_share_email_subject">ஏய், CoMaps இல் எனது பின்னை பாருங்கள்!</string>
     <string name="my_position_share_email_subject">ஏய், CoMaps வரைபடத்தில் எனது தற்போதைய இருப்பிடத்தைப் பாருங்கள்!</string>
     <string name="email">மின்னஞ்சல்</string>
     <string name="done">முடிந்தது</string>
@@ -397,7 +396,6 @@
     <string name="cant_change_this_setting">மன்னிக்கவும், வரைபட சேமிப்பக அமைப்புகள் தற்போது முடக்கப்பட்டுள்ளன</string>
     <string name="downloading_is_active">வரைபடப் பதிவிறக்கம் இப்போது செயலில் உள்ளது</string>
     <string name="my_position_share_sms">CoMaps இல் எனது தற்போதைய இருப்பிடத்தைப் பார்க்கவும்! %1$s அல்லது %2$s இணைப்பில்லாத வரைபடங்கள் இல்லையா? இங்கே பதிவிறக்கவும்: https://www.comaps.app/download/</string>
-    <string name="my_position_share_email">வணக்கம், \n\nநான் இப்போது இங்கே இருக்கிறேன்: %1$s. வரைபடத்தில் இடத்தைப் பார்க்க, இந்த இணைப்பை %2$s அல்லது இந்த %3$sஐக் சொடுக்கு செய்யவும். \n\nநன்றி.</string>
     <string name="share">பகிர்</string>
     <string name="copied_to_clipboard">இடைநிலைப்பலகைக்கு நகலெடுக்கப்பட்டது: %s</string>
     <string name="data_version">OpenStreetMap தரவு: %s</string>

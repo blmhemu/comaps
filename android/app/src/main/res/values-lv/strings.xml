@@ -168,12 +168,8 @@
     <string name="downloading_is_active">Tagad notiek kartes lejupielāde</string>
     <!-- Share my position using SMS, %1$@ contains om:// and %2$@ https://comaps.app link WITHOUT NAME. @NOTE non-ascii symbols in the link will result in max 70 characters SMS instead of 140. -->
     <string name="my_position_share_sms">Apskatiet manu atrašanās vietu „CoMaps“ lietotnē! %1$s vai %2$s Vai Jums nav nesaistes kartes? Lejupielādējiet to: https://www.comaps.app/download/</string>
-    <!-- Subject for emailed bookmark -->
-    <string name="bookmark_share_email_subject">Hei, apskatiet manu grāmatzīmi CoMaps kartē!</string>
     <!-- Subject for emailed position -->
     <string name="my_position_share_email_subject">Sveiciens! Apskati manu atrašanās vietu CoMaps kartē!</string>
-    <!-- Share my position using EMail, %1$@ is om:// and %2$@ is https://comaps.app link WITHOUT NAME -->
-    <string name="my_position_share_email">Hei, \n \nŠobrīd atrodos te: %1$s. Spied uz šīs %2$s vai šīs %3$s saites, lai kartē redzētu manu atrašanās vietu. \n \nPaldies.</string>
     <!-- Share button text which opens menu with more buttons, like Message, EMail, Facebook etc. -->
     <string name="share">Kopīgot</string>
     <!-- Share by email button text, also used in editor and About. -->

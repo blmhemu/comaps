@@ -93,9 +93,7 @@
     <string name="downloading_is_active">Poteka prenašanje zemljevida</string>
     <string name="bookmarks_and_tracks">Zaznamki in poti</string>
     <string name="my_position_share_sms">Oglej si moj trenutni položaj na CoMaps! %1$s ali %2$s Nimaš zemljevidov brez povezave? Prenesi jih tukaj: https://www.comaps.app/download/</string>
-    <string name="bookmark_share_email_subject">Živjo, oglej si tale kraj na CoMaps!</string>
     <string name="my_position_share_email_subject">Živjo, poglej si moj trenutni položaj na zemljevidu CoMaps!</string>
-    <string name="my_position_share_email">Živjo, \n \nzdajle sem tukaj: %1$s. S povezavo %2$s ali %3$s si lahko ogledaš ta kraj na zemljevidu. \n \nHvala.</string>
     <string name="share">Deli</string>
     <string name="email">E-pošta</string>
     <string name="copied_to_clipboard">Kopirano na odložišče: %s</string>

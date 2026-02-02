@@ -170,12 +170,8 @@
     <string name="downloading_is_active">Nedlasting av kart er i gang nå</string>
     <!-- Share my position using SMS, %1$@ contains om:// and %2$@ https://comaps.app link WITHOUT NAME. @NOTE non-ascii symbols in the link will result in max 70 characters SMS instead of 140. -->
     <string name="my_position_share_sms">Se posisjonen min på CoMaps! %1$s eller %2$s Har du ikke offline-kart? Last ned her: https://www.comaps.app/download/</string>
-    <!-- Subject for emailed bookmark -->
-    <string name="bookmark_share_email_subject">Hei, se merket mitt på CoMaps-kartet</string>
     <!-- Subject for emailed position -->
     <string name="my_position_share_email_subject">Hei, se posisjonen min på CoMaps-kartet!</string>
-    <!-- Share my position using EMail, %1$@ is om:// and %2$@ is https://comaps.app link WITHOUT NAME -->
-    <string name="my_position_share_email">Hei, \n \nJeg er her nå: %1$s. Klikk denne lenken %2$s eller denne %3$s for å se stedet på kartet. \n \nTakk.</string>
     <!-- Share button text which opens menu with more buttons, like Message, EMail, Facebook etc. -->
     <string name="share">Del</string>
     <!-- Share by email button text, also used in editor and About. -->

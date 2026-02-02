@@ -184,9 +184,7 @@
     <string name="cant_change_this_setting">Žao nam je, postavke Pohrane karata trenutno su onemogućene</string>
     <string name="downloading_is_active">Preuzimanje karte je trenutno u tijeku</string>
     <string name="my_position_share_sms">Pogledajte moju trenutnu lokaciju u CoMapsu! %1$s ili %2$s Nemate offline karte? Preuzmite ih ovdje: https://www.comaps.app/download/</string>
-    <string name="bookmark_share_email_subject">Hej, pogledaj moju oznaku u CoMapsu!</string>
     <string name="my_position_share_email_subject">Hej, pogledaj moju trenutnu lokaciju na CoMaps karti!</string>
-    <string name="my_position_share_email">Bok,\n\nSada sam ovdje: %1$s. Kliknite na ovu %2$s ili ovu %3$s poveznicu da biste vidjeli lokaciju na karti.\n\nHvala.</string>
     <string name="copied_to_clipboard">Kopirano u međuspremnik: %s</string>
     <string name="data_version">OpenStreetMap podaci: %s</string>
     <string name="tracks_title">Rute</string>

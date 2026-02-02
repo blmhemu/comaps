@@ -165,12 +165,8 @@
     <string name="downloading_is_active">Právě probíhá stahování země</string>
     <!-- Share my position using SMS, %1$@ contains om:// and %2$@ https://comaps.app link WITHOUT NAME. @NOTE non-ascii symbols in the link will result in max 70 characters SMS instead of 140. -->
     <string name="my_position_share_sms">Podívej se na mojí polohu v CoMaps! %1$s nebo %2$s Nemáš offline mapy? Stáhni si je zde: https://www.comaps.app/download/</string>
-    <!-- Subject for emailed bookmark -->
-    <string name="bookmark_share_email_subject">Koukni na mojí značku na mapě v CoMaps!</string>
     <!-- Subject for emailed position -->
     <string name="my_position_share_email_subject">Podívej se na mou aktuální polohu na mapě v CoMaps!</string>
-    <!-- Share my position using EMail, %1$@ is om:// and %2$@ is https://comaps.app link WITHOUT NAME -->
-    <string name="my_position_share_email">Ahoj, \n \nPrávě jsem tady: %1$s. Klepni na jeden z těchto odkazů %2$s, %3$s a uvidíš toto místo na mapě. \n \nDíky.</string>
     <!-- Share button text which opens menu with more buttons, like Message, EMail, Facebook etc. -->
     <string name="share">Sdílet</string>
     <!-- Share by email button text, also used in editor and About. -->

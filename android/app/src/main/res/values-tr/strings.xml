@@ -170,12 +170,8 @@
     <string name="downloading_is_active">Harita indiriliyor</string>
     <!-- Share my position using SMS, %1$@ contains om:// and %2$@ https://comaps.app link WITHOUT NAME. @NOTE non-ascii symbols in the link will result in max 70 characters SMS instead of 140. -->
     <string name="my_position_share_sms">Hey, CoMaps’te geçerli konumumu incele! %1$s veya %2$s Çevrimdışı haritalar sende yok mu? Buradan indir: https://www.comaps.app/download/</string>
-    <!-- Subject for emailed bookmark -->
-    <string name="bookmark_share_email_subject">Hey, CoMaps\'teki imimi incele!</string>
     <!-- Subject for emailed position -->
     <string name="my_position_share_email_subject">Hey, CoMaps’te geçerli konumumu incele!</string>
-    <!-- Share my position using EMail, %1$@ is om:// and %2$@ is https://comaps.app link WITHOUT NAME -->
-    <string name="my_position_share_email">Merhaba, \n \nŞu anda bulunduğum yer: %1$s. Yeri haritada görmek için %2$s veya %3$s bağlantısına tıkla. \n \nTeşekkürler.</string>
     <!-- Share button text which opens menu with more buttons, like Message, EMail, Facebook etc. -->
     <string name="share">Paylaş</string>
     <!-- Share by email button text, also used in editor and About. -->
