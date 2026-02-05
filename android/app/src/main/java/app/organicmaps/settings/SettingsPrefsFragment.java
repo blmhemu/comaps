@@ -3,7 +3,6 @@ package app.organicmaps.settings;
 import static app.organicmaps.leftbutton.LeftButtonsHolder.DISABLE_BUTTON_CODE;
 import static app.organicmaps.sdk.editor.data.Language.DEFAULT_LANG_CODE;
 
-import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
@@ -19,7 +18,6 @@ import androidx.preference.TwoStatePreference;
 
 import com.google.android.material.dialog.MaterialAlertDialogBuilder;
 
-import app.organicmaps.MwmApplication;
 import app.organicmaps.R;
 import app.organicmaps.dialog.CustomMapServerDialog;
 import app.organicmaps.downloader.OnmapDownloader;
@@ -545,11 +543,9 @@ public class SettingsPrefsFragment extends BaseXmlSettingsFragment implements La
 
     // Show dialog
     customUrlPref.setOnPreferenceClickListener(preference -> {
-      CustomMapServerDialog.show(requireContext(), url -> {
-        preference.setSummary(url.isEmpty()
-            ? getString(R.string.download_resources_custom_url_summary_none)
-            : url);
-      });
+      CustomMapServerDialog.show(requireContext(), url -> preference.setSummary(url.isEmpty()
+          ? getString(R.string.download_resources_custom_url_summary_none)
+          : url));
       return true;
     });
   }
