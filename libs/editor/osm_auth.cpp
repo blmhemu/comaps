@@ -10,7 +10,7 @@
 
 #include "private.h"
 
-#include <regex>
+#include <boost/regex.hpp>
 
 namespace osm
 {
@@ -22,13 +22,13 @@ constexpr char const * kApiVersion = "/api/0.6";
 
 string FindAuthenticityToken(string const & action, string body)
 {
-  static std::regex const kActionAndTokenRE(R"~(action="(.+?)".*?name="authenticity_token" value="(.+?)")~");
+  static boost::regex const kActionAndTokenRE(R"~(action="(.+?)".*?name="authenticity_token" value="(.+?)")~");
 
   // Regex doesn't support multiline matches. Need to remove all line endings from the body.
   std::erase_if(body, [](char c) { return c == '\n' || c == '\r'; });
 
-  auto const begin = std::sregex_iterator{body.begin(), body.end(), kActionAndTokenRE};
-  auto const end = std::sregex_iterator{};
+  auto const begin = boost::sregex_iterator{body.begin(), body.end(), kActionAndTokenRE};
+  auto const end = boost::sregex_iterator{};
 
   for (auto it = begin; it != end; ++it)
   {
