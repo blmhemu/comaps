@@ -212,13 +212,15 @@
     android:key="@string/pref_privacy"
     android:title="@string/privacy"
     android:order="5">
-    <Preference
-        android:persistent="false"
-        android:title="@string/location_privacy"
-        app:singleLineTitle="false"
-        app:icon="@drawable/ic_wifi_find"
-        android:summary="@string/location_privacy_info"
-        android:order="1"/>
+    <SwitchPreferenceCompat
+      android:key="@string/pref_play_services"
+      android:title="@string/google_play_services"
+      app:singleLineTitle="false"
+      app:icon="@drawable/ic_wifi_find"
+      android:summary="@string/pref_use_google_play"
+      android:defaultValue="true"
+      android:widgetLayout="@layout/preference_switch"
+      android:order="1"/>
     <SwitchPreferenceCompat
       android:key="@string/pref_search_history"
       android:title="@string/search_history_title"
