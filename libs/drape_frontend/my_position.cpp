@@ -147,7 +147,7 @@ void MyPosition::RenderMyPosition(ref_ptr<dp::GraphicsContext> context, ref_ptr<
 
 void MyPosition::CacheAccuracySector(ref_ptr<dp::GraphicsContext> context, ref_ptr<dp::TextureManager> mng)
 {
-  size_t constexpr kTriangleCount = 40;
+  size_t constexpr kTriangleCount = 96;
   size_t constexpr kVertexCount = 3 * kTriangleCount;
   auto const etalonSector = static_cast<float>(2.0 * math::pi / kTriangleCount);
 
