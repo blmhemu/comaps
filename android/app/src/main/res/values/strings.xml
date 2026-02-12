@@ -291,6 +291,7 @@
     <string name="downloader_status_maps">Maps</string>
     <string name="downloader_download_all_button">Download All</string>
     <string name="downloader_downloading">Downloading:</string>
+    <string name="mb_downloaded">%1$d MB / %2$d MB</string>
     <!-- Displayed in a dialog that appears when a user tries to delete a map while the app is in the follow route mode -->
     <string name="downloader_delete_map_while_routing_dialog">To delete a map, please stop navigation first</string>
     <!-- PointsInDifferentMWM -->
