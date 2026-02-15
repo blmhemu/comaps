@@ -2,6 +2,11 @@ name: compare_subways
 on:
   workflow_dispatch: # Manual trigger
     inputs:
+      run-planet-pbf:
+        description: 'Update OSM planet?'
+        required: true
+        default: true
+        type: boolean
       subways-branch:
         description: 'Check out a different subways repo branch?'
         required: true
@@ -53,7 +58,8 @@ jobs:
           git clone --depth 1 -b ${{ inputs.subways-branch || 'master' }} --single-branch https://codeberg.org/comaps/subways.git
 
   update-planet-pbf:
-    name: Update PBF Planet
+    if: inputs.run-planet-pbf || true
+    name: Update OSM PBF Planet
     runs-on: mapfilemaker
     container:
       image: codeberg.org/comaps/maps_generator:f6d53d54f794
@@ -84,47 +90,8 @@ jobs:
           rm -f planet-latest-new.osm.pbf
           pyosmium-up-to-date planet-latest.osm.pbf -o planet-latest-new.osm.pbf -v --size 16384
           mv planet-latest-new.osm.pbf planet-latest.osm.pbf
-  
-  update-planet-o5m:
-    if: false
-    name: Update O5M Planet
-    runs-on: mapfilemaker
-    container:
-      image: codeberg.org/comaps/maps_generator:f6d53d54f794
-      volumes:
-        - /mnt/4tbexternal/:/mnt/4tbexternal/
-        - /mnt/4tbexternal/osm-planet:/home/planet
-    concurrency:
-      group: ${{ github.workflow }}-compare-subways-${{ github.event.pull_request.number || github.ref }}
-      cancel-in-progress: true
-    steps:
-      - name: Check for O5M Planet File
-        shell: bash
-        run: |
-          if [ ! -f /home/planet/planet/planet.o5m ]; then
-          echo "WARN: No file at /home/planet/planet/planet.o5m"
+          echo "DONE"
 
-          if [ ! -f /home/planet/planet/planet-latest.osm.pbf ]; then
-          echo "ERROR: No file at /home/planet/planet/planet-latest.osm.pbf"
-          ls -al /home/planet/
-          ls -al /home/planet/planet/
-          exit 1
-          fi
-
-          echo "Converting planet-latest.osm.pbf to planet.o5m"
-          cd /home/planet/planet/
-          osmconvert -v --drop-author --drop-version --hash-memory=4000 planet-latest.osm.pbf -o=planet.o5m
-          echo "Conversion is done."
-          fi
-      - name: Update O5M planet
-        run: |
-          echo "Starting..."
-          cd /home/planet/planet/
-          rm -f planet-new.o5m
-          osmupdate -v --drop-author --drop-version --hash-memory=4000  --max-merge=32 --out-o5m planet.o5m planet-new.o5m
-          mv planet-new.o5m planet.o5m
-          echo "Done."
-  
   compare-subways:
     name: Compare Subways
     runs-on: mapfilemaker
