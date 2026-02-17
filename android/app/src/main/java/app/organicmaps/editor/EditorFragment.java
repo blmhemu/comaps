@@ -15,6 +15,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.AutoCompleteTextView;
 import android.widget.GridLayout;
+import android.widget.TextView;
 import androidx.annotation.CallSuper;
 import androidx.annotation.DrawableRes;
 import androidx.annotation.IdRes;
@@ -682,10 +683,12 @@ public class EditorFragment extends BaseMwmFragment implements View.OnClickListe
     else
     {
       final Timetable[] timetables = OpeningHours.nativeTimetablesFromString(openingHours);
-      String content = timetables == null ? openingHours
-                                          : TimeFormatUtils.formatTimetables(getResources(), openingHours, timetables);
+      CharSequence content = timetables == null
+                               ? openingHours
+                               : TimeFormatUtils.formatTimetables(getResources(), openingHours, timetables);
       UiUtils.hide(mEmptyOpeningHours);
-      UiUtils.setTextAndShow(mOpeningHours, content);
+      mOpeningHours.setText(content, TextView.BufferType.SPANNABLE);
+      UiUtils.show(mOpeningHours);
       UiUtils.show(mEditOpeningHours);
     }
   }

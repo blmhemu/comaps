@@ -8,9 +8,7 @@ import android.view.ViewGroup;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 import app.organicmaps.R;
-import app.organicmaps.sdk.editor.data.Timespan;
 import app.organicmaps.sdk.editor.data.Timetable;
-import app.organicmaps.util.UiUtils;
 import com.google.android.material.textview.MaterialTextView;
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -108,7 +106,6 @@ public class PlaceOpeningHoursAdapter extends RecyclerView.Adapter<PlaceOpeningH
     {
       holder.setWeekdays(formatWeekdaysRange(schedule.startWeekDay, schedule.endWeekDay));
       holder.setOpenTime(holder.itemView.getResources().getString(R.string.day_off));
-      holder.hideNonBusinessTime();
       return;
     }
 
@@ -117,22 +114,32 @@ public class PlaceOpeningHoursAdapter extends RecyclerView.Adapter<PlaceOpeningH
     if (tt.isFullday)
     {
       holder.setOpenTime(holder.itemView.getResources().getString(R.string.editor_time_allday));
-      holder.hideNonBusinessTime();
     }
     else
     {
-      final Timespan[] closedTime = tt.closedTimespans;
-      if (closedTime != null && closedTime.length == 1)
+      if (tt.closedTimespans == null)
+        return;
+
+      if (tt.closedTimespans.length == 0)
       {
-        String first_opening = tt.workingTimespan.start + "—" + closedTime[0].start;
-        String second_opening = closedTime[0].end + "—" + tt.workingTimespan.end;
-        holder.setOpenTime(first_opening);
-        holder.setNonBusinessTime(second_opening);
+        holder.setOpenTime(tt.workingTimespan.toWideString());
       }
       else
       {
-        holder.setOpenTime(tt.workingTimespan.toWideString());
-        holder.hideNonBusinessTime();
+        StringBuilder openings = new StringBuilder();
+        openings.append(tt.workingTimespan.start).append(" – ").append(tt.closedTimespans[0].start);
+
+        for (int i = 0; i < tt.closedTimespans.length - 1; i++)
+        {
+          openings.append("\n").append(tt.closedTimespans[i].end).append(" – ").append(tt.closedTimespans[i + 1].start);
+        }
+
+        openings.append("\n")
+            .append(tt.closedTimespans[tt.closedTimespans.length - 1].end)
+            .append(" – ")
+            .append(tt.workingTimespan.end);
+
+        holder.setOpenTime(openings.toString());
       }
     }
   }
@@ -163,14 +170,12 @@ public class PlaceOpeningHoursAdapter extends RecyclerView.Adapter<PlaceOpeningH
   {
     private final MaterialTextView mWeekdays;
     private final MaterialTextView mOpenTime;
-    private final MaterialTextView mNonBusinessTime;
 
     public ViewHolder(@NonNull View itemView)
     {
       super(itemView);
       mWeekdays = itemView.findViewById(R.id.tv__opening_hours_weekdays);
       mOpenTime = itemView.findViewById(R.id.tv__opening_hours_time);
-      mNonBusinessTime = itemView.findViewById(R.id.tv__opening_hours_nonbusiness_time);
       itemView.setVisibility(View.VISIBLE);
     }
 
@@ -182,16 +187,6 @@ public class PlaceOpeningHoursAdapter extends RecyclerView.Adapter<PlaceOpeningH
     public void setOpenTime(String openTime)
     {
       mOpenTime.setText(openTime);
-    }
-
-    public void setNonBusinessTime(String nonBusinessTime)
-    {
-      UiUtils.setTextAndShow(mNonBusinessTime, nonBusinessTime);
-    }
-
-    public void hideNonBusinessTime()
-    {
-      UiUtils.clearTextAndHide(mNonBusinessTime);
     }
   }
 }
