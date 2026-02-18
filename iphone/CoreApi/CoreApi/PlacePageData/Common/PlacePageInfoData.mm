@@ -124,6 +124,7 @@ NSDate * _Nullable ParseDateString(NSString * _Nullable dateString) {
         case MetadataID::FMD_LEVEL: _level = ToNSString(value); break;
         case MetadataID::FMD_CAPACITY: _capacity = [NSString stringWithFormat:NSLocalizedString(@"capacity", nil), ToNSString(value)]; break;
         case MetadataID::FMD_ROOMS: _rooms = [NSString stringWithFormat:NSLocalizedString(@"rooms", nil), ToNSString(value)]; break;
+        case MetadataID::FMD_CHARGE: _charge = ToNSString(value); break;
         case MetadataID::FMD_WHEELCHAIR: _wheelchair = ToNSString(localisation::TranslatedFeatureType(value)); break;
         case MetadataID::FMD_DRIVE_THROUGH:
           if (value == "yes")

@@ -191,6 +191,7 @@ class PlacePageInfoViewController: UIViewController {
   private var openWithAppView: InfoItemView?
   private var capacityView: InfoItemView?
   private var roomsView: InfoItemView?
+  private var chargeView: InfoItemView?
   private var wheelchairView: InfoItemView?
   private var selfServiceView: InfoItemView?
   private var outdoorSeatingView: InfoItemView?
@@ -325,6 +326,10 @@ class PlacePageInfoViewController: UIViewController {
 	
     if let rooms = placePageInfoData.rooms {
       roomsView = createInfoItem(rooms, icon: UIImage(named: "ic_placepage_rooms"))
+    }
+
+    if let charge = placePageInfoData.charge {
+        chargeView = createInfoItem(charge, icon: UIImage(named: "ic_placepage_charge"))
     }
 
     if let wheelchair = placePageInfoData.wheelchair {
