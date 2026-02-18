@@ -6,7 +6,10 @@ import static app.organicmaps.sdk.editor.data.Language.DEFAULT_LANG_CODE;
 import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.content.SharedPreferences;
+import android.net.Uri;
+import android.os.Build;
 import android.os.Bundle;
+import android.provider.Settings;
 import android.view.View;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -79,6 +82,7 @@ public class SettingsPrefsFragment extends BaseXmlSettingsFragment implements La
     initShowOnLockScreenPrefsCallbacks();
     initLeftButtonPrefs();
     initCustomMapDownloadUrlPrefsCallbacks();
+    initOpenExternalLinksPrefsCallback();
   }
 
   private void initLeftButtonPrefs()
@@ -203,6 +207,12 @@ public class SettingsPrefsFragment extends BaseXmlSettingsFragment implements La
       else if (key.equals(getString(R.string.pref_backup)))
       {
         getSettingsActivity().stackFragment(BackupSettingsFragment.class, getString(R.string.pref_backup_title), null);
+      }
+      else if (key.equals(getString(R.string.pref_open_external_links)))
+      {
+        final Intent intent = new Intent(Settings.ACTION_APP_OPEN_BY_DEFAULT_SETTINGS);
+        intent.setData(Uri.fromParts("package", requireContext().getPackageName(), null));
+        startActivity(intent);
       }
     }
     return super.onPreferenceTreeClick(preference);
@@ -588,6 +598,12 @@ public class SettingsPrefsFragment extends BaseXmlSettingsFragment implements La
                                                  : url));
       return true;
     });
+  }
+
+  private void initOpenExternalLinksPrefsCallback()
+  {
+    Preference openExternalLinksPref = getPreference(getString(R.string.pref_open_external_links));
+    openExternalLinksPref.setVisible(Build.VERSION.SDK_INT >= Build.VERSION_CODES.S);
   }
 
   private void removePreference(@NonNull String categoryKey, @NonNull Preference preference)

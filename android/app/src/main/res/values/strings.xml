@@ -991,4 +991,6 @@
     <string name="route_finished">Route finished</string>
     <string name="not_following_route">Not following route</string>
     <string name="rebuilding_route">Rebuilding route…</string>
+    <string name="pref_openexternallinks_title">Automatically open third-party links</string>
+    <string name="pref_openexternallinks_summary">Open third-party links in CoMaps by default</string>
 </resources>
