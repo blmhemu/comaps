@@ -25,33 +25,6 @@ env:
 # /var/www/html/subways is mapped as a volume on cdn-fi-1
 # as is /tmp/planet
 jobs:
-  clone-repos:
-    name: Clone Git Repos
-    runs-on: mapfilemaker
-    container:
-      image: codeberg.org/comaps/maps_generator:f6d53d54f794
-      volumes:
-        - /mnt/4tbexternal:/mnt/4tbexternal
-    concurrency:
-      group: ${{ github.workflow }}-mapgen-subways-${{ github.event.pull_request.number || github.ref }}
-      cancel-in-progress: true
-    steps:
-      - uses: actions/cache@v4
-        with:
-          path: "~"
-          key: cache-${{ github.run_id }}-${{ github.run_attempt }}}
-      - name: Checkout main repo
-        shell: bash
-        run: |
-          echo "Cloning $FORGEJO_SERVER_URL/$FORGEJO_REPOSITORY branch $FORGEJO_REF_NAME"
-          cd ~
-          git clone --depth 1 -b $FORGEJO_REF_NAME --single-branch $FORGEJO_SERVER_URL/$FORGEJO_REPOSITORY.git comaps
-      - name: Checkout subways repo
-        shell: bash
-        run: |
-          cd ~
-          git clone --depth 1 -b ${{ inputs.subways-branch || 'master' }} --single-branch https://codeberg.org/comaps/subways.git
-
   update-planet-pbf:
     if: !inputs.skip-planet-pbf
     name: Update OSM PBF Planet
@@ -101,10 +74,18 @@ jobs:
       group: ${{ github.workflow }}-mapgen-subways-${{ github.event.pull_request.number || github.ref }}
       cancel-in-progress: true
     steps:
-      - uses: actions/cache@v4
-        with:
-          path: "~"
-          key: cache-${{ github.run_id }}-${{ github.run_attempt }}
+      - name: Checkout main repo
+        shell: bash
+        run: |
+          echo "Cloning $FORGEJO_SERVER_URL/$FORGEJO_REPOSITORY branch $FORGEJO_REF_NAME"
+          cd ~
+          git clone --depth 1 -b $FORGEJO_REF_NAME --single-branch $FORGEJO_SERVER_URL/$FORGEJO_REPOSITORY.git comaps
+      - name: Checkout subways repo
+        shell: bash
+        run: |
+          cd ~
+          git clone --depth 1 -b ${{ inputs.subways-branch || 'master' }} --single-branch https://codeberg.org/comaps/subways.git
+
       - name: Process Subways
         shell: bash
         run: |
