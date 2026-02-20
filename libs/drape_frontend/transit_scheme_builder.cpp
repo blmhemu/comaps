@@ -211,7 +211,8 @@ void PlaceTitles(std::vector<TitleInfo> & titles, float textSize, ref_ptr<dp::Te
   size_t summaryRowsCount = 0;
   for (auto & name : titles)
   {
-    StraightTextLayout layout(name.m_text, textSize, textures, dp::Left, false /* forceNoWrap */);
+    StraightTextLayout layout(name.m_text, textSize, textures, dp::Left, false /* forceNoWrap */,
+                              localisation::kUnsupportedLanguageIndex);
     name.m_pixelSize = layout.GetPixelSize() + m2::PointF(4.0f * vs, 4.0f * vs);
     name.m_rowsCount = layout.GetRowsCount();
     summaryRowsCount += layout.GetRowsCount();

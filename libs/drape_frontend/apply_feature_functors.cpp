@@ -565,8 +565,12 @@ void ApplyPointFeature::ProcessPointRules(SymbolRuleProto const * symbolRule, Ca
     CaptionDefProto const * auxRule = captionRule->has_secondary() ? &captionRule->secondary() : nullptr;
 
     params.m_titleDecl.m_primaryText = m_captions.GetMainText();
+    params.m_titleDecl.m_primaryTextLanguageIndex = m_captions.m_mainTextLanguageIndex;
     if (auxRule)
+    {
       params.m_titleDecl.m_secondaryText = m_captions.GetAuxText();
+      params.m_titleDecl.m_secondaryTextLanguageIndex = m_captions.m_auxTextLanguageIndex;
+    }
     ASSERT(!params.m_titleDecl.m_primaryText.empty(), ());
 
     ExtractCaptionParams(capRule, auxRule, params);
@@ -1153,7 +1157,9 @@ void ApplyLineFeatureAdditional::ProcessAdditionalLineRules(PathTextRuleProto co
     params.m_depthTestEnabled = false;
     params.m_depth = m_captionDepth;
     params.m_mainText = m_captions.GetMainText();
+    params.m_mainTextLanguageIndex = m_captions.m_mainTextLanguageIndex;
     params.m_auxText = m_captions.GetAuxText();
+    params.m_auxTextLanguageIndex = m_captions.m_auxTextLanguageIndex;
     params.m_textFont = fontDecl;
     params.m_baseGtoPScale = m_currentScaleGtoP;
 

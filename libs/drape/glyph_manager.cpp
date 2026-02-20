@@ -5,7 +5,6 @@
 #include "drape/harfbuzz_shaping.hpp"
 
 #include "platform/platform.hpp"
-#include "platform/preferred_languages.hpp"
 
 #include "coding/hex.hpp"
 #include "coding/reader.hpp"
@@ -329,9 +328,6 @@ FreetypeError constexpr g_FT_Errors[] =
     TUniBlockIter m_lastUsedBlock;
     std::vector<std::unique_ptr<Font>> m_fonts;
 
-    std::string const lang = languages::GetCurrentOrig();
-    hb_language_t const m_language = hb_language_from_string(lang.data(), static_cast<int>(lang.size()));
-
     // Required to use std::string_view as a search key for ankerl::unordered_dense::map::find().
     struct StringHash : public std::hash<std::string_view>
     {
@@ -567,7 +563,7 @@ FreetypeError constexpr g_FT_Errors[] =
   }
 
   // This method is NOT multithreading-safe.
-  text::TextMetrics GlyphManager::ShapeText(std::string_view utf8, int fontPixelHeight)
+  text::TextMetrics GlyphManager::ShapeText(std::string_view utf8, int fontPixelHeight, hb_language_t const textLang)
   {
 #ifdef DEBUG
     static int const fontSize = fontPixelHeight;
@@ -596,8 +592,7 @@ FreetypeError constexpr g_FT_Errors[] =
                           static_cast<int>(text.size()), substring.m_start, substring.m_length);
       hb_buffer_set_direction(m_impl->m_harfbuzzBuffer, substring.m_direction);
       hb_buffer_set_script(m_impl->m_harfbuzzBuffer, substring.m_script);
-      // TODO: This property is static, is it possible to set it only once?
-      hb_buffer_set_language(m_impl->m_harfbuzzBuffer, m_impl->m_language);
+      hb_buffer_set_language(m_impl->m_harfbuzzBuffer, textLang);
 
       auto u32CharacterIter{text.begin() + substring.m_start};
       auto const end{u32CharacterIter + substring.m_length};

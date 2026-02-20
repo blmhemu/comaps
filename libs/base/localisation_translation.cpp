@@ -9,9 +9,17 @@ namespace localisation
 {
 using namespace std;
 
-string BestTranslation(StringUtf8Multilang const translations,
-                       vector<LanguageIndex> const prioritizedMapLanguageIndexes,
-                       vector<LanguageIndex> const regionalLanguageIndexes)
+LanguageIndex LikelyRegionalLanguageIndexForRendering(vector<LanguageIndex> const regionalLanguageIndexes)
+{
+  if (regionalLanguageIndexes.empty())
+    return kUnsupportedLanguageIndex;
+
+  return regionalLanguageIndexes.front();
+}
+
+Translation BestTranslation(StringUtf8Multilang const translations,
+                            vector<LanguageIndex> const prioritizedMapLanguageIndexes,
+                            vector<LanguageIndex> const regionalLanguageIndexes)
 {
   string bestTranslation = {};
   LanguageIndex bestLanguageIndex = kUnsupportedLanguageIndex;
@@ -44,14 +52,17 @@ string BestTranslation(StringUtf8Multilang const translations,
     }
   }
 
-  return bestTranslation;
+  if (bestLanguageIndex == kDefaultNameIndex)
+    return Translation(bestTranslation, LikelyRegionalLanguageIndexForRendering(regionalLanguageIndexes));
+  return Translation(bestTranslation, bestLanguageIndex);
 }
 
-string LocalTranslation(StringUtf8Multilang const translations)
+Translation LocalTranslation(StringUtf8Multilang const translations,
+                             vector<LanguageIndex> const regionalLanguageIndexes)
 {
   string localTranslation = {};
   translations.GetString(kDefaultNameIndex, localTranslation);
-  return localTranslation;
+  return Translation(localTranslation, LikelyRegionalLanguageIndexForRendering(regionalLanguageIndexes));
 }
 
 struct NameTranslation TranslatedFeatureName(StringUtf8Multilang const names,
@@ -59,12 +70,13 @@ struct NameTranslation TranslatedFeatureName(StringUtf8Multilang const names,
 {
   vector<LanguageIndex> const prioritizedMapLanguageIndexes = PrioritizedMapLanguageIndexes(regionalLanguageIndexes);
 
-  string const bestName = BestTranslation(names, prioritizedMapLanguageIndexes, regionalLanguageIndexes);
-  string const localName = LocalTranslation(names);
-  if (bestName == localName)
-    return {bestName};
+  Translation const bestName = BestTranslation(names, prioritizedMapLanguageIndexes, regionalLanguageIndexes);
+  Translation const localName = LocalTranslation(names, regionalLanguageIndexes);
+  if (bestName.m_translation == localName.m_translation)
+    return NameTranslation(bestName.m_translation, bestName.m_likelyLanguageIndexForRendering);
   else
-    return {bestName, localName};
+    return NameTranslation(bestName.m_translation, bestName.m_likelyLanguageIndexForRendering, localName.m_translation,
+                           localName.m_likelyLanguageIndexForRendering);
 }
 
 string TranslatedFeatureType(string const translationKey)

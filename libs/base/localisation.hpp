@@ -22,12 +22,6 @@ struct Language
   vector<TransliteratorId> m_transliteratorsIds;
 };
 
-struct NameTranslation
-{
-  optional<string> m_primary = {};
-  optional<string> m_secondary = {};
-};
-
 static LanguageIndex constexpr kUnsupportedLanguageIndex = -1;
 static LanguageIndex constexpr kDefaultNameIndex = 0;
 static LanguageIndex constexpr kEnglishLanguageIndex = 1;
@@ -53,6 +47,20 @@ enum AlternativeMapLanguageHandling : uint8_t
   IgnoreAlternatives = 0,
   SystemOrder = 1,
   LocalOnly = 2,
+};
+
+struct Translation
+{
+  string m_translation = {};
+  LanguageIndex m_likelyLanguageIndexForRendering = kUnsupportedLanguageIndex;
+};
+
+struct NameTranslation
+{
+  optional<string> m_primary = {};
+  LanguageIndex m_primaryLikelyLanguageIndexForRendering = kUnsupportedLanguageIndex;
+  optional<string> m_secondary = {};
+  LanguageIndex m_secondaryLikelyLanguageIndexForRendering = kUnsupportedLanguageIndex;
 };
 
 // Order is important. Any reordering breaks backward compatibility.

@@ -12,9 +12,9 @@ namespace localisation
 {
 using namespace std;
 
-string BestTranslation(StringUtf8Multilang const translations,
-                       vector<LanguageIndex> const prioritizedMapLanguageIndexes);
-string LocalTranslation(StringUtf8Multilang const translations);
+Translation BestTranslation(StringUtf8Multilang const translations,
+                            vector<LanguageIndex> const prioritizedMapLanguageIndexes);
+Translation LocalTranslation(StringUtf8Multilang const translations);
 struct NameTranslation TranslatedFeatureName(StringUtf8Multilang const names,
                                              vector<LanguageIndex> const regionalLanguageIndexes = {});
 string TranslatedFeatureType(string const translationKey);
