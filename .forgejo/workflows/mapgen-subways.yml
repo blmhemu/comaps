@@ -101,7 +101,8 @@ jobs:
           if [ -f "$HTML_DIR/cities.txt" ]; then
             echo "Comparing local validation with VK's validation..."
             python3 ./scripts/compare_html_validation.py "$HTML_DIR/cities.txt" \
-              --remote-url "https://maps.vk.com/osm/tools/subways/latest/cities.txt"
+              --remote-url "https://maps.vk.com/osm/tools/subways/latest/cities.txt" \
+              --cache-and-report
             exit 0
           else
             echo "Local cities.txt not found at $HTML_DIR/cities.txt"
@@ -138,9 +139,14 @@ jobs:
           fi
       - name: Notify Zulip
         run: |
+          MSG="Subways are updated!"
+          if [ -f "/tmp/validator_out.txt" ]; then
+          MSG="$MSG $(cat /tmp/validator_out.txt)"
+          fi
+          
           curl -X POST https://comaps.zulipchat.com/api/v1/messages \
             -u $ZULIP_BOT_EMAIL:$ZULIP_API_KEY \
             --data-urlencode type=stream \
             --data-urlencode 'to="DevOps"' \
             --data-urlencode topic=codeberg-bot \
-            --data-urlencode 'content=Subways are updated!'
+            --data-urlencode "content=$MSG"
