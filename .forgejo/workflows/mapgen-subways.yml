@@ -102,7 +102,7 @@ jobs:
             echo "Comparing local validation with VK's validation..."
             python3 ./scripts/compare_html_validation.py "$HTML_DIR/cities.txt" \
               --remote-url "https://maps.vk.com/osm/tools/subways/latest/cities.txt" \
-              --cache-and-report
+              --cache-and-report "$HTML_DIR"
             exit 0
           else
             echo "Local cities.txt not found at $HTML_DIR/cities.txt"
