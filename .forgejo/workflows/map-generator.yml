@@ -31,16 +31,8 @@ on:
 #        description: 'Generate specific MWMs? (i.e. "US_New York_*, foo")'
 #        required: false
 #        type: string
-      run-upload:
-        description: 'Upload latest maps to CDN?'
-        required: false
-        default: false
-        type: boolean
-
-## RCLONE_CONF is multi-line text containing keys and credentials for us2,ru1,fi1,de1 servers
 
 env:
-  RCLONE_CONF: ${{ secrets.RCLONE_CONF }}
   COUNTRIES_PUB_KEY: ${{ secrets.COUNTRIES_PUB_KEY }}
   COUNTRIES_SECRET_KEY: ${{ secrets.COUNTRIES_SECRET_KEY }}
   ZULIP_BOT_EMAIL: ${{ secrets.ZULIP_BOT_EMAIL }}
@@ -237,68 +229,3 @@ jobs:
             --data-urlencode 'to="DevOps"' \
             --data-urlencode topic=codeberg-bot \
             --data-urlencode 'content=Generator is done!'
-
-  upload-maps:
-    if: inputs.run-upload
-    name: Upload Maps
-    runs-on: mapfilemaker
-    container:
-      image: codeberg.org/comaps/maps_generator:f6d53d54f794
-      volumes:
-        - /mnt/4tbexternal/:/mnt/4tbexternal/
-        - /mnt/4tbexternal/osm-planet:/home/planet
-    concurrency:
-      group: ${{ github.workflow }}-map-generator-${{ github.event.pull_request.number || github.ref }}
-      cancel-in-progress: true
-    steps:
-      - uses: actions/cache@v4
-        with:
-          path: "~"
-          key: cache-${{ github.run_id }}-${{ github.run_attempt }}
-      - name: Write config file
-        run: |
-          mkdir -p ~/.config/rclone/
-          echo "${{ secrets.RCLONE_CONF }}" > ~/.config/rclone/rclone.conf
-      - name: Upload map files to CDNs
-        shell: bash
-        run: |
-          shopt -s nullglob
-          buildfolder=$(find /mnt/4tbexternal/osm-maps/ -mindepth 1 -maxdepth 1 -iname "2*" -type d | sort -n -r | head -1 | cut -d/ -f5)
-          builddate=$(find /mnt/4tbexternal/osm-maps/*/ -mindepth 1 -maxdepth 1 -iname "2*" -type d | sort -n -r | head -1 | cut -d/ -f6)
-          mwmfiles=( /mnt/4tbexternal/osm-maps/$buildfolder/$builddate/*.mwm )
-
-          if (( ${#mwmfiles[@]} )); then
-            echo "<$(date +%T)> Uploading maps from $buildfolder/$builddate..."
-            cd ~/comaps/tools/unix/maps
-            ./upload_to_cdn.sh /mnt/4tbexternal/osm-maps/$buildfolder/$builddate
-            echo "<$(date +%T)> Finished uploading maps from $buildfolder/$builddate."
-          else
-            echo "<$(date +%T)> No MWM files in /mnt/4tbexternal/osm-maps/$buildfolder/$builddate/*.mwm, not uploading maps."
-            echo "<$(date +%T)> Found top level: $(ls -alt /mnt/4tbexternal/osm-maps/*)"
-            echo "<$(date +%T)> Found second level: $(ls -alt /mnt/4tbexternal/osm-maps/$buildfolder/*)"
-          fi
-
-          # the /latest folder is newly created each build, but it may not have succeeded...
-          buildpath=/mnt/4tbexternal/osm-maps/$buildfolder/latest
-          countriesfiles=( $buildpath/countries* )
-          if (( ${#countriesfiles[@]} > 1 )); then
-            openssl pkeyutl -verify -pubin -inkey ~/keys/countries_ed25519_pk.pem -rawin -in $buildpath/countries.txt -sigfile $buildpath/countries.txt.sig
-            verify=$?
-            if [[ $verify == 0 ]]; then
-              echo "<$(date +%T)> Uploading countries.txt & .sig from $buildpath..."
-              ./upload_to_cdn.sh $buildpath
-            else
-              echo "<$(date +%T)> Failed verifying countries.txt.sig: openssl verify returned $verify"
-            fi
-          else
-            echo "<$(date +%T)> ERROR: Didn't find countries.txt & .sig in $buildpath: [$countriesfiles]"
-            exit 1
-          fi
-      - name: Notify Zulip
-        run: |
-          curl -X POST https://comaps.zulipchat.com/api/v1/messages \
-            -u $ZULIP_BOT_EMAIL:$ZULIP_API_KEY \
-            --data-urlencode type=stream \
-            --data-urlencode 'to="DevOps"' \
-            --data-urlencode topic=codeberg-bot \
-            --data-urlencode 'content=Upload is done!'
