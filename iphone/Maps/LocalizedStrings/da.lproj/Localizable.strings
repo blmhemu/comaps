@@ -1101,8 +1101,8 @@
 "voice_explanation_before_version26" = "Det er muligt at vælge en bedre stemme i systemindstillingerne under *Tilgængelighed*, *Talt indhold*, *Stemmer*.";
 "voice_explanation" = "Det er muligt at vælge en bedre stemme i systemindstillingerne under *Tilgængelighed*, *Læs og tal*, *Stemmer*.";
 "avoid_paved" = "Undgå veje med fast belægning";
-"pref_alt_map_lang_handling_local_only" = "Foretræk og brug kun, hvor det er oprindeligt";
+"pref_alt_map_lang_handling_local_only" = "Foretræk og brug kun, hvor det er hjemmehørende";
 "pref_alt_map_lang_handling" = "Alternative kortsprog";
-"pref_alt_map_lang_handling_system_order" = "Brug i systemrækkefølge";
+"pref_alt_map_lang_handling_system_order" = "Brug i systemorden";
 "rooms" = "%@ værelser";
-"pref_alt_map_lang_handling_ignore_alternatives" = "Don't use alternatives";
+"pref_alt_map_lang_handling_ignore_alternatives" = "Brug ikke alternativer";

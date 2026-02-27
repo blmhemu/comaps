@@ -655,8 +655,8 @@
     <string name="dialog_report_error_missing_folder">An tyller dewisys yw ankavadow po redya-hepken. Dewis unn tyller aral, mar pleg.</string>
     <string name="dialog_report_error_with_logs">Mar pleg danvon unn derivas error dhe ni:\n - \"Gallosegi kovadhow\" y\'n settyansow\n - Dasleverel yn diogel an kudyn\n - y\'n skrin \"A-dro ha Gweres\", levna an boton \"Derivas unn kudyn\" ha danvon der ebost po keskows\n - ungallosegi kovadhow</string>
     <string name="route_type">Eghen kerdh</string>
-    <string name="open_now">Ygeri lemmyn</string>
-    <string name="closed_now">Degeys lemmyn</string>
+    <string name="open_now">Ygor lemmyn</string>
+    <string name="closed_now">Deges lemmyn</string>
     <string name="at">dhe %s</string>
     <string name="pref_tts_no_system_tts_short">Jynn tekst-dhe-areth kavosys vyth, checkya an settyansow app</string>
     <string name="navigation_start_tts_message">"Ow dalleth navygacyon, yeth lev: "</string>
@@ -673,4 +673,19 @@
     <string name="location_privacy">Privetter GPS</string>
     <string name="pref_speedlimit_title">Diskwedhes finwethow tooth</string>
     <string name="rooms">%s roumys</string>
+    <string name="mb_downloaded">%1$d MB / %2$d MB</string>
+    <string name="pref_alt_map_lang_handling">Yethow Mappa Aral</string>
+    <string name="pref_alt_map_lang_handling_ignore_alternatives">Na devnydhya ken dewisyow</string>
+    <string name="pref_alt_map_lang_handling_system_order">Devnydhya yn aray system</string>
+    <string name="pref_alt_map_lang_handling_local_only">Preferya ha devnydhya le may teythiek hepken</string>
+    <string name="invalid_route">Fordh anewn</string>
+    <string name="building_route">Ow byldya fordh…</string>
+    <string name="route_not_started">Fordh na dallethys</string>
+    <string name="on_route">War fordh</string>
+    <string name="route_needs_rebuild">Fordh res ow dasbyldya</string>
+    <string name="route_finished">Fordh deu</string>
+    <string name="not_following_route">Na ow holya fordh</string>
+    <string name="rebuilding_route">Ow dasbyldya fordh…</string>
+    <string name="pref_openexternallinks_title">Ygeri gorgevrennow parti tressa yn awtomatek</string>
+    <string name="pref_openexternallinks_summary">Ygeri gorgevrennow parti tressa yn CoMaps yn defowt</string>
 </resources>

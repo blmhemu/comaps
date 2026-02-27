@@ -28,7 +28,7 @@
 "later" = "Mais tarde";
 
 /* View and button titles for accessibility, please also edit it in iphone/plist.txt */
-"search" = "Pesquisar";
+"search" = "Procurar";
 
 /* Settings/Downloader - 3G download warning dialog confirm button */
 "use_cellular_data" = "Sim";
@@ -1101,8 +1101,8 @@
 "voice_explanation_before_version26" = "É possível escolher uma voz melhor nas definições do sistema sob *Acessibilidade*, *Conteúdo Falado*, *Vozes*.";
 "voice_explanation" = "É possível escolher uma voz melhor nas definições do sistema sob *Acessibilidade*, *Ler & Falar*, *Vozes*.";
 "avoid_paved" = "Evitar rotas pavimentadas";
-"pref_alt_map_lang_handling_local_only" = "Preferir e apenas usar quando nativo";
+"pref_alt_map_lang_handling_local_only" = "Preferir e usar apenas quando nativo";
 "pref_alt_map_lang_handling" = "Idiomas do Mapa Alternativos";
 "pref_alt_map_lang_handling_system_order" = "Usar na ordem do sistema";
 "rooms" = "%@ salas";
-"pref_alt_map_lang_handling_ignore_alternatives" = "Don't use alternatives";
+"pref_alt_map_lang_handling_ignore_alternatives" = "Não usar alternativas";

@@ -597,4 +597,8 @@
 "map" = "வரைபடம்";
 "open_in_app" = "மற்றொரு பயன்பாட்டில் திறக்கவும்";
 "yes_available" = "ஆம்";
-"pref_alt_map_lang_handling_ignore_alternatives" = "Don't use alternatives";
+"pref_alt_map_lang_handling_ignore_alternatives" = "மாற்று வழிகளைப் பயன்படுத்த வேண்டாம்";
+"pref_alt_map_lang_handling" = "மாற்று வரைபட மொழிகள்";
+"pref_alt_map_lang_handling_system_order" = "கணினி வரிசையில் பயன்படுத்து";
+"pref_alt_map_lang_handling_local_only" = "பூர்வீகமாக இருக்கும் இடத்தில் மட்டுமே பயன்படுத்து";
+"rooms" = "%@ அறைகள்";

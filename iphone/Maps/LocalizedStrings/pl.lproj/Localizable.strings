@@ -1101,7 +1101,7 @@
 "voice_explanation_before_version26" = "Istnieje możliwość wybrania lepszego głosu w ustawieniach systemowych w sekcji „Dostępność” > „Zawartość mówiona” > „Głosy”.";
 "voice_explanation" = "Istnieje możliwość wybrania lepszego głosu w ustawieniach systemowych w sekcji „Dostępność” > „Czytaj i mów” > „Głosy”.";
 "avoid_paved" = "Unikaj dróg utwardzonych";
-"pref_alt_map_lang_handling" = "Alternatywne języki mapy";
-"pref_alt_map_lang_handling_system_order" = "W kolejności systemowej";
-"pref_alt_map_lang_handling_local_only" = "Preferuj natywny język miejsca";
-"pref_alt_map_lang_handling_ignore_alternatives" = "Don't use alternatives";
+"pref_alt_map_lang_handling" = "Alternatywne języki map";
+"pref_alt_map_lang_handling_system_order" = "Użyj w porządku systemowym";
+"pref_alt_map_lang_handling_local_only" = "Preferuj i używaj tylko tam, gdzie jest to rodzime";
+"pref_alt_map_lang_handling_ignore_alternatives" = "Nie używaj alternatyw";

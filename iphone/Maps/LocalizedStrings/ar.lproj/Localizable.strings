@@ -154,7 +154,7 @@
 "load_kmz_title" = "يحمل المفضلات";
 
 /* Kmz file successful loading */
-"load_kmz_successful" = "تم تحميل المفضلة بنجاح! يمكنك العثور عليها على الخريطة أو في شاشة مدير المفضلة.";
+"load_kmz_successful" = "حُمّلت المفضلة بنجاح! يمكنك العثور عليها على الخريطة أو في شاشة مدير المفضلة.";
 
 /* Kml file loading failed */
 "load_kmz_failed" = "فشل تحميل المفضلة. قد يكون الملف تالفًا أو معيبًا.";
@@ -163,13 +163,13 @@
 "edit" = "عدِّل";
 
 /* Warning message when doing search around current position */
-"unknown_current_position" = "لم يتم تحديد موقعك بعد.";
+"unknown_current_position" = "لم يُحدّد موقعك بعد";
 
 /* Subject for emailed bookmark */
-"bookmark_share_email_subject" = "مرحباً، تفقد الدبوس الخاص بي على خريطة CoMaps!";
+"bookmark_share_email_subject" = "مرحبًا، تفقد الدبوس الخاص بي على خريطة CoMaps!";
 
 /* Subject for emailed position */
-"my_position_share_email_subject" = "مرحباً، تحقق من موقعي الحالي على خريطة CoMaps!";
+"my_position_share_email_subject" = "مرحبًا، تحقق من موقعي الحالي على خريطة CoMaps!";
 
 /* Share by email button text, also used in editor and About. */
 "email" = "البريد الالكتروني";
@@ -196,9 +196,9 @@
 
 /* Length of track in cell that describes route */
 "length" = "الطول";
-"share_my_location" = "مشاركة موقعي";
+"share_my_location" = "شارك موقعي";
 "prefs_group_route" = "الملاحة";
-"pref_zoom_title" = "أزرار التكبير والتصغير";
+"pref_zoom_title" = "أزرار تقريب/تبعيد";
 "pref_left_button_type" = "Left Main Button";
 
 /* Settings «Map» category: «Appearance» title */
@@ -251,7 +251,7 @@
 
 /* Title for "Other" section in TTS settings. */
 "pref_tts_other_section_title" = "آخر";
-"pref_map_auto_zoom" = "تكبير تلقائي";
+"pref_map_auto_zoom" = "تقريب تلقائي";
 "placepage_distance" = "المسافة";
 "search_show_on_map" = "اعرض على الخريطة";
 
@@ -343,13 +343,13 @@
 "downloader_available_maps" = "متوفر";
 
 /* Country queued for download */
-"downloader_queued" = "مَصْفوف";
+"downloader_queued" = "مَصفوف";
 "downloader_near_me_subtitle" = "قريب مني";
 
 /* In maps downloader and country place page shows how many maps are downloaded / to download, e.g. "Maps: 3 of 10" */
 "downloader_status_maps" = "الخرائط";
-"downloader_download_all_button" = "تنزيل الكل";
-"downloader_downloading" = "يتم التنزيل:";
+"downloader_download_all_button" = "نزّل الكل";
+"downloader_downloading" = "يُنزل:";
 "downloader_search_results" = "تم العثور على";
 
 /* Status of outdated country in the list */
@@ -365,10 +365,10 @@
 "routing_failed_cross_mwm_building" = "يمكن فقط إنشاء المسارات التي توجد بشكل كامل ضمن خريطة دولة واحدة.";
 
 /* Context menu item for downloader. */
-"downloader_download_map" = "تنزيل الخريطة";
+"downloader_download_map" = "نزّل الخريطة";
 
 /* Item status in downloader. */
-"downloader_retry" = "المحاولة مجدداً";
+"downloader_retry" = "حاول مجددًا";
 
 /* Item in context menu. */
 "downloader_delete_map" = "احذف الخريطة";
@@ -381,7 +381,7 @@
 
 /* bookmark button text */
 "bookmark" = "إشارة مرجعية";
-"save" = "حفظ";
+"save" = "احفظ";
 "create" = "إنشاء";
 
 /* red color */
@@ -457,8 +457,8 @@
 "dialog_routing_system_error" = "خطأ في النظام";
 "dialog_routing_application_error" = "تعذر إنشاء مسار نتيجة وجود خطأ في التطبيق.";
 "dialog_routing_try_again" = "الرجاء إعادة المحاولة";
-"dialog_routing_download_and_build_cross_route" = "هل ترغب في تنزيل الخريطة وإنشاء مسار أفضل يمتد عبر أكثر من خريطة؟";
-"dialog_routing_download_cross_route" = "تنزيل خرائط إضافية لإنشاء مسار أفضل يعبر حافة هذه الخريطة.";
+"dialog_routing_download_and_build_cross_route" = "أترغب في تنزيل الخريطة وإنشاء مسار أفضل يمتد عبر أكثر من خريطة؟";
+"dialog_routing_download_cross_route" = "نزّل خرائط إضافية لإنشاء مسار أفضل يتجاوز حدود هذه الخارطة.";
 
 /* «Show» context menu */
 "show" = "اعرض";
@@ -479,7 +479,7 @@
 "search_not_found" = "المعذرة، لم أعثر على أية نتائج.";
 
 /* The message when user did not find anything in the search. */
-"search_not_found_query" = "قم بتنزيل المنطقة التي تبحث فيها أو حاول إضافة اسم بلدة/قرية قريبة.";
+"search_not_found_query" = "نزّل المنطقة التي تبحث فيها أو حاول إضافة اسم بلدة/قرية قريبة.";
 "search_history_title" = "سجل البحث";
 "search_history_text" = "عرض عمليات البحث الأخيرة.";
 "clear_search" = "مسح سجل البحث";
@@ -494,7 +494,7 @@
 "p2p_from_here" = "مسار من";
 "p2p_to_here" = "المسار إلى";
 "p2p_only_from_current" = "تتوفر الملاحة من خلال موقعك الحالي فقط.";
-"p2p_reroute_from_current" = "هل ترغب في أن نرسم مسار لك من موقعك الحالي؟";
+"p2p_reroute_from_current" = "أترغب في تخطيط مسار من موقعك الحالي؟";
 "editor_time_add" = "أضف جدول";
 "editor_time_delete" = "احذف جدول";
 
@@ -560,7 +560,7 @@
 "add_language" = "أضف لغة";
 
 /* Editable House Number text field (in address block). */
-"house_number" = "رقم المنزل";
+"house_number" = "رقم المبنى";
 "details" = "التفاصيل";
 
 /* Text field to enter non-existing street name, below list of known streets around */
@@ -583,7 +583,7 @@
 "common_check_internet_connection_dialog" = "يرجى التحقق من الإعدادات والتأكد من اتصال جهازك بالإنترنت.";
 "downloader_no_space_title" = "لا تتوفر مساحة كافية";
 "downloader_no_space_message" = "الرجاء حذف البيانات غير الضرورية";
-"editor_profile_changes" = "التعديلات التي تم التحقق منها";
+"editor_profile_changes" = "تغييرات مؤكدة";
 "editor_focus_map_on_location" = "اسحب الخريطة لوضع الصليب في موقع المكان أو النشاط التجاري.";
 "editor_add_select_category" = "اختر الفئة";
 "editor_add_select_category_popular_subtitle" = "رائج";
@@ -607,13 +607,13 @@
 "downloader_of" = "%1$d من%2$d";
 "download_over_mobile_header" = "تنزيل باستخدام بيانات الجوال؟";
 "download_over_mobile_message" = "قد يكون هذا مكلفاً جداً في بعض الاحيان أو عند التجوال.";
-"error_enter_correct_house_number" = "أدخل رقم بناء صحيح";
+"error_enter_correct_house_number" = "أدخل رقم مبنى صحيح";
 "editor_storey_number" = "عدد الطوابق (بحد أقصى %d)";
 
 /* Error message in Editor when a user tries to set the number of floors for a building higher than %d floors */
 "error_enter_correct_storey_number" = "يجب ألا يتجاوز عدد طوابق المبنى %d";
 "editor_zip_code" = "الرمز البريدي";
-"error_enter_correct_zip_code" = "أدخل الرمز البريدي صالح";
+"error_enter_correct_zip_code" = "أدخل رمز بريدي صالح";
 
 /* Place Page title for long tap */
 "core_placepage_unknown_place" = "نقطة الخريطة";
@@ -629,7 +629,7 @@
 "operator" = "المشغل: %@";
 "editor_category_unsuitable_title" = "لا يمكن العثور على فئة مناسبة؟";
 "editor_category_unsuitable_text" = "تسمح الخرائط العضوية بإضافة فئات نقاط بسيطة فقط، وهذا يعني عدم وجود بلدات وطرق وبحيرات ومخططات للمباني وما إلى ذلك. يرجى إضافة هذه الفئات مباشرة إلى <a href=\"https://www.openstreetmap.org\">OpenStreetMap.org</a>. راجع موقعنا <a href=\"https://www.comaps.app/support/advanced-map-editing/\">دليل</a> للحصول على تعليمات مفصلة خطوة بخطوة.";
-"downloader_no_downloaded_maps_title" = "لم تقم بتنزيل أية خرائط";
+"downloader_no_downloaded_maps_title" = "لم تُنزّل أي خرائط";
 "downloader_no_downloaded_maps_message" = "قم بتنزيل خرائط للبحث عن مكان واستخدام الملاحة بدون اتصال بالإنترنت.";
 "current_location_unknown_error_title" = "الموقع الحالي غير معروف.";
 "current_location_unknown_error_message" = "حدث خطأ أثناء البحث عن موقعك. تأكد من أن جهازك يعمل بشكل صحيح وأعد المحاولة لاحقًا.";
@@ -672,8 +672,8 @@
 "placepage_delete_bookmark_button" = "حذف العلامة المرجعية";
 "editor_edits_sent_message" = "سيتم إرسال ملاحظتك إلى OpenStreetMap";
 "editor_comment_hint" = "تعليق…";
-"editor_reset_edits_message" = "هل تريد مسح كافة التغييرات المحلية؟";
-"editor_reset_edits_button" = "مسح";
+"editor_reset_edits_message" = "أهمِل كل التغييرات المحلية؟";
+"editor_reset_edits_button" = "أهمِل التغييرات";
 "editor_remove_place_message" = "حذف المكان المُضاف؟";
 "editor_remove_place_button" = "احذف";
 "editor_place_doesnt_exist" = "المكان غير موجود";
@@ -687,7 +687,7 @@
 "placepage_add_place_button" = "أضف مكانًا إلى OpenStreetMap";
 
 /* Displayed when saving some edits to the map to warn against publishing personal data */
-"editor_share_to_all_dialog_title" = "هل ترغب في إرساله لجميع المستخدمين؟";
+"editor_share_to_all_dialog_title" = "أترغب في إرساله لجميع المستخدمين؟";
 
 /* Dialog before publishing the modifications to the public map. */
 "editor_share_to_all_dialog_message_1" = "تأكد من أنك لم تقم بإدخال أية بيانات شخصية.";
@@ -746,7 +746,7 @@
 "start_from_my_position" = "بدء من";
 
 /* Title for button when a route was saved. */
-"saved" = "تم الحفظ";
+"saved" = "حُفظ";
 "core_entrance" = "المدخل";
 "error_enter_correct_name" = "الرجاء إدخال اسم صحيح";
 "bookmark_lists" = "قوائم";
@@ -757,7 +757,7 @@
 "bookmarks_create_new_group" = "أنشئ قائمة جديدة";
 
 /* Bookmark categories screen, button that opens folder selection dialog to import KML/KMZ/GPX/KMB files */
-"bookmarks_import" = "استيراد الإشارات المرجعية والمسارات";
+"bookmarks_import" = "استورد المفضلات";
 "downloader_hide_screen" = "إخفاء الشاشة";
 "downloader_percent" = "%@ (%@ من %@)";
 "downloader_process" = "جاري التنزيل %@…";
@@ -781,8 +781,8 @@
 "subway_data_unavailable" = "خريطة مترو الانفاق غير متوفرة";
 "title_error_downloading_bookmarks" = "حدث خطأ";
 "popular_place" = "رائج";
-"export_file" = "تصدير KMZ";
-"export_file_gpx" = "تصدير GPX";
+"export_file" = "صدِّر KMZ";
+"export_file_gpx" = "صدِّر GPX";
 "delete_list" = "احذف القائمة";
 "hide_from_map" = "إخفاء من الخريطة";
 "tags_loading_error_subtitle" = "حدث خطأ أثناء تحميل العلامات ، يرجى المحاولة مرة أخرى";
@@ -865,7 +865,7 @@
 "carplay_roundabout_exit" = "المخرج رقم %@";
 
 /* max. 10 symbols, both iOS and Android */
-"sort" = "ترتيب…";
+"sort" = "رتّب…";
 
 /* iOS */
 "sort_default" = "ترتيب افتراضي";
@@ -887,7 +887,7 @@
 "mountains" = "جبال";
 "animals" = "حيوانات";
 "hotels" = "فنادق";
-"buildings" = "أبنية";
+"buildings" = "مبانٍ";
 "money" = "نقود";
 "shops" = "متاجر";
 "parkings" = "مواقف سيارات";
@@ -909,9 +909,9 @@
 "elevation_profile_descent" = "تنازلي";
 "elevation_profile_min_elevation" = "أقل ارتفاع";
 "elevation_profile_max_elevation" = "أعلى ارتفاع";
-"isolines_toast_zooms_1_10" = "قم بالتقريب لتكتشف خطوط الكنتور";
+"isolines_toast_zooms_1_10" = "قرِّب لاستكشاف خطوط التساوي";
 "downloader_updating_ios" = "جاري التحديث";
-"downloader_loading_ios" = "جاري التنزيل";
+"downloader_loading_ios" = "ينزل";
 
 /* Autoupdate dialog on start */
 "whats_new_auto_update_title" = "قم بتحديث الخرائط المُنزلة";
@@ -950,7 +950,7 @@
 "app_tip_01" = "بتبرعاتكم ودعمكم، يمكننا إنشاء أفضل الخرائط في العالم!";
 
 /* App tip #02 */
-"app_tip_02" = "هل تحب التطبيق لدينا؟ يرجى التبرع لدعم التنمية! لا أحب ذلك حتى الآن؟ واسمحوا لنا أن نعرف، وسوف نقوم بإصلاحه!";
+"app_tip_02" = "هل أعجبك تطبيقنا؟ يُرجى التبرع لدعم عملية التطوير! أما إذا لم يعجبك بعد، فيُرجى إخبارنا بالسبب وسنقوم بإصلاحه!";
 
 /* App tip #03 */
 "app_tip_03" = "إذا كنت تعرف أحد مطوري البرامج، فيمكنك أن تطلب منه تنفيذ الميزة التي تحتاجها.";
@@ -965,13 +965,13 @@
 "app_tip_06" = "يمكنك المساعدة في ترجمة تطبيقنا إلى لغتك.";
 
 /* App tip #07 */
-"app_tip_07" = "تم تطوير تطبيقنا من قبل عدد قليل من المتحمسين والمجتمع.";
+"app_tip_07" = "طوِّر تطبيقنا من قِبل عدد قليل من المتحمسين والمجتمع.";
 
 /* App tip #08 */
 "app_tip_08" = "يمكنك بسهولة إصلاح وتحسين بيانات الخريطة.";
 
 /* App tip #09 */
-"app_tip_09" = "هدفنا الرئيسي هو إنشاء خرائط سريعة وسهلة الاستخدام تركز على الخصوصية والتي ستعجبك.";
+"app_tip_09" = "هدفنا الرئيسي هو بناء خرائط سريعة، تركز على الخصوصية وسهلة الاستخدام ستنال إعجابكم.";
 
 /* Text on the Android Auto or CarPlay placeholder screen that maps are displayed on the phone screen */
 "car_used_on_the_phone_screen" = "أنت الآن تستخدم CoMaps على شاشة الهاتف";
@@ -1038,7 +1038,7 @@
 "icloud_synchronization_error_cloud_is_unavailable" = "خطأ: iCloud غير متوفر";
 
 /* Title for the "Open in Another App" button on the PlacePage. */
-"open_in_app" = "فتح في تطبيق آخر";
+"open_in_app" = "افتح في تطبيق آخر";
 
 /* To indicate if the place proposed self service... */
 "self_service" = "الخدمة الذاتية";
@@ -1050,7 +1050,7 @@
 "bookmarks_recently_deleted" = "القوائم المحذوفة مؤخراً";
 
 /* Title for the "Clear" button on the Recently Deleted Lists screen. */
-"clear" = "مسح";
+"clear" = "امحُ";
 
 /* Title for the "Delete All" button on the Recently Deleted Lists screen. */
 "delete_all" = "حذف الكل";
@@ -1062,16 +1062,16 @@
 "recover_all" = "استرداد الكل";
 
 /* Prompt to start recording a track. */
-"start_track_recording" = "تسجيل المسار";
+"start_track_recording" = "سجِّل مسار";
 
 /* Prompt for stopping a track recording. */
-"stop_track_recording" = "إيقاف تسجيل المسار";
+"stop_track_recording" = "أوقِف تسجيل المسار";
 
 /* Title for the "Stop Without Saving" action for the alert when saving a track recording. */
 "stop_without_saving" = "التوقف بدون حفظ";
 
 /* Title for the "Stop Without Saving" action for the alert when saving a track recording. */
-"continue_recording" = "متابعة التسجيل";
+"continue_recording" = "استمر التسجيل";
 
 /* Title for the alert when saving a track recording. */
 "track_recording_alert_title" = "حفظ في الإشارات المرجعية والمسارات؟";
@@ -1087,7 +1087,15 @@
 "pref_mapappearance_title" = "Map Appearance";
 "pref_maplanguage_title" = "Map Language";
 "transliteration_title_disabled_summary" = "Disabled when always using the local language for the map";
-"pref_maplanguage_local" = "Local Language";
+"pref_maplanguage_local" = "اللغة المحلية";
 "existence_confirmed_time_ago" = "Existence confirmed %@";
 "hours_confirmed_time_ago" = "Confirmed %@";
-"pref_alt_map_lang_handling_ignore_alternatives" = "Don't use alternatives";
+"pref_alt_map_lang_handling_ignore_alternatives" = "لا تستخدم بدائل";
+"editor_place_doesnt_exist_description" = "صف كيف يبدو المكان الآن لإرسال ملاحظة خطأ إلى مجتمع OpenStreetMap";
+"avoid_steps" = "تجنب السلالم";
+"avoid_paved" = "تجنب الطرق المرصوفة";
+"pref_alt_map_lang_handling_local_only" = "يُفضل ويُستخدم فقط حيثما يكون أصليًا";
+"pref_alt_map_lang_handling" = "لغات بديلة للخريطة";
+"pref_alt_map_lang_handling_system_order" = "استخدم حسب ترتيب النظام";
+"offline_explanation_title" = "خرائط بلا اتصال بالإنترنت";
+"offline_explanation_text" = "يجب تنزيل خريطة لعرض المنطقة والتنقل فيها.\nنزِّل خرائط للمناطق التي ترغب في السفر إليها.";

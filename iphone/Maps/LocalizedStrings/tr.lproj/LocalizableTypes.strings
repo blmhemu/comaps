@@ -758,7 +758,7 @@
 "type.man_made.water_well" = "Su Kuyusu";
 "type.man_made.water_well.drinking_water_no" = "Su Kuyusu";
 "type.man_made.windmill" = "Yel Değirmeni";
-"type.man_made.works" = "Sanayi İşleri";
+"type.man_made.works" = "Sanayi Kuruluşu";
 "type.military" = "Askeri";
 "type.military.bunker" = "Sığınak";
 "type.mountain_pass" = "Boğaz";
@@ -1229,7 +1229,7 @@
 "type.shop.greengrocer" = "Manav";
 "type.shop.grocery" = "Market";
 "type.shop.hairdresser" = "Kuaför";
-"type.shop.hardware" = "Donanım mağazası";
+"type.shop.hardware" = "Hırdavatçı";
 "type.shop.health_food" = "Sağlık Gıda Mağazası";
 "type.shop.hearing_aids" = "İşitme cihazı mağazası";
 "type.shop.herbalist" = "Aktar";
@@ -1497,4 +1497,9 @@
 "type.man_made.observatory" = "Gözlemevi";
 "type.emergency.life_ring" = "Can simidi";
 "type.emergency.access_point" = "Acil Durum Noktası";
-"type.amenity.community_centre.youth_centre" = "Youth Centre";
+"type.amenity.community_centre.youth_centre" = "Gençlik Merkezi";
+"type.amenity.charging_station.small" = "Sınırlı Kapasite";
+"type.amenity.flight_school" = "Uçuş Okulu";
+"type.amenity.prep_school" = "Özel Ders Okulu";
+"type.amenity.boat_rental" = "Tekne Kiralama";
+"type.amenity.charging_station.motorcycle" = "Motosiklet";

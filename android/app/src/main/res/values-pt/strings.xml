@@ -19,7 +19,7 @@
     <!-- Update maps later button text -->
     <string name="later">Mais tarde</string>
     <!-- View and button titles for accessibility, please also edit it in iphone/plist.txt -->
-    <string name="search">Pesquisar</string>
+    <string name="search">Procurar</string>
     <!-- Search box placeholder text; Used when searching on the map itself, not when searching for a map -->
     <string name="search_map">Pesquisar mapa</string>
     <!-- Location services are disabled by user alert - message -->
@@ -226,7 +226,7 @@
     <!-- Text in About menu, opens CoMaps news website -->
     <string name="news">Notícias</string>
     <!-- Settings: Send feedback button and dialog title -->
-    <string name="feedback">Comentários</string>
+    <string name="feedback">Opinião</string>
     <!-- Text in menu -->
     <string name="rate_the_app">Avaliar a aplicação</string>
     <!-- Text in menu -->
@@ -924,4 +924,10 @@
     <string name="route_finished">Rota terminada</string>
     <string name="not_following_route">Não está seguindo a rota</string>
     <string name="rebuilding_route">Recalculando a rota…</string>
+    <string name="pref_alt_map_lang_handling_ignore_alternatives">Não usar alternativas</string>
+    <string name="pref_alt_map_lang_handling">Idiomas do Mapa Alternativos</string>
+    <string name="pref_alt_map_lang_handling_system_order">Usar na ordem do sistema</string>
+    <string name="pref_alt_map_lang_handling_local_only">Preferir e usar apenas quando nativo</string>
+    <string name="pref_openexternallinks_title">Abrir automaticamente ligações de terceiros</string>
+    <string name="pref_openexternallinks_summary">Abrir ligações de terceiros no CoMaps por padrão</string>
 </resources>

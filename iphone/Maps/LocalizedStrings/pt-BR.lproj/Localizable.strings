@@ -518,7 +518,7 @@
 "editor_done_dialog_1" = "Você modificou o mapa-múndi. Não esconda isto! Diga aos seus amigos e edite junto com eles.";
 "share_with_friends" = "Compartilhar com amigos";
 "editor_report_problem_send_button" = "Enviar";
-"autodownload" = "Download automático";
+"autodownload" = "Download automático de mapas";
 
 /* Place Page opening hours text */
 "closed_now" = "Fechado agora";
@@ -1103,8 +1103,8 @@
 "voice_explanation_before_version26" = "É possível escolher uma voz melhor nas configurações do sistema em *Acessibilidade*, *Conteúdo Falado*, *Vozes*.";
 "voice_explanation" = "É possível escolher uma voz melhor nas configurações do sistema em *Acessibilidade*, *Leitura e Fala*, *Vozes*.";
 "avoid_paved" = "Evitar vias pavimentadas";
-"pref_alt_map_lang_handling_local_only" = "Preferir e apenas usar quando nativo";
+"pref_alt_map_lang_handling_local_only" = "Preferir e usar apenas quando nativo";
 "pref_alt_map_lang_handling" = "Idiomas do mapa alternativos";
 "pref_alt_map_lang_handling_system_order" = "Usar na ordem do sistema";
 "rooms" = "%@ salas";
-"pref_alt_map_lang_handling_ignore_alternatives" = "Don't use alternatives";
+"pref_alt_map_lang_handling_ignore_alternatives" = "Não usar alternativas";

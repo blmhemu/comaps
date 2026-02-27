@@ -1540,4 +1540,6 @@
 "type.amenity.mobile_money_agent" = "Агент мобильных платежей";
 "type.amenity.sailing_school" = "Яхтенная школа";
 "type.amenity.flight_school" = "Лётное училище";
-"type.amenity.community_centre.youth_centre" = "Youth Centre";
+"type.amenity.community_centre.youth_centre" = "Молодёжный центр";
+"type.amenity.charging_station.motorcycle" = "Мотоциклы";
+"type.amenity.charging_station.small" = "Малое количество розеток";

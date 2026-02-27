@@ -364,7 +364,7 @@
     <string name="editor_report_problem_no_place_title">O lugar não existe</string>
     <string name="editor_report_problem_under_construction_title">Fechado para manutenção</string>
     <string name="editor_report_problem_duplicate_place_title">Lugar duplicado</string>
-    <string name="autodownload">Download automático</string>
+    <string name="autodownload">Download automático de mapas</string>
     <!-- Place Page opening hours text -->
     <string name="daily">Diariamente</string>
     <string name="twentyfour_seven">24 horas por dia</string>
@@ -908,4 +908,10 @@
     <string name="not_following_route">Não está seguindo a rota</string>
     <string name="rebuilding_route">Recriando rota…</string>
     <string name="mb_downloaded">%1$d MB / %2$d MB</string>
+    <string name="pref_alt_map_lang_handling_ignore_alternatives">Não usar alternativas</string>
+    <string name="pref_alt_map_lang_handling">Idiomas do mapa alternativos</string>
+    <string name="pref_alt_map_lang_handling_system_order">Usar na ordem do sistema</string>
+    <string name="pref_alt_map_lang_handling_local_only">Preferir e usar apenas quando nativo</string>
+    <string name="pref_openexternallinks_title">Abrir links de terceiros automaticamente</string>
+    <string name="pref_openexternallinks_summary">Abrir links de terceiros no CoMaps por padrão</string>
 </resources>

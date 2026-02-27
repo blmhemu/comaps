@@ -232,7 +232,7 @@
     <!-- Text in About menu, opens CoMaps news website -->
     <string name="news">Новости</string>
     <!-- Settings: Send feedback button and dialog title -->
-    <string name="feedback">Связаться с нами</string>
+    <string name="feedback">Обратная связь</string>
     <!-- Text in menu -->
     <string name="rate_the_app">Оценить приложение</string>
     <!-- Text in menu -->
@@ -919,5 +919,24 @@
     <string name="place_page_map_too_old_title">Данные карты устарели</string>
     <string name="place_page_update_too_old_map">Обновить регион карты</string>
     <string name="place_page_too_old_to_edit">Редактирование OpenStreetMap отключено, так как данные карты слишком старые.</string>
-    <string name="pref_alt_map_lang_handling_local_only">Prefer and only use where native</string>
+    <string name="pref_alt_map_lang_handling_local_only">Предпочитать и использовать только там, где они исконные</string>
+    <string name="pref_speedlimit_title">Отображать ограничения скорости</string>
+    <string name="download_resources_custom_url_title">Альтернативный сервер карт</string>
+    <string name="download_resources_custom_url_message">Переопределить сервер карт по умолчанию, используемый для их загрузки. Оставьте поле пустым, чтобы использовать сервер CoMaps по умолчанию.</string>
+    <string name="pref_alt_map_lang_handling">Альтернативные языки карты</string>
+    <string name="pref_openexternallinks_title">Автоматически открывать сторонние ссылки</string>
+    <string name="pref_openexternallinks_summary">Открывать сторонние ссылки в CoMaps по умолчанию</string>
+    <string name="pref_alt_map_lang_handling_ignore_alternatives">Не использовать альтернативные</string>
+    <string name="pref_alt_map_lang_handling_system_order">Использовать в соответствие с системой</string>
+    <string name="place_page_map_too_old_description">Ваши текущие данные карт слишком устаревшие, пожалуйста, обновите их.</string>
+    <string name="place_page_app_too_old_description">Ваши текущие данные карт слишком устаревшие, пожалуйста, обновите приложение CoMaps.</string>
+    <string name="prefs_speed_cameras_information">Предупреждения про камеры фиксации скорости отключены в тех странах, где это запрещено местным законодательством.</string>
+    <string name="location_privacy_info">Приложения получают данные местоположения из вашего системного провайдера местоположения, который может выдать выдать ваше местоположение Google и/или производителю вашего устройства. Используйте кастомные прошивки Android, ориентированные на приватность, чтобы избежать этого.</string>
+    <string name="building_route">Прокладка маршрута…</string>
+    <string name="route_not_started">Маршрут не начат</string>
+    <string name="on_route">По пути</string>
+    <string name="route_needs_rebuild">Маршрут следует перестроить</string>
+    <string name="route_finished">Маршрут закончен</string>
+    <string name="not_following_route">Не следуя маршруту</string>
+    <string name="rebuilding_route">Перестройка маршрута…</string>
 </resources>

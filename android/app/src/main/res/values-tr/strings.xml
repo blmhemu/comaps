@@ -230,7 +230,7 @@
     <!-- Text in About menu, opens CoMaps news website -->
     <string name="news">Haberler</string>
     <!-- Settings: Send feedback button and dialog title -->
-    <string name="feedback">Geri Bildirim</string>
+    <string name="feedback">Geri bildirim</string>
     <!-- Text in menu -->
     <string name="rate_the_app">Uygulamayı değerlendir</string>
     <!-- Text in menu -->
@@ -896,4 +896,14 @@
     <string name="place_page_update_too_old_map">Bölge haritasını güncelle</string>
     <string name="place_page_too_old_to_edit">Harita verisi çok eski olduğu için OpenStreetMap düzenleyicisi devre dışı.</string>
     <string name="prefs_speed_cameras_information">Yerel yasalarca uyarıların yasaklandığı ülkelerde hız kamerası uyarıları devre dışıdır.</string>
+    <string name="pref_speedlimit_title">Hız sınırını göster</string>
+    <string name="power_management">Güç yönetimi</string>
+    <string name="pref_openexternallinks_title">Üçüncü taraf bağlantıları otomatik aç</string>
+    <string name="pref_openexternallinks_summary">Üçüncü taraf bağlantıları varsayılan olarak CoMaps\'te aç</string>
+    <string name="pref_alt_map_lang_handling">Alternatif Harita Dilleri</string>
+    <string name="pref_alt_map_lang_handling_ignore_alternatives">Alternatif dil kullanma</string>
+    <string name="pref_alt_map_lang_handling_system_order">Sistem dili sırasına göre kullan</string>
+    <string name="pref_alt_map_lang_handling_local_only">Sadece anadil olduğu yerlerde tercih et</string>
+    <string name="download_resources_custom_url_title">Özel Harita Sunucusu</string>
+    <string name="download_resources_custom_url_message">Harita indirmek için kullanılan varsayılan sunucu yerine farklı sunucu kullanabilirsiniz. CoMaps varsayılan sunucusunu kullanmak için boş bırakın.</string>
 </resources>

@@ -1450,4 +1450,7 @@
     <string name="type.amenity.mobile_money_agent">Агент мобильных платежей</string>
     <string name="type.amenity.sailing_school">Яхтенная школа</string>
     <string name="type.amenity.flight_school">Лётное училище</string>
+    <string name="type.amenity.charging_station.motorcycle">Мотоциклы</string>
+    <string name="type.amenity.charging_station.small">Малое количество розеток</string>
+    <string name="type.amenity.community_centre.youth_centre">Молодёжный центр</string>
 </resources>

@@ -908,4 +908,18 @@
     <string name="prefs_speed_cameras_information">Οι προειδοποιήσεις καμερών ταχύτητας είναι απενεργοποιημένες σε χώρες όπου ειδοποιήσεις απαγορεύονται από τοπική νομοθεσία.</string>
     <string name="pref_backup_location_summary_initial">Παρακαλούμε επιλέξτε έναν φάκελο πρώτα και παραχωρήστε άδεια</string>
     <string name="dialog_report_error_with_logs">Παρακαλούμε στείλτε μας μια αναφορά σφάλματος:\n - \"Ενεργοποίηση αρχείου καταγραφής\" στις ρυθμίσεις\n - κάντε αναπαραγωγή του προβλήματος\n - στην οθόνη \"Σχετικά &amp; Βοήθεια\" πατήστε το κουμπί \"Αναφορά σφάλματος\" και στείλτε μέσω email ή συνομιλία\n - απενεργοποιήστε την καταγραφή</string>
+    <string name="pref_alt_map_lang_handling_ignore_alternatives">Να μην χρησιμοποιούνται εναλλακτικές</string>
+    <string name="pref_alt_map_lang_handling">Εναλλακτικές γλώσσες χάρτη</string>
+    <string name="pref_alt_map_lang_handling_system_order">Χρήση με σειρά συστήματος</string>
+    <string name="pref_alt_map_lang_handling_local_only">Προτίμηση και χρήση μόνο όπου είναι τοπική</string>
+    <string name="invalid_route">Μη έγκυρη διαδρομή</string>
+    <string name="building_route">Κατασκευή διαδρομής…</string>
+    <string name="route_not_started">Διαδρομή δεν βρέθηκε</string>
+    <string name="on_route">Καθ\' οδόν</string>
+    <string name="route_needs_rebuild">Η διαδρομή χρειάζεται ανακατασκευή</string>
+    <string name="route_finished">Διαδρομή ολοκληρώθηκε</string>
+    <string name="not_following_route">Δεν ακολουθείται η διαδρομή</string>
+    <string name="rebuilding_route">Ανακατασκευή διαδρομής…</string>
+    <string name="pref_openexternallinks_title">Αυτόματο άνοιγμα τρίτων συνδέσμων</string>
+    <string name="pref_openexternallinks_summary">Άνοιγμα τρίτων συνδέσμων στο CoMaps από προεπιλογή</string>
 </resources>

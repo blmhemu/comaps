@@ -900,4 +900,5 @@
     <string name="download_resources_custom_url_message">Înlocuiți serverul prestabilit folosit pentru descărcarea hărților. Lăsați liber pentru serverul prestabilit.</string>
     <string name="advanced">Avansate</string>
     <string name="pref_speedlimit_title">Afișează limita de viteză</string>
+    <string name="rooms">%s camere</string>
 </resources>
