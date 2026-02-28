@@ -867,8 +867,9 @@
 "type.office.lawyer" = "Lawyer";
 "type.office.ngo" = "Non-Governmental Organization";
 "type.office.telecommunication" = "Telecom Company";
-"type.organic.only" = "Organic";
-"type.organic.yes" = "Organic";
+"type.organic.only" = "Organic only";
+"type.organic.yes" = "Organic options";
+"type.organic.no" = "No organic options";
 "type.place.city" = "City";
 "type.place.city.capital" = "Capital";
 "type.place.city.capital.10" = "City";

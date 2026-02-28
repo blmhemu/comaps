@@ -161,6 +161,7 @@ NSString * _Nullable FormatIntegerString(NSString * _Nullable integerString) {
     });
 
     _atm = rawData.HasAtm() ? NSLocalizedStringFromTable(@"type.amenity.atm", @"LocalizableTypes", nil) : nil;
+	_organic = rawData.getOrganic() ? NSLocalizedStringFromTable(@"type.organic", @"LocalizableTypes", nil) : nil;
 
     _address = rawData.GetSecondarySubtitle().empty() ? nil : @(rawData.GetSecondarySubtitle().c_str());
     _coordFormats = @[@(rawData.GetFormattedCoordinate(place_page::CoordinatesFormat::LatLonDMS).c_str()),
