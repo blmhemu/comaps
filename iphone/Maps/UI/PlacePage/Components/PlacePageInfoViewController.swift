@@ -43,8 +43,8 @@ final class InfoItemView: UIView {
     addGestureRecognizer(UITapGestureRecognizer(target: self, action: #selector(onInfoLabelTap)))
     addGestureRecognizer(UILongPressGestureRecognizer(target: self, action: #selector(onInfoLabelLongPress(_:))))
 
-    infoLabel.lineBreakMode = .byWordWrapping
-    infoLabel.numberOfLines = 0
+    infoLabel.lineBreakMode = .byTruncatingTail
+    infoLabel.numberOfLines = 1
     infoLabel.allowsDefaultTighteningForTruncation = true
     infoLabel.isUserInteractionEnabled = false
 
@@ -66,18 +66,17 @@ final class InfoItemView: UIView {
     accessoryButton.translatesAutoresizingMaskIntoConstraints = false
 
     NSLayoutConstraint.activate([
-      heightAnchor.constraint(greaterThanOrEqualToConstant: Constants.viewHeight),
+      heightAnchor.constraint(equalToConstant: Constants.viewHeight),
 
       iconButton.leadingAnchor.constraint(equalTo: leadingAnchor),
       iconButton.centerYAnchor.constraint(equalTo: centerYAnchor),
       iconButton.widthAnchor.constraint(equalToConstant: Constants.iconButtonSize),
-      //iconButton.heightAnchor.constraint(equalToConstant: Constants.viewHeight),
-      iconButton.topAnchor.constraint(greaterThanOrEqualTo: topAnchor),
-      iconButton.bottomAnchor.constraint(lessThanOrEqualTo: bottomAnchor),
-      
+      iconButton.topAnchor.constraint(equalTo: topAnchor),
+      iconButton.bottomAnchor.constraint(equalTo: bottomAnchor),
+
       infoLabel.leadingAnchor.constraint(equalTo: iconButton.trailingAnchor),
-      infoLabel.topAnchor.constraint(equalTo: topAnchor, constant: Constants.infoLabelTopBottomSpacing),
-      infoLabel.bottomAnchor.constraint(equalTo: bottomAnchor, constant: -Constants.infoLabelTopBottomSpacing),
+      infoLabel.topAnchor.constraint(equalTo: topAnchor),
+      infoLabel.bottomAnchor.constraint(equalTo: bottomAnchor),
       infoLabel.trailingAnchor.constraint(equalTo: accessoryButton.leadingAnchor),
 
       accessoryButton.trailingAnchor.constraint(equalTo: trailingAnchor),
