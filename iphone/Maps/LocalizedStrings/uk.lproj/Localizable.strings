@@ -1098,3 +1098,5 @@
 "offline_explanation_title" = "Автономні мапи";
 "offline_explanation_text" = "Щоби переглядати та орієнтуватися на місцевості, потрібно завантажити мапу.\nЗавантажуйте мапи для районів, куди плануєте поїхати.";
 "pref_alt_map_lang_handling_ignore_alternatives" = "Don't use alternatives";
+"general" = "General";
+"interface" = "Interface";

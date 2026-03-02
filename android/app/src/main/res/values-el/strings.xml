@@ -919,7 +919,6 @@
     <string name="route_needs_rebuild">Η διαδρομή χρειάζεται ανακατασκευή</string>
     <string name="route_finished">Διαδρομή ολοκληρώθηκε</string>
     <string name="not_following_route">Δεν ακολουθείται η διαδρομή</string>
-    <string name="rebuilding_route">Ανακατασκευή διαδρομής…</string>
     <string name="pref_openexternallinks_title">Αυτόματο άνοιγμα τρίτων συνδέσμων</string>
     <string name="pref_openexternallinks_summary">Άνοιγμα τρίτων συνδέσμων στο CoMaps από προεπιλογή</string>
 </resources>

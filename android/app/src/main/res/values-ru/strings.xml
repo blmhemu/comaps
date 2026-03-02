@@ -938,5 +938,4 @@
     <string name="route_needs_rebuild">Маршрут следует перестроить</string>
     <string name="route_finished">Маршрут закончен</string>
     <string name="not_following_route">Не следуя маршруту</string>
-    <string name="rebuilding_route">Перестройка маршрута…</string>
 </resources>

@@ -1106,3 +1106,5 @@
 "pref_alt_map_lang_handling_system_order" = "Kasuta süsteemi järjestuses";
 "rooms" = "%@ tuba";
 "pref_alt_map_lang_handling_ignore_alternatives" = "Ära kasuta alternatiive";
+"general" = "General";
+"interface" = "Interface";

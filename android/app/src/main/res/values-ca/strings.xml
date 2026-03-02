@@ -934,7 +934,6 @@
     <string name="route_needs_rebuild">La ruta requereix reconstrucció</string>
     <string name="route_finished">Ruta finalitzada</string>
     <string name="not_following_route">No s\'està seguint la ruta</string>
-    <string name="rebuilding_route">Reconstruint ruta…</string>
     <string name="pref_alt_map_lang_handling_local_only">Prefereix i fes servir només en ser nadiu</string>
     <string name="pref_alt_map_lang_handling">Idiomes de Mapa Alternatius</string>
     <string name="pref_alt_map_lang_handling_ignore_alternatives">No facis servir alternatives</string>

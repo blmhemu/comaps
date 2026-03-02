@@ -1099,3 +1099,5 @@
 "pref_alt_map_lang_handling_local_only" = "Prefereix i fes servir només en ser nadiu";
 "pref_alt_map_lang_handling" = "Idiomes de Mapa Alternatius";
 "pref_alt_map_lang_handling_system_order" = "Fes servir en l'ordre del sistema";
+"general" = "General";
+"interface" = "Interface";

@@ -906,7 +906,6 @@
     <string name="route_needs_rebuild">A rota precisa ser recriada</string>
     <string name="route_finished">Rota concluída</string>
     <string name="not_following_route">Não está seguindo a rota</string>
-    <string name="rebuilding_route">Recriando rota…</string>
     <string name="mb_downloaded">%1$d MB / %2$d MB</string>
     <string name="pref_alt_map_lang_handling_ignore_alternatives">Não usar alternativas</string>
     <string name="pref_alt_map_lang_handling">Idiomas do mapa alternativos</string>

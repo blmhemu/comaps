@@ -1106,3 +1106,5 @@
 "pref_alt_map_lang_handling_system_order" = "Brug i systemorden";
 "rooms" = "%@ værelser";
 "pref_alt_map_lang_handling_ignore_alternatives" = "Brug ikke alternativer";
+"general" = "General";
+"interface" = "Interface";

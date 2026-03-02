@@ -929,7 +929,6 @@
     <string name="route_needs_rebuild">Route moet worden herberekenend</string>
     <string name="route_finished">Route voltooid</string>
     <string name="not_following_route">Afwijking van route</string>
-    <string name="rebuilding_route">Route opnieuw berekenen…</string>
     <string name="pref_openexternallinks_title">Links van derden automatisch openen</string>
     <string name="pref_openexternallinks_summary">Links van derden automatisch in CoMaps openen</string>
     <string name="pref_alt_map_lang_handling">Alternatieve kaarttalen</string>

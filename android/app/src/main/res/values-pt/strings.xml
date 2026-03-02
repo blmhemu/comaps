@@ -923,7 +923,6 @@
     <string name="route_needs_rebuild">Rota precisa de ser recalculada</string>
     <string name="route_finished">Rota terminada</string>
     <string name="not_following_route">Não está seguindo a rota</string>
-    <string name="rebuilding_route">Recalculando a rota…</string>
     <string name="pref_alt_map_lang_handling_ignore_alternatives">Não usar alternativas</string>
     <string name="pref_alt_map_lang_handling">Idiomas do Mapa Alternativos</string>
     <string name="pref_alt_map_lang_handling_system_order">Usar na ordem do sistema</string>

@@ -602,3 +602,5 @@
 "pref_alt_map_lang_handling_system_order" = "Uporabi v sistemskem vrstne redu";
 "rooms" = "%@ sob";
 "pref_alt_map_lang_handling_ignore_alternatives" = "Ne uporabljaj alternativ";
+"general" = "General";
+"interface" = "Interface";

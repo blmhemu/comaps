@@ -943,7 +943,6 @@
     <string name="route_needs_rebuild">Trasa wymaga przebudowania</string>
     <string name="route_finished">Trasa ukończona</string>
     <string name="not_following_route">Bez podążania trasą</string>
-    <string name="rebuilding_route">Przebudowywanie trasy…</string>
     <string name="pref_openexternallinks_title">Automatycznie otwieraj odnośniki stron trzecich</string>
     <string name="pref_openexternallinks_summary">Domyślnie otwieraj odnośniki stron trzecich w CoMaps</string>
 </resources>

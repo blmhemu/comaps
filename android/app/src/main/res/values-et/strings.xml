@@ -925,7 +925,6 @@
     <string name="route_needs_rebuild">Teekond vajab uuesti koostamist</string>
     <string name="route_finished">Teekond on lõppenud</string>
     <string name="not_following_route">Sa ei järgi teekonda</string>
-    <string name="rebuilding_route">Teekond on uuesti koostamisel…</string>
     <string name="pref_alt_map_lang_handling_ignore_alternatives">Ära kasuta alternatiive</string>
     <string name="pref_alt_map_lang_handling_local_only">Eelista ja kasuta vaid kohalikku keelt</string>
     <string name="pref_alt_map_lang_handling">Alternatiivsed kaardikeeled</string>

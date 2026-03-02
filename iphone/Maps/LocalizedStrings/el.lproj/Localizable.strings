@@ -1104,3 +1104,5 @@
 "pref_alt_map_lang_handling_system_order" = "Χρήση με σειρά συστήματος";
 "rooms" = "%@ δωμάτια";
 "pref_alt_map_lang_handling_ignore_alternatives" = "Να μην χρησιμοποιούνται εναλλακτικές";
+"general" = "General";
+"interface" = "Interface";

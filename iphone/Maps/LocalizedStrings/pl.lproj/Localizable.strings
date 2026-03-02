@@ -1105,3 +1105,5 @@
 "pref_alt_map_lang_handling_system_order" = "Użyj w porządku systemowym";
 "pref_alt_map_lang_handling_local_only" = "Preferuj i używaj tylko tam, gdzie jest to rodzime";
 "pref_alt_map_lang_handling_ignore_alternatives" = "Nie używaj alternatyw";
+"general" = "General";
+"interface" = "Interface";

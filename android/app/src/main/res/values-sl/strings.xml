@@ -672,7 +672,6 @@
     <string name="route_needs_rebuild">Potrebna je ponovna izdelava potne povezave</string>
     <string name="route_finished">Pot je končana</string>
     <string name="not_following_route">Ne sledite poti</string>
-    <string name="rebuilding_route">Ponovna izdelava poti …</string>
     <string name="mb_downloaded">%1$d MB / %2$d MB</string>
     <string name="pref_alt_map_lang_handling_ignore_alternatives">Ne uporabljaj alternativ</string>
     <string name="pref_alt_map_lang_handling">Alternativni jeziki zemljevida</string>

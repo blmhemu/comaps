@@ -1099,3 +1099,5 @@
 "voice_explanation_before_version26" = "A rendszerbeállítások *Kisegítő lehetőségek*, *Hangos tartalom*, *Hangok* menüpontjában lehet jobb hangot választani.";
 "voice_explanation" = "A rendszerbeállítások *Kisegítő lehetőségek*, *Olvasás és beszéd*, *Hangok* menüpontjában lehet jobb hangot választani.";
 "pref_alt_map_lang_handling_ignore_alternatives" = "Don't use alternatives";
+"general" = "General";
+"interface" = "Interface";

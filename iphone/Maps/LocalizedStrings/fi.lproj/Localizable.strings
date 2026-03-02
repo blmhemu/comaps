@@ -1103,3 +1103,5 @@
 "voice_explanation" = "Voit valita paremman äänen järjestelmäasetuksista kohdasta *Helppokäyttöisyys*, *Lue ja Puhu*, *Äänet*.";
 "avoid_paved" = "Vältä päällystettyjä teitä";
 "pref_alt_map_lang_handling_ignore_alternatives" = "Don't use alternatives";
+"general" = "General";
+"interface" = "Interface";

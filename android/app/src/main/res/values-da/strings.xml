@@ -916,7 +916,6 @@
     <string name="route_needs_rebuild">Rute skal genopbygges</string>
     <string name="route_finished">Rute færdig</string>
     <string name="not_following_route">Følger ikke rute</string>
-    <string name="rebuilding_route">Genopbygger rute…</string>
     <string name="pref_openexternallinks_title">Åbn automatisk links fra tredjeparter</string>
     <string name="pref_openexternallinks_summary">Åbn som standard links fra tredjeparter i CoMaps</string>
     <string name="pref_alt_map_lang_handling">Alternative kortsprog</string>

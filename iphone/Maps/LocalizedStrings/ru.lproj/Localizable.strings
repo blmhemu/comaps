@@ -1107,3 +1107,5 @@
 "pref_alt_map_lang_handling_local_only" = "Предпочитать и использовать только там, где они исконные";
 "pref_alt_map_lang_handling" = "Альтернативные языки карты";
 "pref_alt_map_lang_handling_system_order" = "Использовать в соответствие с системой";
+"general" = "General";
+"interface" = "Interface";

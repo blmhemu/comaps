@@ -927,7 +927,6 @@
     <string name="route_needs_rebuild">Поновно прерачунавање руте</string>
     <string name="route_finished">Крај руте</string>
     <string name="not_following_route">Не пратите руту</string>
-    <string name="rebuilding_route">Прерачунаванје руте…</string>
     <string name="mb_downloaded">%1$d МБ / %2$d МБ</string>
     <string name="pref_alt_map_lang_handling">Алтернативни језици мапе</string>
     <string name="pref_alt_map_lang_handling_ignore_alternatives">Не користите алтернативе</string>

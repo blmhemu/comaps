@@ -1106,3 +1106,5 @@
 "pref_alt_map_lang_handling_system_order" = "Naudoti sistemoje nurodyta tvarka";
 "rooms" = "%@ kamb.";
 "pref_alt_map_lang_handling_ignore_alternatives" = "Don't use alternatives";
+"general" = "General";
+"interface" = "Interface";

@@ -1101,3 +1101,5 @@
 "pref_alt_map_lang_handling_local_only" = "Foretrekk og bruk kun hvor det er lokalt språk";
 "pref_alt_map_lang_handling" = "Alternative kartspråk";
 "pref_alt_map_lang_handling_system_order" = "Bruk i systemrekkefølge";
+"general" = "General";
+"interface" = "Interface";

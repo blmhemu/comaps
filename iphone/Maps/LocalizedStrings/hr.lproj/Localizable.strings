@@ -594,3 +594,5 @@
 "offline_explanation_title" = "Izvanmrežne karte";
 "offline_explanation_text" = "Za prikaz i navigaciju područjem potrebno je preuzeti kartu.\nPreuzmite karte za područja u koja želite putovati.";
 "pref_alt_map_lang_handling_ignore_alternatives" = "Don't use alternatives";
+"general" = "General";
+"interface" = "Interface";

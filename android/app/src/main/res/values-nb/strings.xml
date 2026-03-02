@@ -913,7 +913,6 @@
     <string name="pref_speedlimit_title">Vis fartsgrenser</string>
     <string name="rooms">%s rom</string>
     <string name="mb_downloaded">%1$d MB / %2$d MB</string>
-    <string name="rebuilding_route">Beregner rute på nytt…</string>
     <string name="invalid_route">Ugyldig rute</string>
     <string name="building_route">Beregner rute…</string>
     <string name="route_not_started">Rute ikke startet</string>

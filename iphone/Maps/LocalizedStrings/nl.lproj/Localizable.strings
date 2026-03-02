@@ -1108,3 +1108,5 @@
 "pref_alt_map_lang_handling_system_order" = "Gebruik in systeemvolgorde";
 "rooms" = "%@ kamers";
 "pref_alt_map_lang_handling_ignore_alternatives" = "Geen alternatieven gebruiken";
+"general" = "General";
+"interface" = "Interface";

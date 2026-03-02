@@ -1108,3 +1108,5 @@
 "pref_alt_map_lang_handling_system_order" = "在系統命令中使用";
 "rooms" = "%@ 房間";
 "pref_alt_map_lang_handling_ignore_alternatives" = "Don't use alternatives";
+"general" = "General";
+"interface" = "Interface";

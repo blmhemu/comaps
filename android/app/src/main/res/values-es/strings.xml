@@ -933,7 +933,6 @@
     <string name="route_needs_rebuild">La ruta necesita ser recalculada</string>
     <string name="route_finished">Ruta finalizada</string>
     <string name="not_following_route">No siguiendo la ruta</string>
-    <string name="rebuilding_route">Recalculando la ruta…</string>
     <string name="location_privacy_info">Las aplicaciones reciben datos de ubicación del servicio de ubicación de tu sistema operativo, que podría compartir tu ubicación con Google y/o el proveedor de tu dispositivo. Para evitar esto, usa un sistema operativo Android que proteja tu privacidad.</string>
     <string name="location_privacy">Privacidad de ubicación</string>
     <string name="invalid_route">Menú de navegación: Cadenas del estado de la ruta</string>

@@ -928,7 +928,6 @@
     <string name="route_needs_rebuild">Trasu je potřeba přepočítat</string>
     <string name="route_finished">Trasa dokončena</string>
     <string name="not_following_route">Nenásledujete trasu</string>
-    <string name="rebuilding_route">Přepočítávání trasy…</string>
     <string name="pref_alt_map_lang_handling">Alternativní jazyky mapy</string>
     <string name="pref_alt_map_lang_handling_ignore_alternatives">Nepoužívat alternativy</string>
     <string name="pref_alt_map_lang_handling_system_order">Použít v systémovém pořadí</string>

@@ -1099,3 +1099,5 @@
 "pref_alt_map_lang_handling_system_order" = "استخدم حسب ترتيب النظام";
 "offline_explanation_title" = "خرائط بلا اتصال بالإنترنت";
 "offline_explanation_text" = "يجب تنزيل خريطة لعرض المنطقة والتنقل فيها.\nنزِّل خرائط للمناطق التي ترغب في السفر إليها.";
+"general" = "General";
+"interface" = "Interface";

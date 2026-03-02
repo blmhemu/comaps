@@ -1108,3 +1108,5 @@
 "pref_alt_map_lang_handling_system_order" = "Utiliser l'ordre système";
 "rooms" = "%@ pièces";
 "pref_alt_map_lang_handling_ignore_alternatives" = "Ne pas utiliser d'alternative";
+"general" = "General";
+"interface" = "Interface";

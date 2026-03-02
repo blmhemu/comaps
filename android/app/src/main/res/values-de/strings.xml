@@ -928,7 +928,6 @@
     <string name="route_needs_rebuild">Route muss neu berechnet werden</string>
     <string name="route_finished">Route beendet</string>
     <string name="not_following_route">Folgt nicht der Route</string>
-    <string name="rebuilding_route">Route wird neu berechnet…</string>
     <string name="mb_downloaded">%1$d MB / %2$d MB</string>
     <string name="pref_openexternallinks_title">Links Dritter automatisch öffnen</string>
     <string name="pref_openexternallinks_summary">Links Dritter standardmäßig in CoMaps öffnen</string>

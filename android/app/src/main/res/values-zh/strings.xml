@@ -931,7 +931,6 @@
     <string name="route_needs_rebuild">需要重新规划路线</string>
     <string name="route_finished">导航结束</string>
     <string name="not_following_route">已偏航</string>
-    <string name="rebuilding_route">正在重新规划路线…</string>
     <string name="pref_alt_map_lang_handling">备选地图语言</string>
     <string name="pref_alt_map_lang_handling_ignore_alternatives">不使用备选语言</string>
     <string name="pref_alt_map_lang_handling_system_order">按系统顺序使用</string>

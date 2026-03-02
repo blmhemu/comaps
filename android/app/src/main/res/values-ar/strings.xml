@@ -918,7 +918,6 @@
     <string name="route_needs_rebuild">المسار بحاجة إلى إعادة بناء</string>
     <string name="route_finished">انتهى المسار</string>
     <string name="not_following_route">لا يتبع المسار</string>
-    <string name="rebuilding_route">يُعيد بناء المسار…</string>
     <string name="pref_openexternallinks_title">فتح روابط الطرف الثالث تلقائيًا</string>
     <string name="pref_openexternallinks_summary">افتح روابط الطرف الثالث في CoMaps افتراضيًا</string>
     <string name="comma_separated_pair">%1$s, %2$s</string>

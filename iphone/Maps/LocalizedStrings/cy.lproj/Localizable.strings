@@ -593,3 +593,5 @@
 "offline_explanation_text" = "Mae angen lawrlwytho map i weld a phori'r ardal.\nLawrlwythwch fapiau ar gyfer ardaloedd rydych am deithio iddynt.";
 "avoid_steps" = "Osgoi grisiau";
 "pref_alt_map_lang_handling_ignore_alternatives" = "Don't use alternatives";
+"general" = "General";
+"interface" = "Interface";

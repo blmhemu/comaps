@@ -170,7 +170,7 @@
     <string name="downloading_is_active">Le téléchargement de la carte est en cours</string>
     <!-- Share my position using SMS, %1$@ contains om:// and %2$@ https://comaps.app link WITHOUT NAME. @NOTE non-ascii symbols in the link will result in max 70 characters SMS instead of 140. -->
     <string name="my_position_share_sms">Hé, regardez ma position actuelle sur CoMaps ! %1$s ou %2$s. Les cartes hors ligne ne sont pas installées ? Téléchargez-les ici : https://www.comaps.app/download/</string>
-  <!-- Share a position using EMail, %1$@ is https://comaps.at link WITH NAME and %2$@ is the geo url containing only coordinates  -->
+    <!-- Share a position using EMail, %1$@ is https://comaps.at link WITH NAME and %2$@ is the geo url containing only coordinates  -->
   <string name="bookmark_share_email_subject">Suis ce lien %1$s ou copie ces coordonnées %2$s dans ton appli de cartes pour voir cette position.</string>
     <!-- Subject for emailed position -->
     <string name="my_position_share_email_subject">Hé, regardez ma position actuelle sur la carte CoMaps !</string>
@@ -939,7 +939,6 @@
     <string name="route_needs_rebuild">L\'itinéraire doit être recalculé</string>
     <string name="route_finished">Itinéraire terminé</string>
     <string name="not_following_route">Hors itinéraire</string>
-    <string name="rebuilding_route">Récalcul de l\'itinéraire…</string>
     <string name="pref_openexternallinks_title">Ouvrir automatiquement les liens tiers</string>
     <string name="pref_openexternallinks_summary">Par défaut, ouvrir les liens tiers dans CoMaps</string>
     <string name="pref_alt_map_lang_handling">Langues alternatives pour les cartes</string>

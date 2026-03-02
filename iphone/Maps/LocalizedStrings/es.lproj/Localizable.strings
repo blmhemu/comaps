@@ -1108,3 +1108,5 @@
 "rooms" = "%@ habitaciones";
 "pref_alt_map_lang_handling_local_only" = "Preferir y solo usar cuando nativo";
 "pref_alt_map_lang_handling_ignore_alternatives" = "No usar alternativas";
+"general" = "General";
+"interface" = "Interface";

@@ -594,3 +594,5 @@
 "avoid_paved" = "পাকা রাস্তা এড়িয়ে চলুন";
 "avoid_steps" = "সিঁড়ি এড়িয়ে চলুন";
 "pref_alt_map_lang_handling_ignore_alternatives" = "Don't use alternatives";
+"general" = "General";
+"interface" = "Interface";

@@ -1092,3 +1092,5 @@
 "hours_confirmed_time_ago" = "Confirmed %@";
 "voice" = "صدا";
 "pref_alt_map_lang_handling_ignore_alternatives" = "Don't use alternatives";
+"general" = "General";
+"interface" = "Interface";

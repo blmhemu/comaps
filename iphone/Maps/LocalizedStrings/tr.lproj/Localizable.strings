@@ -1103,3 +1103,5 @@
 "pref_alt_map_lang_handling" = "Alternatif Harita Dilleri";
 "pref_alt_map_lang_handling_system_order" = "Sistem dili sırasına göre kullan";
 "pref_alt_map_lang_handling_local_only" = "Sadece anadil olduğu yerlerde tercih et";
+"general" = "General";
+"interface" = "Interface";

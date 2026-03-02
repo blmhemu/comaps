@@ -6,3 +6,5 @@
 "delete" = "Forigi";
 "core_my_places" = "Miaj Lokoj";
 "pref_alt_map_lang_handling_ignore_alternatives" = "Don't use alternatives";
+"general" = "General";
+"interface" = "Interface";
