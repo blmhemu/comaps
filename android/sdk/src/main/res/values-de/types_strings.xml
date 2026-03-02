@@ -261,7 +261,7 @@
     <string name="type.cuisine.austrian">Österreichisch</string>
     <string name="type.cuisine.bagel">Bagel</string>
     <string name="type.cuisine.balkan">Balkanisch</string>
-    <string name="type.cuisine.barbecue">Grill</string>
+    <string name="type.cuisine.barbecue">Barbecue</string>
     <string name="type.cuisine.bavarian">Bayerisch</string>
     <string name="type.cuisine.beef_bowl">Gyūdon</string>
     <string name="type.cuisine.brazilian">Brasilianisch</string>
@@ -1335,11 +1335,11 @@
     <string name="type.attraction.bumper_car">Autoscooter</string>
     <string name="type.attraction.big_wheel">Riesenrad</string>
     <string name="type.attraction.carousel">Karussell</string>
-    <string name="type.attraction.historic">Historische Attraktion</string>
+    <string name="type.attraction.historic">Historische Sehenswürdigkeit</string>
     <string name="type.attraction.maze">Labyrinth</string>
     <string name="type.attraction.roller_coaster">Achterbahn</string>
     <string name="type.attraction.water_slide">Wasserrutsche</string>
-    <string name="type.tourism.attraction.specified">Sehenswürdigkeit</string>
+    <string name="type.tourism.attraction.specified">Besondere Attraktion</string>
     <string name="type.tourism.camp_site">Campingplatz</string>
     <string name="type.tourism.caravan_site">Wohnmobilstellplatz</string>
     <!-- A rentable countryside vacation house. -->
@@ -1513,4 +1513,5 @@
     <string name="type.tourism.information.tactile_map">Taktile Karte</string>
     <string name="type.railway.miniature">Miniatureisenbahn</string>
     <string name="type.waterway.fuel">Bunkerstation</string>
+    <string name="type.shop.water">Trinkwassergeschäft</string>
 </resources>

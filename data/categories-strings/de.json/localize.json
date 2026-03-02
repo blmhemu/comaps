@@ -170,7 +170,7 @@
 "amenity-post_box|@category_post": "3Briefkasten|3Postfach|3Post|U+2709|U+1F4E8|U+1F4E9|U+1F4EA|U+1F4EB|U+1F4EE|U+1F4EC|U+1F4ED",
 "amenity-post_office|post_office-post_partner|@category_post": "3Postfiliale|3Postamt|U+2709|U+1F3E3|U+1F4E8|U+1F4E9|U+1F3E4|U+1F4EF",
 "amenity-vehicle_inspection": "4Fahrzeuginspektion",
-"amenity-waste_disposal": "4Müllcontainer|Mülltonne|Abfälle|Müll|Müllentsorgung",
+"amenity-waste_disposal": "3Müllcontainer|3Mülltonne|3Abfälle|3Müll|3Müllentsorgung|U+1F6AE",
 "amenity-recycling-centre|@category_recycling": "3Recyclinghof|3Recyclingzentrum|3Wertstoffhof|3Abfallwirtschaftshof|4Altstoffsammelzentrum|4Entsorgungshof|U+1F6AE|U+267B",
 "amenity-recycling-container|@category_recycling": "3Wertstoffcontainer|3Recyclingbehälter|3Container|U+1F6AE|U+267B",
 "recycling-batteries|@category_recycling": "Batterien",
@@ -563,7 +563,7 @@
 "cuisine-sandwich|@fastfood": "Sandwich",
 "cuisine-sausage|@fastfood": "Wurst",
 "cuisine-seafood|cuisine-fish": "Meeresfrüchte|Fisch",
-"cuisine-soba": "Soba",
+"cuisine-soba": "Soba-Nudeln",
 "cuisine-steak_house": "Steakhaus",
 "cuisine-sushi": "Sushi",
 "cuisine-tapas": "Tapas",
@@ -611,5 +611,9 @@
 "cuisine-argentinian": "12Argentinisches Essen|15Argentinische Küche",
 "cuisine-arab": "8Arabisches Essen|11Arabische Küche",
 "cuisine-american": "14US-amerikanisches Essen|17US-amerikanische Küche",
-"cuisine-african|@cuisine_african": "11Afrikanisches Essen|14Afrikanische Küche"
+"cuisine-african|@cuisine_african": "11Afrikanisches Essen|14Afrikanische Küche",
+"shop-water|@category_water|@category_food|@shop": "4Trinkwasser|4Trinkwasserflaschen",
+"cuisine-bubble_tea": "3Bubble Tea|3Boba Tea",
+"cuisine-vegetarian|@cuisine_all_vegetarian": "Vegetarische Küche",
+"cuisine-asian": "Asiatische Küche"
 }

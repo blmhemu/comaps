@@ -281,7 +281,7 @@
 "type.cuisine.austrian" = "Österreichisch";
 "type.cuisine.bagel" = "Bagel";
 "type.cuisine.balkan" = "Balkanisch";
-"type.cuisine.barbecue" = "Grill";
+"type.cuisine.barbecue" = "Barbecue";
 "type.cuisine.bavarian" = "Bayerisch";
 "type.cuisine.beef_bowl" = "Gyūdon";
 "type.cuisine.brazilian" = "Brasilianisch";
@@ -1443,11 +1443,11 @@
 "type.attraction.bumper_car" = "Autoscooter";
 "type.attraction.big_wheel" = "Riesenrad";
 "type.attraction.carousel" = "Karussell";
-"type.attraction.historic" = "Historische Attraktion";
+"type.attraction.historic" = "Historische Sehenswürdigkeit";
 "type.attraction.maze" = "Labyrinth";
 "type.attraction.roller_coaster" = "Achterbahn";
 "type.attraction.water_slide" = "Wasserrutsche";
-"type.tourism.attraction.specified" = "Sehenswürdigkeit";
+"type.tourism.attraction.specified" = "Besondere Attraktion";
 "type.tourism.camp_site" = "Campingplatz";
 "type.tourism.caravan_site" = "Wohnmobilstellplatz";
 
@@ -1602,3 +1602,4 @@
 "type.railway.disused.tunnel" = "Stillgelegter Eisenbahntunnel";
 "type.railway.miniature" = "Miniatureisenbahn";
 "type.waterway.fuel" = "Bunkerstation";
+"type.shop.water" = "Trinkwassergeschäft";
