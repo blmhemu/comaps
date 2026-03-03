@@ -1400,7 +1400,7 @@ cuisine|friture;1269;
 cuisine|barbecue;1270;
 cuisine|bavarian;1271;
 cuisine|ramen;1272;
-cuisine|italian_pizza;1273;
+deprecated:cuisine|italian_pizza:02.2026;1273;cuisine|pizza
 cuisine|mediterranean;1274;
 cuisine|donut;1275;
 cuisine|beef_bowl;1276;

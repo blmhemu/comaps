@@ -948,7 +948,9 @@ void PreprocessElement(OsmElement * p, CalculateOriginFnT const & calcOrg)
       }
 
       // Avoid duplication for some cuisines.
-      if (normalized == "bbq" || normalized == "barbeque")
+      if (normalized == "italian_pizza")
+        normalized = "pizza";
+      else if (normalized == "bbq" || normalized == "barbeque")
         normalized = "barbecue";
       else if (normalized == "doughnut")
         normalized = "donut";
