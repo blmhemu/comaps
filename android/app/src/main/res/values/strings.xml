@@ -70,15 +70,15 @@
     <string name="continue_button">Continue</string>
     <!-- Show popup notification on top of the map when country download has failed. -->
     <string name="download_country_failed">%s download has failed</string>
-    <!-- "Add new bookmark list" dialog title -->
+    <!-- "Add new Favorite list" dialog title -->
     <string name="add_new_set">Add a New List</string>
-    <!-- Add Bookmark list dialog - hint when the list name is empty -->
+    <!-- Add Favorite list dialog - hint when the list name is empty -->
     <string name="bookmark_set_name">List Name</string>
-    <!-- Should be used in the bookmarks-only context, see bookmarks_and_tracks if tracks are also implied. -->
+    <!-- Should be used in the Favorites-only context, see bookmarks_and_tracks if tracks are also implied. -->
     <string name="bookmarks">Places</string>
-    <!-- "Bookmarks and Tracks" dialog title, also sync it with iphone/plist.txt -->
+    <!-- "Favorites" dialog title -->
     <string name="bookmarks_and_tracks">Favorites</string>
-    <!-- Add bookmark dialog - bookmark name -->
+    <!-- Add Favorite dialog - Favorite's name -->
     <string name="name">Name</string>
     <!-- Editor title above street and house number, duplicates [type.building.address] in types_strings.txt -->
     <string name="address">Address</string>
@@ -147,19 +147,19 @@
     <string name="category_police">Police</string>
     <!-- Search category for recycling; any changes should be duplicated in categories.txt @category_recycling! -->
     <string name="category_recycling">Recycling</string>
-    <!-- Search category for water; any changes should be duplicated in categories.txt @category_water! also used to sort bookmarks by type -->
+    <!-- Search category for water; any changes should be duplicated in categories.txt @category_water! also used to sort Favorites by type -->
     <string name="category_water">Water</string>
     <!-- Search category for RV facilities; any changes should be duplicated in categories.txt @category_rv! -->
     <string name="category_rv">RV Facilities</string>
 
     <!-- SECTION: Other translations -->
-    <!-- Notes field in Bookmarks view -->
+    <!-- Notes field in Favorites view -->
     <string name="description">Notes</string>
-    <!-- Email Subject when sharing bookmark list -->
+    <!-- Email Subject when sharing Favorite list -->
     <string name="share_bookmarks_email_subject">My CoMaps Favorites</string>
     <string name="share_bookmarks_email_body">Hello!
 \n
-\nAttached are my favorites; please open them in CoMaps. If you don\'t have it installed you can download it here: https://www.comaps.app/download/
+\nAttached are my Favorites; please open them in CoMaps. If you don\'t have it installed you can download it here: https://www.comaps.app/download/
 \n
 \nEnjoy travelling with CoMaps!</string>
     <!-- message title of loading file -->
@@ -167,11 +167,11 @@
     <!-- Kmz file successful loading -->
     <string name="load_kmz_successful">Favorites loaded successfully! You can find them on the map or on the Favorites Manager screen.</string>
     <!-- Kml file loading failed -->
-    <string name="load_kmz_failed">Failed to load favorites. The file may be corrupted or defective.</string>
-    <!-- Failed to recognize the format of a bookmarks or tracks file. -->
+    <string name="load_kmz_failed">Failed to load Favorites. The file may be corrupted or defective.</string>
+    <!-- Failed to recognize the format of a Favorites or tracks file. -->
     <string name="unknown_file_type">The file type is not recognized by the app:
 \n%1$s</string>
-    <!-- Failed to open a bookmarks or tracks file in CoMaps. -->
+    <!-- Failed to open a Favorites file in CoMaps. -->
     <string name="failed_to_open_file">Failed to open file %1$s
 \n
 \n%2$s</string>
@@ -197,11 +197,11 @@
     <string name="email">Email</string>
     <!-- Text for message when used successfully copied something -->
     <string name="copied_to_clipboard">Copied to clipboard: %s</string>
-    <!-- Used for bookmark editing -->
+    <!-- Used for Favorite editing -->
     <string name="done">Done</string>
     <!-- Data version in «About» screen, %@ is replaced by a local, human readable date. -->
     <string name="data_version">OpenStreetMap data: %s</string>
-    <!-- Title for tracks category in bookmarks manager -->
+    <!-- Title for tracks category in Favorites manager -->
     <string name="tracks_title">Tracks</string>
     <!-- Length of track in cell that describes route -->
     <string name="length">Length</string>
@@ -627,7 +627,7 @@
     <string name="setting_emulate_bad_storage">Emulate bad storage</string>
     <string name="error_enter_correct_name">Please enter a correct name</string>
     <string name="bookmark_lists">Favorite Lists</string>
-    <!-- Do not display all bookmark lists on the map -->
+    <!-- Do not display all Favorite lists on the map -->
     <string name="bookmark_lists_hide_all">Hide all</string>
     <string name="bookmark_lists_show_all">Show all</string>
     <plurals name="bookmarks_places">
@@ -635,7 +635,7 @@
         <item quantity="other">%d saved places</item>
     </plurals>
     <string name="bookmarks_create_new_group">Create a new list</string>
-    <!-- Bookmark categories screen, button that opens folder selection dialog to import KML/KMZ/GPX/KMB files -->
+    <!-- Favorite categories screen, button that opens folder selection dialog to import KML/KMZ/GPX/KMB files -->
     <string name="bookmarks_import">Import Favorites</string>
     <string name="bookmarks_error_message_share_general">Unable to share due to an application error</string>
     <string name="bookmarks_error_title_share_empty">Sharing error</string>
@@ -721,7 +721,7 @@
     <!-- max. 10 symbols, both iOS and Android -->
     <string name="sort">Sort…</string>
     <!-- Android, title, max 20-22 symbols -->
-    <string name="sort_bookmarks">Sort favorites</string>
+    <string name="sort_bookmarks">Sort Favorites</string>
     <!-- Android -->
     <string name="by_default">By default</string>
     <!-- Android -->
@@ -804,7 +804,7 @@
     <string name="translated_om_site_url">https://comaps.app/</string>
     <!-- Link to OSM wiki for Editor, Profile and About pages -->
     <string name="osm_wiki_about_url">https://wiki.openstreetmap.org/wiki/About_OpenStreetMap</string>
-    <!-- A number of bookmarks and a number of tracks, separated by comma, like: 1 saved place, 5 tracks -->
+    <!-- A number of places and a number of tracks, separated by comma, like: 1 saved place, 5 tracks -->
     <string name="comma_separated_pair">%1$s, %2$s</string>
     <!-- App Tip #00 -->
     <string name="app_tip_00">Thank you for using our community-built maps!</string>
@@ -849,8 +849,8 @@
     <!-- Text displayed when a webview or a browser are disabled, and external links can't be opened. -->
     <string name="browser_not_available">Web browser is not available</string>
     <string name="volume">Volume</string>
-    <!-- Bookmark categories screen, button that opens share dialog to export all bookmarks and tracks -->
-    <string name="bookmarks_export">Export all Places and Tracks</string>
+    <!-- Favorite categories screen, button that opens share dialog to export all Favorites -->
+    <string name="bookmarks_export">Export all Favorites</string>
     <!-- button in (app) TTS settings, to open the system TTS settings. -->
     <string name="pref_tts_open_system_settings">Speech synthesis system settings</string>
     <!-- toast displayed when pressing the "Speech synthesis system settings" button, and the system settings aren't found. -->
@@ -896,13 +896,13 @@
     <string name="pref_left_button_disable">Disable</string>
 
     <!-- Settings "Backup" category: "Backup" title -->
-    <string name="pref_backup_title">Backup favorites</string>
+    <string name="pref_backup_title">Backup Favorites</string>
     <string name="pref_backup_summary">Automatically backup to a folder on your device</string>
     <string name="pref_backup_now_title">Backup now</string>
     <string name="pref_backup_now_summary">Create a backup immediately</string>
     <string name="pref_backup_now_summary_progress">Backup in progress…</string>
     <string name="pref_backup_now_summary_ok">Backup completed successfully</string>
-    <string name="pref_backup_now_summary_empty_lists">No places and tracks to backup</string>
+    <string name="pref_backup_now_summary_empty_lists">No Favorites to backup</string>
     <string name="pref_backup_now_summary_failed">Backup failed</string>
     <string name="pref_backup_now_summary_folder_unavailable">The backup folder is not available</string>
     <string name="pref_backup_status_summary_success">Last successful backup</string>
