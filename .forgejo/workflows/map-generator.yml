@@ -27,10 +27,10 @@ on:
         required: false
         default: false
         type: boolean
-#      map-generator-countries:
-#        description: 'Generate specific MWMs? (i.e. "US_New York_*, foo")'
-#        required: false
-#        type: string
+      map-generator-countries:
+        description: 'Generate specific MWMs? (i.e. "US_New York_*, foo")'
+        required: false
+        type: string
 
 env:
   COUNTRIES_PUB_KEY: ${{ secrets.COUNTRIES_PUB_KEY }}
@@ -39,7 +39,7 @@ env:
   ZULIP_API_KEY: ${{ secrets.ZULIP_API_KEY }}
   MWMTEST: ${{ inputs.map-generator-test }}
   MWMCONTINUE: ${{ inputs.map-generator-continue }}
-  # MWMCOUNTRIES: ${{ inputs.map-generator-countries }}
+  MWMCOUNTRIES: ${{ inputs.map-generator-countries }}
   DEBIAN_FRONTEND: noninteractive
   TZ: Etc/UTC
 
