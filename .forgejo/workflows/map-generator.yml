@@ -19,7 +19,7 @@ on:
         type: boolean
       map-generator-continue:
         description: 'Continue previous map generation?'
-        required: false
+        required: true
         default: false
         type: boolean
       map-generator-countries:
@@ -72,6 +72,31 @@ jobs:
           else
             echo "No WorldCoasts found."
           fi
+      - name: Clean temp files from previous generations
+        shell: bash
+        run: |
+          if [ $MWMCONTINUE == "true" ]; then
+            echo "Skip cleanup because of continuing previous generation."
+            exit 0
+          fi
+          echo "Checking for intermediate map build data in /mnt/4tbexternal/osm-maps..."
+          cd /mnt/4tbexternal/osm-maps/
+          # List all dated directories, sort by name (newest first)
+          ls -1d */ 2>/dev/null | grep -E '^[0-9]{4}_[0-9]{2}_[0-9]{2}__[0-9]{2}_[0-9]{2}_[0-9]{2}(\-test)?/$' | while read dir; do
+            if [ -f "${dir}world_roads.o5m" ]; then
+              echo "Removing ${dir}world_roads.o5m"
+              rm ${dir}world_roads.o5m
+            fi
+            if [ -d "${dir}osm2ft" ]; then
+              echo "Removing ${dir}osm2ft"
+              rm -r ${dir}osm2ft
+            fi
+            if [ -d "${dir}intermediate_data" ]; then
+              echo "Removing ${dir}intermediate_data"
+              rm -r ${dir}intermediate_data
+            fi
+          done
+          echo "Intermediate data cleaned up."
       - name: Checkout main repo
         shell: bash
         run: |
