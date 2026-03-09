@@ -661,7 +661,8 @@ void MetadataTagProcessor::operator()(std::string const & k, std::string const &
   case Metadata::FMD_RATINGS:
   case Metadata::FMD_EXTERNAL_URI:
   case Metadata::FMD_WHEELCHAIR:
-  case Metadata::FMD_POPULATION: // Population tag had been already processed in generator/osm2type.cpp::GetNameAndType()
+  case Metadata::FMD_POPULATION:  // Population tag had been already processed in
+                                  // generator/osm2type.cpp::GetNameAndType()
   case Metadata::FMD_COUNT: CHECK(false, (mdType, "should not be parsed from OSM."));
   }
 
