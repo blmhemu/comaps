@@ -1147,8 +1147,8 @@
 "track_recording_toast_nothing_to_save" = "Track is empty - nothing to save";
 "edit_track" = "Edit Track";
 
-/* To indicate the number of rooms in hotel, hospital ... */
-"rooms" = "%@ rooms";
+/* To indicate the number of rooms in hotels, hospitals etc. Only translate the "rooms" phrase and only with the plural form.  */
+"rooms" = "^[%lld rooms](inflect: true)";
 
 /* Title of the general section in settings */
 "general" = "General";

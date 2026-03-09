@@ -1108,8 +1108,8 @@
 "voice_explanation_before_version26" = "Es ist möglich in den Systemeinstellungen eine bessere Stimme unter *Barrierefreiheit*, *Gesprochene Inhalte*, *Stimmen* auszuwählen.";
 "voice_explanation" = "Es ist möglich in den Systemeinstellungen eine bessere Stimme unter *Barrierefreiheit*, *Lesen & Sprechen*, *Stimmen* auszuwählen.";
 
-/* To indicate the number of rooms in hotel, hospital ... */
-"rooms" = "%@ Räume";
+/* To indicate the number of rooms in hotels, hospitals etc. Only translate the "rooms" phrase and only with the plural form.  */
+"rooms" = "^[%lld Räume](inflect: true)";
 
 /* Title of the general section in settings */
 "general" = "Allgemein";
