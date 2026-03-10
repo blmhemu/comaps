@@ -609,61 +609,8 @@
 "type.tourism.camp_site" = "Campsite";
 "type.tourism.caravan_site" = "Caravan Park";
 "type.tourism.information.visitor_centre" = "Visitor Centre";
-"type.waterway.stream.tunnel" = "Stream";
-"type.waterway.waterfall" = "Waterfall";
-"type.waterway.weir" = "Weir";
-"type.wheelchair" = "Wheelchair";
-"type.wheelchair.limited" = "Limited Wheelchair Access";
-"type.wheelchair.no" = "No Wheelchair Access";
-"type.wheelchair.yes" = "Full Wheelchair Access";
-"type.aerialway.j.bar" = "J-bar Lift";
-"type.aerialway.magic_carpet" = "Magic Carpet";
-"type.aerialway.platter" = "Platter Lift";
-"type.aerialway.rope_tow" = "Rope Tow";
-"type.aerialway.t.bar" = "T-bar Lift";
-"type.piste_type.downhill" = "Downhill Ski Run";
-"type.piste_type.downhill.area" = "Downhill Ski Run";
-"type.piste_type.downhill.advanced" = "Downhill Ski Run";
-"type.piste_type.downhill.advanced.area" = "Downhill Ski Run";
-"type.piste_type.downhill.easy" = "Downhill Ski Run";
-"type.piste_type.downhill.easy.area" = "Downhill Ski Run";
-"type.piste_type.downhill.expert" = "Downhill Ski Run";
-"type.piste_type.downhill.expert.area" = "Downhill Ski Run";
-"type.piste_type.downhill.freeride" = "Downhill Ski Run";
-"type.piste_type.downhill.intermediate" = "Downhill Ski Run";
-"type.piste_type.downhill.intermediate.area" = "Downhill Ski Run";
-"type.piste_type.downhill.novice" = "Downhill Ski Run";
-"type.piste_type.downhill.novice.area" = "Downhill Ski Run";
-"type.piste_type.nordic" = "Nordic Ski Trail";
-"type.piste_type.sled" = "Sledding Piste";
-"type.piste_type.sled.area" = "Sledding Piste";
-"type.piste_type.snow_park" = "Snow Park";
-"type.piste_type.hike" = "Snow Hiking Trail";
-"type.piste_type.connection" = "Piste Connection";
-"type.piste_type.skitour" = "Skitour Trail";
-"type.amenity.events_venue" = "Events Venue";
-"type.shop.auction" = "Auction";
-"type.shop.collector" = "Collectables";
-"type.self_service.yes" = "Self-service available";
-"type.self_service.only" = "Self-service only";
 "type.self_service.partially" = "Partial self-service";
 "type.self_service.no" = "No self-service";
-
-/* https://wiki.openstreetmap.org/wiki/Key:social_facility */
-"type.amenity.social_facility" = "Social Facility";
-"type.social_facility.soup_kitchen" = "Soup Kitchen";
-"type.social_facility.food_bank" = "Food Bank";
-"type.amenity.food_sharing" = "Food Sharing";
-"type.amenity.give_box" = "Give Box";
-
-/* https://wiki.openstreetmap.org/wiki/Tag:emergency=emergency_ward_entrance */
-"type.emergency.emergency_ward_entrance" = "Emergency Ward Entrance";
-
-/* https://wiki.openstreetmap.org/wiki/Tag:amenity=dojo */
-"type.amenity.dojo" = "Dojo";
-
-/* https://wiki.openstreetmap.org/wiki/Tag:leisure=sports_hall */
-"type.leisure.sports_hall" = "Sports hall";
 "type.amenity.love_hotel" = "Love Hotel";
 "type.railway.station.subway.qingdao" = "Metro Station";
 "type.leisure.firepit" = "Firepit";
@@ -687,7 +634,6 @@
 "type.office.security" = "Security Guards Office";
 "type.power.portal" = "Power Portal";
 "type.building.guardhouse" = "Security Booth";
-"type.xmas.tree" = "Christmas Tree";
 "type.man_made.silo" = "Silo";
 "type.railway.narrow_gauge.bridge" = "Narrow Gauge Rail Bridge";
 "type.cuisine.noodles" = "Noodles";

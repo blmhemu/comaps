@@ -66,6 +66,8 @@
 			<string>NSStringPluralRuleType</string>
 			<key>NSStringFormatValueTypeKey</key>
 			<string>lld</string>
+			<key>one</key>
+			<string>%lld Einwohner</string>
 			<key>other</key>
 			<string>%lld Einwohner</string>
 		</dict>
@@ -80,9 +82,9 @@
 			<string>NSStringPluralRuleType</string>
 			<key>NSStringFormatValueTypeKey</key>
 			<string>lld</string>
-			<key>other</key>
-			<string>%lld Zimmer</string>
 			<key>one</key>
+			<string>%lld Zimmer</string>
+			<key>other</key>
 			<string>%lld Zimmer</string>
 		</dict>
 	</dict>

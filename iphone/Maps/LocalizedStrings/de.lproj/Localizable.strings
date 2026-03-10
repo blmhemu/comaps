@@ -1117,7 +1117,7 @@
 "contribute_to_osm_update_map" = "Aktualisiere die Karte, um mitzumachen";
 "contribute_to_osm" = "Zu OpenStreetMap beitragen";
 "contribute_to_osm_update_map_description" = "Du musst die %@ Karte auf die neueste Version aktualisieren, bevor du zu den OpenStreetMap-Daten beitragen kannst";
-"contribute_to_osm_add_place" = "Add Place";
-"contribute_to_osm_update_map" = "Update the Map to Contribute";
-"contribute_to_osm" = "Contribute to OpenStreetMap";
-"contribute_to_osm_update_map_description" = "You need to update the %@ map to the latest version before you can contribute to the OpenStreetMap data";
+"contribute_to_osm_add_place" = "Ort hinzufügen";
+"contribute_to_osm_update_map" = "Karte updaten, um Beizutragen";
+"contribute_to_osm" = "Beitragen zu OpenStreetMap";
+"contribute_to_osm_update_map_description" = "Du musst die %@ Karte auf die letzte Version aktualisieren, bevor du etwas zu den OpenStreetMap-Daten beitragen kannst";

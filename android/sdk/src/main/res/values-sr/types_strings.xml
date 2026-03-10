@@ -1224,7 +1224,7 @@
     <string name="type.sport.skateboard">Skejtbord</string>
     <string name="type.sport.skiing">Skijanje</string>
     <string name="type.sport.soccer">Фудбал</string>
-    <string name="type.sport.swimming">Plivanje</string>
+    <string name="type.sport.swimming">Пливање</string>
     <string name="type.sport.table_tennis">Stoni tenis</string>
     <string name="type.sport.tennis">Тениски терен</string>
     <string name="type.sport.volleyball">Odbojka</string>
@@ -1254,7 +1254,7 @@
     <string name="type.attraction.maze">Lavirint</string>
     <string name="type.attraction.roller_coaster">Rolerkoster</string>
     <string name="type.attraction.water_slide">Tobogan</string>
-    <string name="type.tourism.attraction.specified">Turistička atrakcija</string>
+    <string name="type.tourism.attraction.specified">Atrakcija</string>
     <string name="type.tourism.camp_site">Kamp</string>
     <string name="type.tourism.caravan_site">Kamp za karavane</string>
     <!-- A rentable countryside vacation house. -->
@@ -1509,4 +1509,6 @@
     <string name="type.emergency.access_point.address">Адреса службе хитне помоћи</string>
     <string name="type.waterway.fuel">Бензинска пумпа за пловила</string>
     <string name="type.amenity.community_centre.youth_centre">Омладински центар</string>
+    <string name="type.shop.water">Продавница воде</string>
+    <string name="type.attraction">Атракција</string>
 </resources>

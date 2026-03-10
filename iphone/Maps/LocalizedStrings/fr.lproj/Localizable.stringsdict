@@ -33,7 +33,7 @@
 			<key>NSStringFormatValueTypeKey</key>
 			<string>d</string>
 			<key>zero</key>
-			<string>%d fichier ont été trouvé. Vous n'en verrez pas après la conversion.</string>
+			<string>%d fichier n'a été trouvé. Vous n'en verrez pas après la conversion.</string>
 			<key>one</key>
 			<string>%d fichier a été trouvé. Vous le verrez après la conversion.</string>
 			<key>many</key>
@@ -60,6 +60,46 @@
 			<string>%d voies</string>
 			<key>other</key>
 			<string>%d voies</string>
+		</dict>
+	</dict>
+	<key>population</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>zero</key>
+			<string>%lld résident</string>
+			<key>one</key>
+			<string>%lld résident</string>
+			<key>many</key>
+			<string>%lld résidents</string>
+			<key>other</key>
+			<string>%lld résidents</string>
+		</dict>
+	</dict>
+	<key>rooms</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>zero</key>
+			<string>%lld salle</string>
+			<key>one</key>
+			<string>%lld salle</string>
+			<key>many</key>
+			<string>%lld salles</string>
+			<key>other</key>
+			<string>%lld salles</string>
 		</dict>
 	</dict>
 </dict>

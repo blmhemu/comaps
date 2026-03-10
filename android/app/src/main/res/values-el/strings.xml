@@ -919,4 +919,5 @@
     <string name="stop">Στάση</string>
     <string name="mb_downloaded">%1$d MB / %2$d MB</string>
     <string name="route_recalculating">Επαναϋπολογισμός της διαδρομής…</string>
+    <string name="population">Πληθυσμός: %s</string>
 </resources>

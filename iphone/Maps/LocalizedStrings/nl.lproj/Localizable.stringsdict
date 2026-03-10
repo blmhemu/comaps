@@ -56,5 +56,41 @@
 			<string>%d tracks</string>
 		</dict>
 	</dict>
+	<key>population</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>zero</key>
+			<string>%lld bewoners</string>
+			<key>one</key>
+			<string>%lld bewoner</string>
+			<key>other</key>
+			<string>%lld bewoners</string>
+		</dict>
+	</dict>
+	<key>rooms</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>zero</key>
+			<string>%lld kamers</string>
+			<key>one</key>
+			<string>%lld kamer</string>
+			<key>other</key>
+			<string>%lld kamers</string>
+		</dict>
+	</dict>
 </dict>
 </plist>

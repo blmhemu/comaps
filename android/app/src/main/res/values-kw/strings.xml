@@ -273,7 +273,7 @@
     <string name="trip_finished">Ty re wrug!</string>
     <string name="ok">Da lowr</string>
     <string name="sort">Sortya…</string>
-    <string name="sort_bookmarks">Sortya drudhow</string>
+    <string name="sort_bookmarks">Sortya Drudhow</string>
     <string name="by_default">Dre defowt</string>
     <string name="by_type">Dre eghen</string>
     <string name="by_distance">Dre pellder</string>
@@ -325,7 +325,7 @@
     <string name="button_layer_outdoor">Yn-mes</string>
     <string name="browser_not_available">Peurell nakavadow</string>
     <string name="volume">Ughelder</string>
-    <string name="bookmarks_export">Esperthi oll Leow ha Lerghow</string>
+    <string name="bookmarks_export">Esperthi oll Drudhow</string>
     <string name="clear_the_search">Dilea an hwithrans</string>
     <string name="zoom_in">Moghhe</string>
     <string name="zoom_out">Lehe</string>
@@ -400,9 +400,9 @@
     <string name="category_secondhand">Gwarennow Wortaswerth</string>
     <string name="category_nightlife">Delit dres Nos</string>
     <string name="share_bookmarks_email_subject">Ow Drudhow CoMaps</string>
-    <string name="share_bookmarks_email_body">Dydh da!\n\nOw lyververkys yw stag; mar pleg, ygeri y\'s yn CoMaps. Mar ty kavos y na leys, ty gallos iskarga yth omma: https://www.comaps.app/download/ \n\nEnjoya ow travalya gans CoMaps!</string>
+    <string name="share_bookmarks_email_body">Dydh da!\n\nMa Drudhow yw stag; mar pleg, ygeri y\'s yn CoMaps. Mar ty kavos y na leys, ty gallos iskarga yth omma: https://www.comaps.app/download/ \n\nEnjoya ow travalya gans CoMaps!</string>
     <string name="load_kmz_successful">Drudhow kargys yn sewen! Ty gallos kavos y\'s war an mappa po yn an skrin Dyghtyer Drudhow.</string>
-    <string name="load_kmz_failed">Y fyllis an karga drudhow. An restren re bos anewn.</string>
+    <string name="load_kmz_failed">Y fyllis an karga Drudhow. An restren re bos anewn.</string>
     <string name="unknown_file_type">An eghen restren yw anaswonys gans an app:\n%1$s</string>
     <string name="failed_to_open_file">Y fyllis ygeri restren %1$s \n\n%2$s</string>
     <string name="unknown_current_position">Dhe tyller yw determys na hwath</string>
@@ -631,13 +631,13 @@
     <string name="error_no_file_manager_app">Anabel dhe diskwedhes fenester dewis restrenva dre reson app fytti vyth yw leys war gas devis. Mar pleg, lea unn dyghtyer restrennow hag assaya arta.</string>
     <string name="uri_open_location_failed">App leys vyth may gallos ygeri an tyller</string>
     <string name="pref_left_button_disable">Ungallosegi</string>
-    <string name="pref_backup_title">Backupya drudhow</string>
+    <string name="pref_backup_title">Backupya Drudhow</string>
     <string name="pref_backup_summary">Backupya yn awtomatek yn unn restrenva war gas devis</string>
     <string name="pref_backup_now_title">Gul y lemmyn</string>
     <string name="pref_backup_now_summary">Gul unn backup a-dhesempis</string>
     <string name="pref_backup_now_summary_progress">Yn avonsyans…</string>
     <string name="pref_backup_now_summary_ok">Sewena</string>
-    <string name="pref_backup_now_summary_empty_lists">Leow ha lerghow vyth rag backupya</string>
+    <string name="pref_backup_now_summary_empty_lists">Drudhow vyth rag backupya</string>
     <string name="pref_backup_now_summary_failed">Y fyllis gul unn backup</string>
     <string name="pref_backup_now_summary_folder_unavailable">An restrenva dewisys yw ankavadow</string>
     <string name="pref_backup_status_summary_success">Gwrians sewen a-dhiwedhes</string>
@@ -686,4 +686,6 @@
     <string name="destination">Diwedhva</string>
     <string name="stop">Powes</string>
     <string name="route_recalculating">Daskalkya an fordh…</string>
+    <string name="population">Poblans: %s</string>
+    <string name="charge_socket_type1_combo">Kesunyans Eghen 1</string>
 </resources>

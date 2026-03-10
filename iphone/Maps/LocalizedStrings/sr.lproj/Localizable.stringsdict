@@ -62,5 +62,39 @@
 			<string>%d путања</string>
 		</dict>
 	</dict>
+	<key>population</key>
+	<dict>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld становник</string>
+			<key>few</key>
+			<string>%lld становника</string>
+			<key>other</key>
+			<string>%lld становника</string>
+		</dict>
+	</dict>
+	<key>rooms</key>
+	<dict>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>zero</key>
+			<string>%lld соба</string>
+			<key>one</key>
+			<string>%lld соба</string>
+			<key>few</key>
+			<string>%lld собе</string>
+			<key>other</key>
+			<string>%lld соба</string>
+		</dict>
+	</dict>
 </dict>
 </plist>

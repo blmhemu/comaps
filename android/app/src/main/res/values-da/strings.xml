@@ -922,4 +922,5 @@
     <string name="stop">Stop</string>
     <string name="route_recalculating">Genberegner ruten…</string>
     <string name="charge_socket_type1_combo">Type 1 combo</string>
+    <string name="population">Indbyggertal: %s</string>
 </resources>

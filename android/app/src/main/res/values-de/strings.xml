@@ -935,4 +935,5 @@
     <string name="stop">Beenden</string>
     <string name="route_recalculating">Neuberechnung der Route…</string>
     <string name="charge_socket_type1_combo">Typ 1 Combo</string>
+    <string name="population">Einwohner: %s</string>
 </resources>

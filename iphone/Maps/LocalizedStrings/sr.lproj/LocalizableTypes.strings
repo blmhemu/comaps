@@ -1326,7 +1326,7 @@
 "type.sport.skateboard" = "Skejtbord";
 "type.sport.skiing" = "Skijanje";
 "type.sport.soccer" = "Фудбал";
-"type.sport.swimming" = "Plivanje";
+"type.sport.swimming" = "Пливање";
 "type.sport.table_tennis" = "Stoni tenis";
 "type.sport.tennis" = "Tenis";
 "type.sport.volleyball" = "Odbojka";
@@ -1359,7 +1359,7 @@
 "type.attraction.maze" = "Lavirint";
 "type.attraction.roller_coaster" = "Rolerkoster";
 "type.attraction.water_slide" = "Tobogan";
-"type.tourism.attraction.specified" = "Turistička atrakcija";
+"type.tourism.attraction.specified" = "Atrakcija";
 "type.tourism.camp_site" = "Kamp";
 "type.tourism.caravan_site" = "Kamp za karavane";
 
@@ -1600,5 +1600,5 @@
 "type.tourism.information.tactile_map" = "Тактилна мапа";
 "type.waterway.fuel" = "Бензинска пумпа за пловила";
 "type.amenity.community_centre.youth_centre" = "Омладински центар";
-"type.shop.water" = "Water Shop";
-"type.attraction" = "Attraction";
+"type.shop.water" = "Продавница воде";
+"type.attraction" = "Атракција";

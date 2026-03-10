@@ -50,5 +50,33 @@
 			<string>%d ίχνη</string>
 		</dict>
 	</dict>
+	<key>population</key>
+	<dict>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld κάτοικος</string>
+			<key>other</key>
+			<string>%lld κάτοικοι</string>
+		</dict>
+	</dict>
+	<key>rooms</key>
+	<dict>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>one</key>
+			<string>%lld δωμάτιο</string>
+			<key>other</key>
+			<string>%lld δωμάτια</string>
+		</dict>
+	</dict>
 </dict>
 </plist>
