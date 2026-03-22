@@ -19,6 +19,7 @@ public class WheelProgressView extends FrameLayout
 {
   private static final int DEFAULT_THICKNESS = 4;
   private CircularProgressIndicator mProgress;
+  private static Drawable defaultDrawable;
 
   public WheelProgressView(Context context)
   {
@@ -34,6 +35,7 @@ public class WheelProgressView extends FrameLayout
   {
     super(context, attrs, defStyle);
     init(context, attrs);
+    setSaveEnabled(true);
   }
 
   private void init(Context context, AttributeSet attrs)
@@ -46,22 +48,25 @@ public class WheelProgressView extends FrameLayout
         typedArray.getDimensionPixelSize(R.styleable.WheelProgressView_wheelThickness, DEFAULT_THICKNESS));
     mProgress.setIndicatorColor(typedArray.getColor(R.styleable.WheelProgressView_wheelProgressColor, Color.WHITE));
     mProgress.setTrackColor(typedArray.getColor(R.styleable.WheelProgressView_wheelSecondaryColor, Color.GRAY));
-    mDrawable.setImageDrawable(typedArray.getDrawable(R.styleable.WheelProgressView_centerDrawable));
-    if (mDrawable.getDrawable() == null)
-      mDrawable.setImageDrawable(getDefaultDrawable(context));
+    Drawable centerDrawable = typedArray.getDrawable(R.styleable.WheelProgressView_centerDrawable);
+    mDrawable.setImageDrawable(centerDrawable != null ? centerDrawable : getDefaultDrawable(context));
     typedArray.recycle();
   }
 
   @NonNull
   private static Drawable getDefaultDrawable(@NonNull Context context)
   {
-    Drawable drawable = DrawableCompat.wrap(ContextCompat.getDrawable(context, R.drawable.ic_close)).mutate();
-    DrawableCompat.setTint(drawable, ThemeUtils.getColor(context, R.attr.iconTint));
-    return drawable;
+    if (defaultDrawable == null) {
+      Drawable drawable = ContextCompat.getDrawable(context.getApplicationContext(), R.drawable.ic_close);
+      defaultDrawable = DrawableCompat.wrap(drawable).mutate();
+    }
+    DrawableCompat.setTint(defaultDrawable, ThemeUtils.getColor(context, R.attr.iconTint));
+    return defaultDrawable;
   }
 
   public void setProgress(int progress)
   {
+    if (mProgress.getProgress() == progress) return;
     mProgress.setProgressCompat(progress, true);
   }
 
