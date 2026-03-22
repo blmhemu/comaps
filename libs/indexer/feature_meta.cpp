@@ -119,7 +119,7 @@ bool Metadata::TypeFromString(string_view k, Metadata::EType & outType)
     outType = Metadata::FMD_PHONE_NUMBER;
   else if (k == "fax" || k == "contact:fax")
     outType = Metadata::EType::FMD_FAX_NUMBER;
-  else if (k == "stars")
+  else if (k == "stars" || k == "award:michelin")
     outType = Metadata::FMD_STARS;
   else if (k.starts_with("operator"))
     outType = Metadata::FMD_OPERATOR;
