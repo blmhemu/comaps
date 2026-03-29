@@ -157,7 +157,6 @@ jobs:
           CXX: ${{ matrix.compiler.CXX }}
           CMAKE_C_COMPILER_LAUNCHER: ccache
           CMAKE_CXX_COMPILER_LAUNCHER: ccache
-          SKIP_MAP_DOWNLOAD: 1
           # -g1 should slightly reduce build time.
           CMAKE_C_FLAGS: -g1
           CMAKE_CXX_FLAGS: -g1
