@@ -92,22 +92,29 @@ void GetCategoryTypes(CategoriesHolder const & categories, std::pair<int, int> s
 {
   for (uint32_t t : types)
   {
-    // Index the feature under its own category and all parent categories that have entries.
-    // This ensures subtypes like historic-memorial-cross are searchable by parent aliases
-    // (e.g. "monument" for historic-memorial) in regular search, matching categorial search behavior.
+    // Index the feature under its own category only - if its defined explicitly.
+    // E.g. `leisure-swimming_pool-private` is not matched by a `swimming pool` search
+    // because it has its own explicit search category defined.
+    // But sport-specific subtypes of `leisure-sports_centre` are matched by a `sports centre` search
+    // because these subtypes have no explicitly defined search categories.
+
     for (uint8_t level = ftype::GetLevel(t); level >= 2; --level)
     {
       ftype::TruncValue(t, level);
       if (categories.IsTypeExist(t))
-      {
-        // Drawable scale must be normalized to indexer scales.
-        scaleRange.second = scales::PatchMaxDrawableScale(scaleRange.second);
-
-        // Index only those types that are visible.
-        if (feature::IsVisibleInRange(t, scaleRange))
-          fn(t);
-      }
+        break;
     }
+
+    // Only categorized types will be added to index.
+    if (!categories.IsTypeExist(t))
+      continue;
+
+    // Drawable scale must be normalized to indexer scales.
+    scaleRange.second = scales::PatchMaxDrawableScale(scaleRange.second);
+
+    // Index only those types that are visible.
+    if (feature::IsVisibleInRange(t, scaleRange))
+      fn(t);
   }
 }
 
