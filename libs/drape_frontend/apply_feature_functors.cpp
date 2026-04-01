@@ -204,6 +204,7 @@ bool IsSymbolRoadShield(ftypes::RoadShield const & shield)
          shield.m_type == ftypes::RoadShieldType::US_Interstate ||
          shield.m_type == ftypes::RoadShieldType::US_Highway ||
          shield.m_type == ftypes::RoadShieldType::Italy_Autostrada ||
+         shield.m_type == ftypes::RoadShieldType::Argentina_RN ||
          shield.m_type == ftypes::RoadShieldType::Hungary_Green ||
          shield.m_type == ftypes::RoadShieldType::Hungary_Blue;
 }
@@ -230,6 +231,8 @@ std::string GetRoadShieldSymbolName(ftypes::RoadShield const & shield, double fo
     result = "shield-hungary-green";
   else if (shield.m_type == ftypes::RoadShieldType::Hungary_Blue)
     result = "shield-hungary-blue";
+  else if (shield.m_type == ftypes::RoadShieldType::Argentina_RN)
+    result = shield.m_name.size() <= 2 ? "shield-argentina-rn" : "shield-argentina-rn-wide";
   else
     ASSERT(false, ("This shield type doesn't support symbols:", shield.m_type));
 

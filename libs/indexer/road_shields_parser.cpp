@@ -84,6 +84,7 @@ ankerl::unordered_dense::map<std::string, RoadShieldType> const kRoadNetworkShie
     {"za:national", RoadShieldType::Generic_White_Bordered},
     {"za:regional", RoadShieldType::Generic_White_Bordered},
     {"my:federal", RoadShieldType::Generic_Orange_Bordered},
+    {"ar:national", RoadShieldType::Argentina_RN},
     // United States road networks.
     {"us:i", RoadShieldType::US_Interstate},
     {"us:us", RoadShieldType::US_Highway},
@@ -730,6 +731,19 @@ public:
   {}
 };
 
+class ArgentinaRoadShieldParser : public SimpleRoadShieldParser
+{
+public:
+  // Hide duplicated shields to remove duplication due to tagging convention in AR:
+  // https://wiki.openstreetmap.org/wiki/ES:Argentina/V%C3%ADas_de_circulaci%C3%B3n#Relaciones_de_Ruta_(type=route)
+  // refs that don't start with RN/RP will still appear with the default shield (but shouldn't exist in AR)
+  // suggestion for future improvement by @pastk: https://codeberg.org/comaps/comaps/pulls/3966#issuecomment-12533514
+  explicit ArgentinaRoadShieldParser(std::string const & baseRoadNumber)
+    : SimpleRoadShieldParser(baseRoadNumber, {{"RN", RoadShieldType::Hidden},
+                                              {"RP", RoadShieldType::Hidden}})
+  {}
+};
+
 class UkraineRoadShieldParser : public SimpleUnicodeRoadShieldParser
 {
 public:
@@ -902,6 +916,8 @@ RoadShieldsSetT GetRoadShields(std::string const & mwmName, std::string const & 
     return IndiaRoadShieldParser(roadNumber).GetRoadShields();
   if (mwmName == "Austria")
     return AustriaRoadShieldParser(roadNumber).GetRoadShields();
+  if (mwmName == "Argentina")
+    return ArgentinaRoadShieldParser(roadNumber).GetRoadShields();
   if (mwmName == "Belgium")
     return BelgiumRoadShieldParser(roadNumber).GetRoadShields();
   if (mwmName == "Greece")
