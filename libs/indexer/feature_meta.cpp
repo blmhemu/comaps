@@ -355,7 +355,7 @@ string ToString(Metadata::EType type)
   case Metadata::FMD_SELF_SERVICE: return "self_service";
   case Metadata::FMD_OUTDOOR_SEATING: return "outdoor_seating";
   case Metadata::FMD_NETWORK: return "network";
-  case Metadata::FMD_CHARGE_SOCKETS: CHECK(false, ("FMD_CHARGE_SOCKETS is a compound attribute."));
+  case Metadata::FMD_CHARGE_SOCKETS: return "socket";
   case Metadata::FMD_ROOMS: return "rooms";
   case Metadata::FMD_CHARGE: return "charge";
   case Metadata::FMD_POPULATION: return "population";
