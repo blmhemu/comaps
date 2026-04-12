@@ -60,7 +60,7 @@ jobs:
         shell: bash
         run: |
           git submodule sync --recursive
-          git submodule update --depth 1 --init --recursive --jobs=$(($(nproc) * 20))
+          git submodule update --depth 1 --init --recursive
 
       - name: Configure ccache
         uses: https://github.com/hendrikmuhs/ccache-action@v1.2
