@@ -297,6 +297,7 @@ void RegionData::AddPublicHoliday(int8_t month, int8_t offset)
 }
 
 // Warning: exact osm tag keys should be returned for valid enum values.
+// Except in case of `DebugPrint` only keys like socket
 string ToString(Metadata::EType type)
 {
   switch (type)
