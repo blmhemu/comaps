@@ -145,6 +145,7 @@
   <style name="MwmWidget.ToolbarTheme" parent="ThemeOverlay.Material3.Dark.ActionBar">
     <item name="android:gravity">center_vertical</item>
     <item name="colorAccent">@android:color/white</item>
+    <item name="colorPrimary">@color/bg_primary</item>
     <item name="colorSecondary">@android:color/white</item>
     <item name="iconTint">@color/white_primary</item>
   </style>
