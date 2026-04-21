@@ -656,12 +656,36 @@ public:
   {}
 };
 
-class SloveniaRoadShieldParser : public SimpleRoadShieldParser
+class SloveniaRoadShieldParser : public RoadShieldParser
 {
 public:
-  explicit SloveniaRoadShieldParser(std::string const & baseRoadNumber)
-    : SimpleRoadShieldParser(baseRoadNumber, {{"A", RoadShieldType::Highway_Hexagon_Green}})
+  SloveniaRoadShieldParser(std::string const & baseRoadNumber, HighwayClass highwayClass)
+    : RoadShieldParser(baseRoadNumber), m_highwayClass(highwayClass)
   {}
+
+  RoadShield ParseRoadShield(std::string_view rawText, uint8_t index) const override
+  {
+    if (rawText.size() > kMaxRoadShieldBytesSize)
+      return RoadShield();
+
+    if (rawText.starts_with("A"))
+      return RoadShield(RoadShieldType::Highway_Hexagon_Green, rawText);
+
+    if (rawText.starts_with("H"))
+      return RoadShield(RoadShieldType::Generic_Blue_Bordered, rawText);
+
+    if (m_highwayClass == HighwayClass::Motorway)
+      return RoadShield(RoadShieldType::Generic_Pill_Green_Bordered, rawText);
+    if (m_highwayClass == HighwayClass::Trunk)
+      return RoadShield(RoadShieldType::Generic_Pill_Blue_Bordered, rawText);
+    if (m_highwayClass == HighwayClass::Secondary || m_highwayClass == HighwayClass::Tertiary)
+      return RoadShield(RoadShieldType::Generic_Orange_Bordered, rawText);
+
+    return RoadShield(RoadShieldType::Generic_White_Bordered, rawText);
+  }
+
+private:
+  HighwayClass const m_highwayClass;
 };
 
 class SwitzerlandRoadShieldParser : public SimpleRoadShieldParser
@@ -957,7 +981,7 @@ RoadShieldsSetT GetRoadShields(std::string const & mwmName, std::string const & 
   if (mwmName == "Slovakia")
     return SlovakiaRoadShieldParser(roadNumber).GetRoadShields();
   if (mwmName == "Slovenia")
-    return SloveniaRoadShieldParser(roadNumber).GetRoadShields();
+    return SloveniaRoadShieldParser(roadNumber, highwayClass).GetRoadShields();
   if (mwmName == "Switzerland")
     return SwitzerlandRoadShieldParser(roadNumber).GetRoadShields();
   if (mwmName == "Liechtenstein")
