@@ -87,6 +87,7 @@ public class SettingsPrefsFragment extends BaseXmlSettingsFragment
     initLeftButtonPrefs();
     initCustomMapDownloadUrlPrefsCallbacks();
     initOpenExternalLinksPrefsCallback();
+    initIncognitoModePrefsCallback();
   }
 
   private void initLeftButtonPrefs()
@@ -643,6 +644,12 @@ public class SettingsPrefsFragment extends BaseXmlSettingsFragment
   {
     Preference openExternalLinksPref = getPreference(getString(R.string.pref_open_external_links));
     openExternalLinksPref.setVisible(Build.VERSION.SDK_INT >= Build.VERSION_CODES.S);
+  }
+
+  private void initIncognitoModePrefsCallback()
+  {
+    Preference keyboardTypingHistoryPref = getPreference(getString(R.string.pref_keyboard_typing_history));
+    keyboardTypingHistoryPref.setVisible(Build.VERSION.SDK_INT >= Build.VERSION_CODES.O);
   }
 
   private void removePreference(@NonNull String categoryKey, @NonNull Preference preference)

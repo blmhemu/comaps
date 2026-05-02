@@ -1007,4 +1007,6 @@
     <string name="route_recalculating">Recalculating the route…</string>
     <string name="pref_openexternallinks_title">Automatically open third-party links</string>
     <string name="pref_openexternallinks_summary">Open third-party links in CoMaps by default</string>
+    <string name="pref_keyboard_typing_history_title">Keyboard incognito mode</string>
+    <string name="pref_keyboard_typing_history_summary">Request system keyboard to not record typing history</string>
 </resources>
