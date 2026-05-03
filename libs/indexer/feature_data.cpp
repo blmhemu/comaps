@@ -5,9 +5,8 @@
 #include "indexer/ftypes_matcher.hpp"
 #include "indexer/ftypes_subtypes.hpp"
 
-#include "base/assert.hpp"
+#include "base/localisation.hpp"
 #include "base/macros.hpp"
-#include "base/stl_helpers.hpp"
 #include "base/string_utils.hpp"
 
 #include <algorithm>

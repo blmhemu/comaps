@@ -2,10 +2,7 @@
 
 #include "indexer/classificator.hpp"
 
-#include "platform/localization.hpp"
-
-#include "base/stl_helpers.hpp"
-#include "base/string_utils.hpp"
+#include "base/localisation_translation.hpp"
 
 #include <algorithm>
 

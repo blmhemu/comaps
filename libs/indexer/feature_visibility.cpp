@@ -4,12 +4,14 @@
 #include "indexer/drawing_rules.hpp"
 #include "indexer/feature.hpp"
 #include "indexer/feature_data.hpp"
+#include "indexer/feature_decl.hpp"
 #include "indexer/ftypes_matcher.hpp"
 #include "indexer/ftypes_subtypes.hpp"
 #include "indexer/scales.hpp"
 
 #include "base/assert.hpp"
 #include "base/checked_cast.hpp"
+#include "base/stl_helpers.hpp"
 
 #include <algorithm>
 #include <array>

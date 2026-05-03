@@ -2,9 +2,9 @@
 #include "indexer/classificator.hpp"
 #include "indexer/search_string_utils.hpp"
 
-#include "coding/reader.hpp"
 #include "coding/reader_streambuf.hpp"
 
+#include "base/assert.hpp"
 #include "base/logging.hpp"
 
 namespace

@@ -20,6 +20,7 @@
 
 #include "base/file_name_utils.hpp"
 #include "base/localisation.hpp"
+#include "base/localisation_translation.hpp"
 #include "base/string_utils.hpp"
 
 #include <algorithm>

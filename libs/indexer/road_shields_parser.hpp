@@ -1,16 +1,20 @@
 #pragma once
 
-#include "indexer/feature.hpp"
 #include "indexer/ftypes_matcher.hpp"
 
 #include "geometry/rect2d.hpp"
+
+#include "base/buffer_vector.hpp"
 
 #include <map>
 #include <string>
 #include <vector>
 
+class FeatureType;
+
 namespace ftypes
 {
+
 enum class RoadShieldType
 {
   Default = 0,

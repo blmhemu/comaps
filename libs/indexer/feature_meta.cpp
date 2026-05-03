@@ -1,6 +1,8 @@
 #include "indexer/feature_meta.hpp"
 #include "custom_keyvalue.hpp"
 
+#include "base/localisation.hpp"
+
 namespace feature
 {
 using namespace std;

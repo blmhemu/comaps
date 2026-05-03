@@ -13,6 +13,7 @@
 #include "geometry/rect2d.hpp"
 #include "geometry/tree4d.hpp"
 
+#include "base/localisation_translation.hpp"
 #include "base/macros.hpp"
 
 #include <cstdint>

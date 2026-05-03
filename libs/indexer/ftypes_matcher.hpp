@@ -1,5 +1,6 @@
 #pragma once
 
+#include "indexer/classificator.hpp"
 #include "indexer/feature_data.hpp"
 #include "indexer/feature_utils.hpp"
 

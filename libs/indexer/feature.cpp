@@ -1,20 +1,26 @@
 #include "indexer/feature.hpp"
 
 #include "indexer/classificator.hpp"
+#include "indexer/dat_section_header.hpp"
 #include "indexer/feature_algo.hpp"
 #include "indexer/feature_impl.hpp"
 #include "indexer/feature_region_locator.hpp"
-#include "indexer/feature_utils.hpp"
 #include "indexer/map_object.hpp"
+#include "indexer/mwm_set.hpp"
 #include "indexer/shared_load_info.hpp"
 
+#include "geometry/latlon.hpp"
 #include "geometry/mercator.hpp"
 
-#include "platform/preferred_languages.hpp"
-
 #include "coding/byte_stream.hpp"
+#include "coding/files_container.hpp"
+#include "coding/geometry_coding.hpp"
+#include "coding/reader.hpp"
+#include "coding/string_utf8_multilang.hpp"
+#include "coding/varint.hpp"
 
 #include "base/assert.hpp"
+#include "base/localisation_translation.hpp"
 #include "base/logging.hpp"
 #include "base/stl_helpers.hpp"
 

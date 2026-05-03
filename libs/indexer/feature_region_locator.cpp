@@ -1,7 +1,10 @@
 #include "indexer/feature_region_locator.hpp"
 
-#include "defines.hpp"
+#include "coding/reader.hpp"
+
 #include "platform/platform.hpp"
+
+#include "defines.hpp"
 
 namespace feature
 {

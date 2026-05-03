@@ -1,7 +1,9 @@
 #pragma once
 
 #include "coding/string_utf8_multilang.hpp"
+#include "coding/varint.hpp"
 
+#include "base/assert.hpp"
 #include "base/stl_helpers.hpp"
 
 #include <map>

@@ -6,6 +6,12 @@
 #include "coding/reader.hpp"
 #include "coding/string_utf8_multilang.hpp"
 #include "coding/value_opt_string.hpp"
+#include "coding/varint.hpp"
+#include "coding/write_to_sink.hpp"
+
+#include "base/assert.hpp"
+#include "base/logging.hpp"
+#include "base/stl_helpers.hpp"
 
 #include <algorithm>
 #include <array>

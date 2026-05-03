@@ -3,6 +3,7 @@
 #include "search/dummy_rank_table.hpp"
 
 #include "indexer/data_source.hpp"
+#include "indexer/feature_decl.hpp"
 
 CachingRankTableLoader::CachingRankTableLoader(DataSource const & dataSource, std::string const & sectionName)
   : m_dataSource(dataSource)

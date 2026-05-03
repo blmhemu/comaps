@@ -12,6 +12,7 @@
 #include "platform/localization.hpp"
 #include "platform/measurement_utils.hpp"
 
+#include "base/localisation_translation.hpp"
 #include "base/logging.hpp"
 #include "base/string_utils.hpp"
 

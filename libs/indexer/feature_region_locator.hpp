@@ -1,13 +1,12 @@
 #pragma once
 
-#include "coding/reader.hpp"
-
 #include "cppjansson/cppjansson.hpp"
 
 #include "storage/country_info_getter.hpp"
-#include "storage/storage.hpp"
 
-#include "base/localisation_translation.hpp"
+#include "geometry/point2d.hpp"
+
+#include "base/localisation.hpp"
 #include "base/string_utils.hpp"
 
 #include <vector>

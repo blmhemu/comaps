@@ -10,6 +10,8 @@
 
 #include "coding/string_utf8_multilang.hpp"
 
+#include "base/localisation_translation.hpp"
+
 namespace kml
 {
 bool IsEqual(m2::PointD const & lhs, m2::PointD const & rhs)

@@ -2,7 +2,10 @@
 
 #include "indexer/feature_meta.hpp"
 
+#include "coding/files_container.hpp"
+#include "coding/succinct_mapper.hpp"
 #include "coding/varint.hpp"
+#include "coding/writer.hpp"
 
 #include "base/assert.hpp"
 #include "base/checked_cast.hpp"
