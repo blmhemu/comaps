@@ -80,6 +80,10 @@ Finally, configure the python interpreter in the IDE:
 
 File → Invalidate caches...; select "Reset CMake Cache" then _Invalidate and Restart_.
 
+### I still see spurious errors highlighted in C++ files
+
+Try turning off `clangd` analysis: Files → Settings → Languages & Frameworks → C/C++ → Clangd: uncheck "show errors and warnings from clangd".
+
 ### Spurious errors are highlighted in Python files
 
 1. Make sure `tools/python` is marked as source root.
