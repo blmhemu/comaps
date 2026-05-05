@@ -1,9 +1,9 @@
-• Données OpenStreetMap du 21 Avril
-• Ajout du choix de langage de l'interface
-• Android Auto : montrer la limite de vitesse en mode navigation
-• Android Auto : utilisation des couleurs de fond standard au lieu d'un vert spécial
-• Possibilité de commuter entre le prochain arrêt et l'arrêt final sur les infos de navigation
-• Correction de bugs sur la navigation audio
-• Diverses modifications d'interface et autres corrections
+• Données OpenStreetMap du 4 Mai
+• Bouton "Vérifier les mises à jour" sur l'écran de téléchargement, pour mettre à jour les cartes séparément de l'app (m.à.j hebdomadaires prévues)
+• En navigation, montrer seulement les feux sur l'itinéraire, avec de plus grosses icônes
+• Affichage des catégories de recherche en grille
+• Ajout d'un réglage incognito pour le clavier
+• Ajout des panneaux routiers Slovaques
+• Ajout des articles Wikipedia en Indonésien
 
 Plus de détails sur comaps.app/latest

@@ -1,10 +1,10 @@
-• OpenStreetMap podaci od 21. travnja
-• Dodana postavka za podešavanje jezika korisničkog sučelja
-• Android Auto: prikaz ograničenja brzine tijekom navigacije
-• Android Auto: standardne pozadinske boje umjesto prilagođene zelene
-• Dodan izbor prikaza između međuodredišta i odredišta u navigacijskom panelu
-• Ispravljeno nekoliko grešaka glasovne navigacije
-• Razne dorade i ispravci sučelja
-• Bolji kontrast oznaka vodenih površina u svijetlom načinu
+• OpenStreetMap podaci na dan 4. svibnja
+• Gumb „Provjeri ažuriranja“ za preuzimanja nove karte bez ažuriranja aplikacije
+• Prikaz prometnih svjetala samo na ruti, ali s većim ikonama
+• Kategorije pretraživanja prikazane kao mreža
+• Privatnost: dodan incognito način za sistemsku tipkovnicu
+• Dodane slovenske oznake cesta
+• Dodana indonezijska Wikipedija
+• OSM editor: ispravljeno pretraživanje kategorija na regionalnim jezicima
 
-Više detalja na comaps.app/latest
+Više detalja: comaps.app/latest

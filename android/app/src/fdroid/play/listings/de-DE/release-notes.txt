@@ -1,10 +1,10 @@
-• OpenStreetMap-Daten vom 21. April
-• Spracheinstellung für die App-Oberfläche hinzugefügt
-• Android Auto: Geschwindigkeitsbegrenzung während der Navigation anzeigen
-• Android Auto: Nutzt Standard-Hintergrundfarben
-• Navigationsansicht kann zwischen nächstem Stopp und Ziel wechseln
-• Diverse Fehlerbehebung in Sprachnavigation
-• Diverse Fehlerbehebung und Verbesserungen an Benutzeroberfläche
-• Kontraststärkere Wasser-Label im hellen Modus
+• OpenStreetMap-Daten vom 4. Mai
+• "Updates prüfen"-Knopf im Kartendownload-Bildschirm, erlaubt neue Karten ohne die App zu aktualisieren
+• Während der Navigation werden nur Ampeln innerhalb der Route angezeigt, dafür größer
+• Suchkategorien als Raster angezeigt
+• Privatsphäreoption: Keyboard im incognito-Modus
+• Slowenische Streckenschilder
+• Indonesische Wikipedia-Artikel
+• OSM-Editor: Kategoriesuche in regionalen Sprachen korrigiert
 
-Weitere Details unter comaps.app/latest
+Mehr Details: comaps.app/latest

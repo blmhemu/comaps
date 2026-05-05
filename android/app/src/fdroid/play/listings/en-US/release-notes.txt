@@ -1,10 +1,10 @@
-• OpenStreetMap data as of April 21
-• Added app user interface language setting
-• Android Auto: show speed limit during navigation
-• Android Auto: use standard background colors instead of custom green
-• Added navigation panel toggling between next stop and final destination info
-• Fixed several voice navigation bugs
-• Various UI tweaks and fixes
-• More contrast water labels in light mode
+• OpenStreetMap data as of May 4
+• "Check for updates" button in the download screen to get new maps without updating the app (weekly map updates are planned)
+• When navigating show in-route traffic lights only, but with bigger icons
+• Search categories displayed as grid
+• A privacy setting to enable system keyboard incognito mode
+• Slovenia specific road shields
+• Indonesian Wikipedia articles
+• OSM editor: fixed categories search in regional languages
 
 More details on comaps.app/latest
