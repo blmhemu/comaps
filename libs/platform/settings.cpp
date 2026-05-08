@@ -8,11 +8,15 @@
 
 #include "coding/transliteration.hpp"
 
+#include "geometry/angles.hpp"
 #include "geometry/any_rect2d.hpp"
+#include "geometry/point2d.hpp"
 #include "geometry/rect2d.hpp"
 
-#include "base/localisation_translation.hpp"
+#include "base/assert.hpp"
+#include "base/localisation.hpp"
 #include "base/math.hpp"
+#include "base/timer.hpp"
 
 #include <iostream>
 #include <sstream>

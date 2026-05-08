@@ -7,6 +7,8 @@
 #include "base/assert.hpp"
 #include "base/cancellable.hpp"
 
+#include "defines.hpp"
+
 namespace storage
 {
 namespace diffs

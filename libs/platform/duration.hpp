@@ -1,13 +1,12 @@
 #pragma once
 
-#include "platform/localization.hpp"
-
 #include <chrono>
 #include <set>
 #include <string>
 
 namespace platform
 {
+struct Locale;
 
 class Duration
 {

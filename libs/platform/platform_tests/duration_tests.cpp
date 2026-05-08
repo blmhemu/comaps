@@ -1,6 +1,7 @@
 #include "testing/testing.hpp"
 
 #include "platform/duration.hpp"
+#include "platform/locale.hpp"
 
 #include <chrono>
 

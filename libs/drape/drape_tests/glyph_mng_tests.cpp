@@ -6,8 +6,10 @@
 #include "drape/glyph_manager.hpp"
 #include "drape/harfbuzz_shaping.hpp"
 
-#include "base/localisation.hpp"
+#include "coding/reader.hpp"
+
 #include "base/file_name_utils.hpp"
+#include "base/localisation.hpp"
 
 #include "qt_tstfrm/test_main_loop.hpp"
 

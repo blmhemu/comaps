@@ -16,6 +16,8 @@
 #include "base/localisation.hpp"
 #include "base/stl_helpers.hpp"
 
+#include "defines.hpp"
+
 #include <algorithm>
 #include <fstream>
 #include <iterator>

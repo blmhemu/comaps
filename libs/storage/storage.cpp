@@ -18,6 +18,7 @@
 
 #include "coding/file_writer.hpp"
 #include "coding/internal/file_data.hpp"
+#include "coding/reader.hpp"
 #include "coding/sha1.hpp"
 
 #include "base/assert.hpp"

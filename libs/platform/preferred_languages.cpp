@@ -1,10 +1,7 @@
 #include "platform/preferred_languages.hpp"
-#include "platform/settings.hpp"
-
-#include "coding/string_utf8_multilang.hpp"
 
 #include "base/buffer_vector.hpp"
-#include "base/macros.hpp"
+#include "base/localisation.hpp"
 #include "base/string_utils.hpp"
 
 #include "std/target_os.hpp"
@@ -17,6 +14,8 @@
 #include <CoreFoundation/CFLocale.h>
 #include <CoreFoundation/CFString.h>
 #elif defined(OMIM_OS_WINDOWS)
+#include "base/assert.hpp"
+#include "base/macros.hpp"
 #include "std/windows.hpp"
 // for XP it's not defined
 #define MUI_LANGUAGE_NAME 0x8

@@ -1,5 +1,8 @@
 #include "duration.hpp"
 
+#include "platform/locale.hpp"
+
+#include "base/assert.hpp"
 #include "base/localisation_translation.hpp"
 #include "base/stl_helpers.hpp"
 

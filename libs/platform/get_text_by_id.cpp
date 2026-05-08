@@ -1,14 +1,17 @@
 #include "platform/get_text_by_id.hpp"
 
+#include "coding/reader.hpp"
+
 #include "platform/platform.hpp"
 
 #include "cppjansson/cppjansson.hpp"
 
-#include "indexer/feature_meta.hpp"
 #include "indexer/feature_region_locator.hpp"
-#include "indexer/feature_utils.hpp"
 
+#include "base/assert.hpp"
+#include "base/exception.hpp"
 #include "base/file_name_utils.hpp"
+#include "base/localisation.hpp"
 #include "base/logging.hpp"
 
 #include <algorithm>
