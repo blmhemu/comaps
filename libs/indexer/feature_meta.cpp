@@ -1,27 +1,15 @@
 #include "indexer/feature_meta.hpp"
 #include "custom_keyvalue.hpp"
 
-#include "std/target_os.hpp"
-
 namespace feature
 {
 using namespace std;
 
 namespace
 {
-char constexpr const * kBaseWikiUrl =
-#ifdef OMIM_OS_MOBILE
-    ".m.wikipedia.org/wiki/";
-#else
-    ".wikipedia.org/wiki/";
-#endif
+char constexpr const * kBaseWikiUrl = ".wikipedia.org/wiki/";
 
-char constexpr const * kBaseCommonsUrl =
-#ifdef OMIM_OS_MOBILE
-    "https://commons.m.wikimedia.org/wiki/";
-#else
-    "https://commons.wikimedia.org/wiki/";
-#endif
+char constexpr const * kBaseCommonsUrl = "https://commons.wikimedia.org/wiki/";
 }  // namespace
 
 std::string_view MetadataBase::Get(uint8_t type) const
