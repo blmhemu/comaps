@@ -1396,7 +1396,7 @@ public class MwmActivity extends BaseMwmFragmentActivity
       Map.onScale(Math.pow(1.7f, exponent), event.getX(), event.getY(), true);
       return true;
     }
-    return super.onGenericMotionEvent(event);
+    return super.dispatchGenericMotionEvent(event);
   }
 
   public void customOnNavigateUp()
