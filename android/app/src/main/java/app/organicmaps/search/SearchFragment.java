@@ -179,9 +179,6 @@ public class SearchFragment extends BaseMwmFragment implements SearchListener, C
     public void onLocationUpdated(@NonNull Location location)
     {
       mLastPosition.set(location.getLatitude(), location.getLongitude());
-
-      if (!TextUtils.isEmpty(getQuery()))
-        mSearchAdapter.notifyDataSetChanged();
     }
   };
 
