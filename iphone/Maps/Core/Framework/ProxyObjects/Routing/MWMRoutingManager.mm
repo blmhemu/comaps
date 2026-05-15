@@ -10,6 +10,8 @@
 
 #include <CoreApi/Framework.h>
 
+#include "routing/following_info.hpp"
+
 @interface MWMRoutingManager()<MWMFrameworkRouteBuilderObserver, MWMLocationObserver>
 @property(nonatomic, readonly) RoutingManager & rm;
 @property(strong, nonatomic) NSHashTable<id<MWMRoutingManagerListener>> *listeners;

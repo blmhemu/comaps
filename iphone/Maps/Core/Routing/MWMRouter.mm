@@ -15,6 +15,8 @@
 
 #include <CoreApi/Framework.h>
 
+#include "routing/following_info.hpp"
+
 #include "platform/local_country_file_utils.hpp"
 #include "platform/localization.hpp"
 #include "platform/distance.hpp"
