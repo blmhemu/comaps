@@ -38,13 +38,6 @@ std::string getShortDescription(std::string const & description)
   return std::string(view);
 }
 
-std::string_view stripSchemeFromURI(std::string_view uri)
-{
-  for (std::string_view prefix : {"https://", "http://"})
-    if (uri.starts_with(prefix))
-      return uri.substr(prefix.size());
-  return uri;
-}
 }  // namespace
 
 class QHLine : public QFrame
@@ -206,7 +199,7 @@ PlacePageDialogUser::PlacePageDialogUser(QWidget * parent, place_page::Info cons
 
     // Links fragment
     if (auto website = info.GetMetadata(feature::Metadata::EType::FMD_WEBSITE); !website.empty())
-      addEntry("Website", std::string(stripSchemeFromURI(website)), true);
+      addEntry("Website", std::string(website), true);
 
     if (auto email = info.GetMetadata(feature::Metadata::EType::FMD_EMAIL); !email.empty())
     {
