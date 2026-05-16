@@ -99,7 +99,7 @@ void Metadata::EncodeWikiURL(int startIndex, std::string & url)
 // static
 bool Metadata::TypeFromString(string_view k, Metadata::EType & outType)
 {
-  if (k == "opening_hours")
+  if (k == "opening_hours" || k == "xmas:opening_hours")
     outType = Metadata::FMD_OPEN_HOURS;
   else if (k == "check_date")
     outType = Metadata::FMD_CHECK_DATE;
@@ -113,7 +113,7 @@ bool Metadata::TypeFromString(string_view k, Metadata::EType & outType)
     outType = Metadata::FMD_STARS;
   else if (k.starts_with("operator"))
     outType = Metadata::FMD_OPERATOR;
-  else if (k == "url" || k == "website" || k == "contact:website")
+  else if (k == "url" || k == "website" || k == "contact:website" || k == "logainm:url" || k == "heritage:website" || k == "memorial:website" || k == "xmas:url")
     outType = Metadata::FMD_WEBSITE;
   else if (k == "facebook" || k == "contact:facebook")
     outType = Metadata::FMD_CONTACT_FACEBOOK;
