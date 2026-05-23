@@ -404,6 +404,7 @@
 "twentyfour_seven" = "24/7";
 "day_off_today" = "Closed today";
 "day_off" = "Closed";
+"oh_unknown" = "Opening hours unknown";
 "today" = "Today";
 "opens_tomorrow_at" = "Opens tomorrow at %@";
 "opens_dayoftheweek_at" = "Opens %1$@ at %2$@";

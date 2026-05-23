@@ -96,8 +96,16 @@ class PlacePageInfoViewController: UIViewController {
       addToStack(openingHoursViewController.view)
       openingHoursViewController.didMove(toParent: self)
     } else if let openingHoursString = placePageInfoData.openingHoursString {
-      rawOpeningHoursView = createInfoItem(openingHoursString, icon: UIImage(systemName: "clock.fill"))
-      rawOpeningHoursView?.infoLabel.numberOfLines = 0
+      switch openingHoursString.lowercased() {
+      case "off", "closed":
+        rawOpeningHoursView = createInfoItem(L("day_off"), icon: UIImage(systemName: "clock.fill"))
+        rawOpeningHoursView?.infoLabel.textColor = StyleManager.shared.theme?.colors.red
+      case "unknown":
+        rawOpeningHoursView = createInfoItem(L("oh_unknown"), icon: UIImage(systemName: "clock.fill"))
+      default:
+        rawOpeningHoursView = createInfoItem(openingHoursString, icon: UIImage(systemName: "clock.fill"))
+        rawOpeningHoursView?.infoLabel.numberOfLines = 0
+      }
     }
 
     if let cuisine = placePageInfoData.cuisine {
