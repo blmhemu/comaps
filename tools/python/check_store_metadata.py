@@ -12,6 +12,7 @@ from urllib.parse import urlparse
 
 os.chdir(os.path.join(os.path.dirname(os.path.realpath(__file__)), "..", ".."))
 
+ANDROID_META_PATH='android/app/src'
 # https://support.google.com/googleplay/android-developer/answer/9844778?visit_id=637740303439369859-3116807078&rd=1#zippy=%2Cview-list-of-available-languages
 GPLAY_LOCALES = [
     "af",    # Afrikaans
@@ -103,6 +104,7 @@ GPLAY_LOCALES = [
     "zu",    # Zulu
 ]
 
+IOS_META_PATH='iphone/metadata'
 # From a Fastline error message and https://help.apple.com/app-store-connect/#/dev997f9cf7c
 APPSTORE_LOCALES = [
     "ar-SA", "ca", "cs", "da", "de-DE", "el", "en-AU", "en-CA", "en-GB", "en-US", "es-ES", "es-MX", "fi", "fr-CA", "fr-FR", "he", "hi", "hr", "hu", "id", "it", "ja", "ko", "ms", "nl-NL", "no", "pl", "pt-BR", "pt-PT", "ro", "ru", "sk", "sv", "th", "tr", "uk", "vi", "zh-Hans", "zh-Hant"
@@ -144,11 +146,14 @@ def check_text(path, max, optional=False, ignoreEmptyFilesAndNewLines=False):
         return done(path, check_raw(path, max, ignoreEmptyFilesAndNewLines)[0])
     except FileNotFoundError as e:
         if optional:
-            return True,
-        error(path, "NOT EXISTS")
-        return False,
+            return True
+        error(path, 'not exists')
+        return False
 
 def check_url(path, ignoreEmptyFilesAndNewLines=False):
+    if not os.path.exists(path):
+        error(path, 'not exists')
+        return False
     (ok, url) = check_raw(path, 500, ignoreEmptyFilesAndNewLines)
     url = urlparse(url)
     if not url.scheme in ('https', 'http'):
@@ -170,7 +175,7 @@ def check_exact(path, expected):
 def check_android(is_gplay):
     ok = True
     flavor = "google" if is_gplay else "fdroid"
-    flavor = f'android/app/src/{flavor}/play/'
+    flavor = f'{ANDROID_META_PATH}/{flavor}/play/'
     ok = check_url(flavor + 'contact-website.txt') and ok
     ok = check_email(flavor + 'contact-email.txt') and ok
     ok = check_exact(flavor + 'default-language.txt', 'en-US') and ok
@@ -178,10 +183,13 @@ def check_android(is_gplay):
         if is_gplay and locale.split('/')[-2] not in GPLAY_LOCALES:
             ok = error(locale, 'unsupported locale') and ok
             continue
-        ok = check_text(locale + 'title.txt', 30 if is_gplay else 50) and ok
-        ok = check_text(locale + 'short-description.txt', 80) and ok
-        ok = check_text(locale + 'full-description.txt', 4000) and ok
-        ok = check_text(locale + 'release-notes.txt', 499, optional=True) and ok
+        locale_ok = check_text(locale + 'title.txt', 30 if is_gplay else 50)
+        locale_ok = check_text(locale + 'short-description.txt', 80) and locale_ok
+        locale_ok = check_text(locale + 'full-description.txt', 4000) and locale_ok
+        locale_ok = check_text(locale + 'release-notes.txt', 499, optional=True) and locale_ok
+        if not locale_ok:
+            error(locale, 'locale is INVALID or INCOMPLETE')
+        ok = locale_ok and ok
     ''' TODO: relnotes not necessary exist for all languages, but symlinks are made for all
     for locale in glob.glob(flavor + 'release-notes/*/'):
         if locale.split('/')[-2] not in GPLAY_LOCALES:
@@ -189,31 +197,30 @@ def check_android(is_gplay):
             continue
         ok = check_text(locale + 'default.txt', 499) and ok
     '''
+    if not ok:
+        error(flavor, 'HAS INVALID LOCALES')
     return ok
 
 
 def check_ios():
     ok = True
-    for locale in glob.glob('iphone/metadata/*/'):
+    for locale in glob.glob(f'{IOS_META_PATH}/*/'):
         if locale.split('/')[-2] not in APPSTORE_LOCALES:
             ok = error(locale, "unsupported locale") and ok
-            continue
+        else:
+            locale_ok = check_text(locale + "subtitle.txt", 30, False, True)
+            locale_ok = check_text(locale + "description.txt", 4000, False, True) and locale_ok
+            locale_ok = check_text(locale + "keywords.txt", 100, False, True) and locale_ok
+            locale_ok = check_text(locale + "release_notes.txt", 4000, True, True) and locale_ok
+            locale_ok = check_url(locale + "support_url.txt", True) and locale_ok
+            locale_ok = check_url(locale + "marketing_url.txt", True) and locale_ok
+            locale_ok = check_url(locale + "privacy_url.txt", True) and locale_ok
+            if not locale_ok:
+                error(locale, 'locale is INVALID or INCOMPLETE')
+            ok = locale_ok and ok
 
-        locale_complete = True
-        for name in ["description.txt", "keywords.txt", "marketing_url.txt", "privacy_url.txt", "subtitle.txt", "support_url.txt"]:
-            name_path = os.path.join(locale, name)
-            if not os.path.exists(name_path):
-                locale_complete = False
-
-        if locale_complete:
-            ok = check_text(locale + "subtitle.txt", 30, False, True) and ok
-            ok = check_text(locale + "description.txt", 4000, False, True) and ok
-            ok = check_text(locale + "release_notes.txt", 4000, True, True) and ok
-            ok = check_text(locale + "keywords.txt", 100, False, True) and ok
-            ok = check_url(locale + "support_url.txt", True) and ok
-            ok = check_url(locale + "marketing_url.txt", True) and ok
-            ok = check_url(locale + "privacy_url.txt", True) and ok
-
+    if not ok:
+        error(IOS_META_PATH, 'HAS INVALID LOCALES')
     return ok
 
 if __name__ == "__main__":
