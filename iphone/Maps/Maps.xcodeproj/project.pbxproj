@@ -5309,7 +5309,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = NO;
 				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
-				SWIFT_INCLUDE_PATHS = "$(OMIM_ROOT)/editor";
+				SWIFT_INCLUDE_PATHS = "$(OMIM_ROOT)/libs/editor";
 				SWIFT_OBJC_BRIDGING_HEADER = "Bridging-Header.h";
 				SWIFT_OBJC_INTERFACE_HEADER_NAME = SwiftBridge.h;
 				SWIFT_OBJC_INTEROP_MODE = objcxx;
@@ -5352,7 +5352,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = NO;
 				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
-				SWIFT_INCLUDE_PATHS = "$(OMIM_ROOT)/editor";
+				SWIFT_INCLUDE_PATHS = "$(OMIM_ROOT)/libs/editor";
 				SWIFT_OBJC_BRIDGING_HEADER = "Bridging-Header.h";
 				SWIFT_OBJC_INTERFACE_HEADER_NAME = SwiftBridge.h;
 				SWIFT_OBJC_INTEROP_MODE = objcxx;
