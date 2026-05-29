@@ -143,7 +143,7 @@ cd comaps
 </details>
 
 <details>
-  <summary><span style="font-size: 1.5em; font-weight: bold;">Special cases options</span></summary> 
+  <summary><span style="font-size: 1.5em; font-weight: bold;" id="special-cases-options">Special cases options</span></summary> 
 
 If you're only doing a one-off build or your internet bandwidth or disk space is limited, add following options to the `git clone` command:
 

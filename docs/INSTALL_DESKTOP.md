@@ -5,7 +5,7 @@
 You need a Linux or a MacOS machine to build a desktop version of CoMaps. [Windows](#windows) users can use the [WSL](https://learn.microsoft.com/en-us/windows/wsl/) (Windows Subsystem for Linux) and follow ["Linux or Mac"](#linux-or-mac) steps described below.
 
 <details>
-  <summary><span style="font-size: 1.5em; font-weight: bold;">Linux or MacOS</span></summary>
+  <summary><span style="font-size: 1.5em; font-weight: bold;" id="linux-or-mac">Linux or MacOS</span></summary>
 
 Ensure that you have at least 20GB of free space.
 
