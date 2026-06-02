@@ -230,7 +230,7 @@
     <!-- Toast text when compass calibration may improve the correctness of the current position arrow -->
     <string name="compass_calibration_required">होकायंत्र कॅलिब्रेट करण्यासाठी आणि नकाशावर बाणाची दिशा निश्चित करण्यासाठी फोनला आकृती-आठ मोशनमध्ये हलवा.</string>
     <!-- Toast text when user hides UI with a long tap anywhere on the map -->
-    <string name="long_tap_toast">इंटरफेस पाहण्यासाठी पुन्हा नकाशावर दीर्घ टॅप करा</string>
+    <string name="enable_long_tap_fullscreen_description">इंटरफेस पाहण्यासाठी पुन्हा नकाशावर दीर्घ टॅप करा</string>
     <!-- Update all button text -->
     <string name="downloader_update_all_button">सर्व अद्ययावत</string>
     <!-- Cancel all button text -->

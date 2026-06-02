@@ -37,14 +37,22 @@
       android:title="@string/pref_left_button_title"
       app:singleLineTitle="false" />
     <SwitchPreferenceCompat
-      android:key="@string/pref_3d_buildings"
+      android:defaultValue="false"
+      android:key="@string/pref_long_tap_fullscreen"
       android:order="4"
+      android:summary="@string/enable_long_tap_fullscreen_description"
+      android:title="@string/enable_long_tap_fullscreen"
+      android:widgetLayout="@layout/preference_switch"
+      app:singleLineTitle="false" />
+    <SwitchPreferenceCompat
+      android:key="@string/pref_3d_buildings"
+      android:order="5"
       android:title="@string/pref_map_3d_buildings_title"
       android:widgetLayout="@layout/preference_switch"
       app:singleLineTitle="false" />
     <SwitchPreferenceCompat
       android:key="@string/pref_autodownload"
-      android:order="5"
+      android:order="6"
       android:title="@string/autodownload"
       android:widgetLayout="@layout/preference_switch"
       app:icon="@drawable/ic_download_st"
@@ -52,21 +60,21 @@
     <SwitchPreferenceCompat
       android:defaultValue="false"
       android:key="@string/pref_large_fonts_size"
-      android:order="6"
+      android:order="7"
       android:title="@string/big_font"
       android:widgetLayout="@layout/preference_switch"
       app:icon="@drawable/ic_text_fields"
       app:singleLineTitle="false" />
     <Preference
       android:key="@string/pref_map_locale"
-      android:order="7"
+      android:order="8"
       android:persistent="false"
       android:title="@string/change_map_locale"
       app:icon="@drawable/ic_translate"
       app:singleLineTitle="false" />
     <Preference
       android:key="@string/pref_app_locale"
-      android:order="8"
+      android:order="9"
       android:persistent="false"
       android:title="@string/change_app_locale"
       app:icon="@drawable/ic_translate"
@@ -76,27 +84,27 @@
       android:entries="@array/pref_alt_map_lang_handling_options"
       android:entryValues="@array/pref_alt_map_lang_handling_options_values"
       android:key="@string/pref_alt_map_lang_handling_key"
-      android:order="9"
+      android:order="10"
       android:title="@string/pref_alt_map_lang_handling"
       app:singleLineTitle="false" />
     <SwitchPreferenceCompat
       android:defaultValue="false"
       android:key="@string/pref_transliteration"
-      android:order="10"
+      android:order="11"
       android:title="@string/transliteration_title"
       android:widgetLayout="@layout/preference_switch"
       app:icon="@drawable/ic_translate_indic"
       app:singleLineTitle="false" />
     <Preference
       android:key="@string/pref_storage"
-      android:order="11"
+      android:order="12"
       android:summary="@string/maps_storage_summary"
       android:title="@string/maps_storage"
       app:icon="@drawable/ic_sd_card"
       app:singleLineTitle="false" />
     <Preference
       android:key="@string/pref_backup"
-      android:order="12"
+      android:order="13"
       android:persistent="false"
       android:summary="@string/pref_backup_summary"
       android:title="@string/pref_backup_title"
@@ -105,7 +113,7 @@
     <SwitchPreferenceCompat
       android:defaultValue="false"
       android:key="@string/pref_enable_logging"
-      android:order="13"
+      android:order="14"
       android:summary="@string/enable_logging_warning_message"
       android:title="@string/enable_logging"
       android:widgetLayout="@layout/preference_switch"
@@ -114,14 +122,14 @@
     <SwitchPreferenceCompat
       android:defaultValue="false"
       android:key="@string/pref_emulate_bad_external_storage"
-      android:order="14"
+      android:order="15"
       android:title="@string/setting_emulate_bad_storage"
       android:widgetLayout="@layout/preference_switch"
       app:isPreferenceVisible="false"
       app:singleLineTitle="false" />
     <Preference
       android:key="@string/pref_open_external_links"
-      android:order="15"
+      android:order="16"
       android:persistent="false"
       android:summary="@string/pref_openexternallinks_summary"
       android:title="@string/pref_openexternallinks_title"

@@ -421,7 +421,7 @@
     <string name="how_to_support_us">Bodhegewgh ha gwellhewgh CoMaps</string>
     <string name="compass_calibration_recommended">Gwellhe tu seth gans ow kwaya an glapkodh yn gwayans niver eth rag selya an vornaswydh.</string>
     <string name="compass_calibration_required">Gwaya an glapkodh yn gwayans niver eth rag selya an vornaswydh hag ewnhe an tu seth war\'n mappa.</string>
-    <string name="long_tap_toast">Tevewgh hir war\'n mappa arta rag gweles an ynterfas</string>
+    <string name="enable_long_tap_fullscreen_description">Tevewgh hir war\'n mappa arta rag gweles an ynterfas</string>
     <string name="downloader_downloaded_subtitle">Iskargys</string>
     <string name="downloader_queued">Yn Lost</string>
     <string name="downloader_downloading">Owth Iskarga:</string>

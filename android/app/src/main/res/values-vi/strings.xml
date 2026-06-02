@@ -239,7 +239,7 @@
     <!-- Toast text when compass calibration may improve the correctness of the current position arrow -->
     <string name="compass_calibration_required">Di chuyển điện thoại theo chuyển động hình số tám để hiệu chỉnh la bàn và sửa hướng mũi tên trên bản đồ.</string>
     <!-- Toast text when user hides UI with a long tap anywhere on the map -->
-    <string name="long_tap_toast">Nhấn và giữ lần nữa vào bản đồ để xem giao diện</string>
+    <string name="enable_long_tap_fullscreen_description">Nhấn và giữ lần nữa vào bản đồ để xem giao diện</string>
     <!-- Update all button text -->
     <string name="downloader_update_all_button">Cập nhật tất cả</string>
     <!-- Cancel all button text -->

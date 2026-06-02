@@ -246,7 +246,7 @@
     <!-- Toast text when compass calibration may improve the correctness of the current position arrow -->
     <string name="compass_calibration_required">Mova o telemóvel num movimento em forma de oito para calibrar a bússola e fixar a direcção da seta no mapa.</string>
     <!-- Toast text when user hides UI with a long tap anywhere on the map -->
-    <string name="long_tap_toast">Dê um toque longo no mapa novamente para ver a interface</string>
+    <string name="enable_long_tap_fullscreen_description">Dê um toque longo no mapa novamente para ver a interface</string>
     <!-- Update all button text -->
     <string name="downloader_update_all_button">Atualizar tudo</string>
     <!-- Cancel all button text -->

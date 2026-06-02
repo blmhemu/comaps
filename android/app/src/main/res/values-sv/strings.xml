@@ -239,7 +239,7 @@
     <!-- Toast text when compass calibration may improve the correctness of the current position arrow -->
     <string name="compass_calibration_required">Rör telefonen i en åttarörelse för att kalibrera kompassen och fastställa pilens riktning på kartan.</string>
     <!-- Toast text when user hides UI with a long tap anywhere on the map -->
-    <string name="long_tap_toast">Tryck länge på kartan för att se gränssnittet</string>
+    <string name="enable_long_tap_fullscreen_description">Tryck länge på kartan för att se gränssnittet</string>
     <!-- Update all button text -->
     <string name="downloader_update_all_button">Uppdatera alla</string>
     <!-- Cancel all button text -->

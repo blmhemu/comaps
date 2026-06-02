@@ -47,6 +47,7 @@ import androidx.core.app.ActivityCompat;
 import androidx.core.content.ContextCompat;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
+import androidx.preference.PreferenceManager;
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentTransaction;
@@ -1360,13 +1361,21 @@ public class MwmActivity extends BaseMwmFragmentActivity
     if ((mPanelAnimator != null && mPanelAnimator.isVisible()) || UiUtils.isVisible(mSearchController.getToolbar()))
       return;
 
-    setFullscreen(!isFullscreen());
     if (isFullscreen())
     {
+      // Always allow exiting fullscreen.
+      setFullscreen(false);
+    }
+    else
+    {
+      // Only enter fullscreen if the setting is enabled.
+      if (!PreferenceManager.getDefaultSharedPreferences(this).getBoolean(getString(R.string.pref_long_tap_fullscreen), false))
+      {
+        Toast.makeText(this, R.string.long_tap_disabled_toast, Toast.LENGTH_LONG).show();
+        return;
+      }
+      setFullscreen(true);
       closePlacePage();
-      // Show the toast every time so that users don't forget and don't get trapped in the FS mode.
-      // TODO(pastk): there are better solutions, see https://github.com/organicmaps/organicmaps/issues/9344
-      Toast.makeText(this, R.string.long_tap_toast, Toast.LENGTH_LONG).show();
     }
   }
 

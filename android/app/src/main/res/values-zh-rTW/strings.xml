@@ -254,7 +254,7 @@
     <!-- Toast text when compass calibration may improve the correctness of the current position arrow -->
     <string name="compass_calibration_required">以 8 字形移動手機以校準指北針，並在地圖上固定箭頭方向。</string>
     <!-- Toast text when user hides UI with a long tap anywhere on the map -->
-    <string name="long_tap_toast">再次長按地圖即可查看介面</string>
+    <string name="enable_long_tap_fullscreen_description">再次長按地圖即可查看介面</string>
     <!-- Update all button text -->
     <string name="downloader_update_all_button">更新全部</string>
     <!-- Cancel all button text -->

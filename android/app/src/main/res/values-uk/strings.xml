@@ -252,7 +252,7 @@
     <!-- Toast text when compass calibration may improve the correctness of the current position arrow -->
     <string name="compass_calibration_required">Рухайте телефон вісімкою, щоб відкалібрувати компас і зафіксувати напрямок стрілки на мапі.</string>
     <!-- Toast text when user hides UI with a long tap anywhere on the map -->
-    <string name="long_tap_toast">Ще раз потримайте палець на мапі, щоб побачити інтерфейс</string>
+    <string name="enable_long_tap_fullscreen_description">Ще раз потримайте палець на мапі, щоб побачити інтерфейс</string>
     <!-- Update all button text -->
     <string name="downloader_update_all_button">Оновити всі</string>
     <!-- Cancel all button text -->
