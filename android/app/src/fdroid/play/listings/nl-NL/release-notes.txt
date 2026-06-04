@@ -1,10 +1,10 @@
-• OpenStreetMap-gegevens per 4 mei
-• Knop ‘Controleren op updates’ toegevoegd om kaartupdates binnen te halen zonder app-update
-• Tijdens navigatie: enkel verkeerslichten op de route (groter) tonen
-• Zoekcategorieën als rasterweergave
-• Privacy-instelling om de systeemtoetsenbord-incognitomodus te activeren
-• Sloveense weglabels toegevoegd
-• Indonesische Wikipedia-artikelen toegevoegd
-• OSM-editor: categorie-zoekfunctie hersteld voor regionale talen
+• OpenStreetMap-gegevens per 3 juni, wekelijkse updates via de ‘Controleren op updates’-knop
+• Favorietenlijst handmatig of op naam sorteren
+• Lang indrukken om interface te verbergen uitgeschakeld; inschakelen via instellingen
+• Contactadreskiezer bij zoeken
+• Wikipedia-artikelen: donkere modus en RTL-ondersteuning
+• Verbeterde TalkBack-ondersteuning
+• OSM-editor: recente categoriegeschiedenis
+• Andoid Auto: beschikbaarheid weergeven in de instellingen
 
 Meer details op comaps.app/latest

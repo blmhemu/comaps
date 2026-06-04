@@ -1,8 +1,0 @@
-• Aggiornamento dati OpenStreetMap al 4 maggio
-• Aggiunto bottone nella schermata download “Verificare la presenza di aggiornamenti” per scaricare le mappe senza aggiornare l’app
-• In navigazione verranno mostrati, con icone più grandi, solo I semafori sul percorso
-• Le categorie di ricerca sono ora mostrate in una griglia
-• Aggiunta un’opzione per abilitare l’uso della modalità in incognito della tastiera di sistema
-• Aggiunti cartelli stradali sloveni
-
-Per saperne di più comaps.app/latest

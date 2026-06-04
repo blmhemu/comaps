@@ -1,10 +1,10 @@
-• OpenStreetMap-data pr. 4. maj
-• Knap ‘Søg efter opdateringer’ på downloadskærmen for at hente kortopdateringer uden app-opdatering
-• Under navigation vises kun trafiklys på ruten, men med større ikoner
-• Søgekategorier vises som gitter
-• Privatlivsindstilling for at aktivere systemtastaturets inkognitotilstand
-• Tilføjet sloveniske vejskilte
-• Tilføjet indonesiske Wikipedia-artikler
-• OSM-editor: rettet kategorisøgning på regionale sprog
+• OpenStreetMap-data pr. 3. juni, ugentlige opdateringer via ‘Søg efter opdateringer’-knappen
+• Sorter favoritlister manuelt eller efter navn
+• Deaktiveret langt tryk for at skjule grænsefladen, aktiver i indstillingerne
+• Kontaktadressevælger ved søgning
+• Wikipedia-artikler: mørk tilstand og RTL-understøttelse
+• Forbedret TalkBack-understøttelse
+• OSM-editor: historik over senest anvendte kategorier
+• Andoid Auto: vis tilgængelighed i indstillingerne
 
 Flere detaljer på comaps.app/latest

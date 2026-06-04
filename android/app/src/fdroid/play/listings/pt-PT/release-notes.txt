@@ -1,10 +1,10 @@
-• Dados do OSM até 4 de maio
-• Botão "Verificar atualizações" no ecrã de transferência para obter novos mapas sem atualizar app
-• Durante a navegação, mostrar apenas semáforos no percurso, mas com ícones maiores
-• Categorias de pesquisa em grelha
-• Nova opção de privacidade para modo de navegação anónima do teclado do sistema
-• Adicionados sinais de trânsito da Eslovénia
-• Adicionados artigos da Wikipédia indonésia
-• Editor OSM: pesquisa melhorada em línguas regionais
+• Dados do OSM até 3/junho e atualizações semanais (botão «Verificar atualizações»)
+• Favoritos: ordenação manual ou por nome
+• Ocultação por toque longo desativada (reativar nas definições)
+• Seletor de endereços de contactos na pesquisa
+• Wikipedia: modo escuro e suporte RTL
+• TalkBack melhorado
+• Editor OSM: histórico de categorias recentes
+• Android Auto: mostra legibilidade da app nas definições
 
-Mais em comaps.app/latest
+Detalhes em comaps.app/latest

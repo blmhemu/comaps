@@ -1,0 +1,7 @@
+• OpenStreetMap zemljevidi s podatki od 3. junija, novejše tedenske posodobitve zemljevidov lahko sprožite v menuju za posodobitve
+• Razvrsti priljubljene shranjene lokacije ročno ali po imenu
+• Izklopljen dolgi pritisk za skrivanje vmesnika, ponoven vklop možen v nastavitvah
+• Možnost izbire naslova iz telefonskega imena za kontakt
+• Članki iz wikipedie: možen ogled v temnem načinu in podpora za RTL (od desne proti levi) prikaz besedila
+
+Več podrobnosti na comaps.app/latest

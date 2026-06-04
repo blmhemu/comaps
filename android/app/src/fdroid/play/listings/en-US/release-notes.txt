@@ -1,10 +1,10 @@
-• OpenStreetMap data as of May 4
-• "Check for updates" button in the download screen to get new maps without updating the app (weekly map updates are planned)
-• When navigating show in-route traffic lights only, but with bigger icons
-• Search categories displayed as grid
-• A privacy setting to enable system keyboard incognito mode
-• Slovenia specific road shields
-• Indonesian Wikipedia articles
-• OSM editor: fixed categories search in regional languages
+• OpenStreetMap data as of June 3 and further weekly updates via "Check for updates" button
+• Sort favorites lists manually or by name
+• Disabled long tap interface hiding, re-enable in the settings
+• A contact address picker button in the search screen
+• Wikipedia articles: dark mode and RTL support, better formatting
+• Accessibility: improved TalkBack support
+• OSM Editor: recent categories history
+• Android Auto: show app's legibility in the settings
 
 More details on comaps.app/latest

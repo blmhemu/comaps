@@ -1,9 +1,7 @@
-• Données OpenStreetMap du 4 Mai
-• Bouton "Vérifier les mises à jour" sur l'écran de téléchargement, pour mettre à jour les cartes séparément de l'app (m.à.j hebdomadaires prévues)
-• En navigation, montrer seulement les feux sur l'itinéraire, avec de plus grosses icônes
-• Affichage des catégories de recherche en grille
-• Ajout d'un réglage incognito pour le clavier
-• Ajout des panneaux routiers Slovaques
-• Ajout des articles Wikipedia en Indonésien
+• Donnnées OpenStreetMap du 3 Juin et mise à jour hebdomadaire des cartes via le bouton "Vérifier les mises à jour"
+• Tri des listes de favoris manuellement ou par nom
+• Désactivation de l'appui long pour masquer l'interface, ré-activable dans les réglages
+• Sélecteur d'adresse parmi les contacts du téléphone dans l'écran de recherche
+• Articles Wikipedia : mode sombre et écriture RTL
 
 Plus de détails sur comaps.app/latest

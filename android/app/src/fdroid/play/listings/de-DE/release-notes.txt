@@ -1,10 +1,10 @@
-• OpenStreetMap-Daten vom 4. Mai
-• "Updates prüfen"-Knopf im Kartendownload-Bildschirm, erlaubt neue Karten ohne die App zu aktualisieren
-• Während der Navigation werden nur Ampeln innerhalb der Route angezeigt, dafür größer
-• Suchkategorien als Raster angezeigt
-• Privatsphäreoption: Keyboard im incognito-Modus
-• Slowenische Streckenschilder
-• Indonesische Wikipedia-Artikel
-• OSM-Editor: Kategoriesuche in regionalen Sprachen korrigiert
+• OpenStreetMap-Daten vom 3. Juni, weitere wöchentliche Updates in "Updates prüfen"
+• Sortiere Favoritenlisten manuell oder nach Namen
+• Verstecktes Bedienfeld durch langes Berühren deaktiv, aktivierbar in Einstellung
+• Kontaktadressauswahl in Suche
+• Wikipedia-Artikel: Dunkler Modus, RTL
+• Verbessertes TalkBack
+• OSM-Editor: Verlauf letzter Kategorien
+• Android Auto: Anzeige Verfügbarkeit
 
-Mehr Details: comaps.app/latest
+Mehr Details auf comaps.app/latest
