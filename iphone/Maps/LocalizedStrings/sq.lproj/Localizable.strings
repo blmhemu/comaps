@@ -210,7 +210,7 @@
 /* Text in the editor */
 "vk" = "VK";
 /* Text in the editor */
-"line" = "Line";
+"line" = "Rresht";
 /* Text in the editor */
 "bluesky" = "Bluesky";
 /* Text in menu */
@@ -262,20 +262,20 @@
 /* Displayed in a dialog that appears when a user tries to delete a map while the app is in the follow route mode */
 "downloader_delete_map_while_routing_dialog" = "Për të fshirë një hartë, ju lutem ndaloni modalitetin e intinerarit.";
 /* PointsInDifferentMWM */
-"routing_failed_cross_mwm_building" = "Routes can only be created that are fully contained within a map of a single region.";
+"routing_failed_cross_mwm_building" = "Mund të krijohen vetëm intinerare që përmbahen plotësisht brenda një harte të një rajoni të vetëm.";
 /* Context menu item for downloader. */
-"downloader_download_map" = "Download map";
+"downloader_download_map" = "Shkarko hartën";
 /* Item status in downloader. */
-"downloader_retry" = "Retry";
+"downloader_retry" = "Provo sërish";
 /* Item in context menu. */
-"downloader_delete_map" = "Delete Map";
+"downloader_delete_map" = "Fshi hartën";
 /* Text for routing error dialog */
-"routing_download_maps_along" = "Download all of the maps along your route";
+"routing_download_maps_along" = "Shkarko të gjitha hartat përgjatë intinerarit tënd";
 /* Text for routing error dialog */
-"routing_requires_all_map" = "In order to create a route, we need to download and update all the maps from your location to your destination.";
+"routing_requires_all_map" = "Për të krijuar një itinerar, duhet të shkarkojmë dhe përditësojmë të gjitha hartat nga vendndodhja juaj deri te destinacioni juaj.";
 /* bookmark button text */
-"bookmark" = "bookmark";
-"save" = "Save";
+"bookmark" = "vendos";
+"save" = "Ruaj";
 "create" = "create";
 /* red color */
 "red" = "Red";
