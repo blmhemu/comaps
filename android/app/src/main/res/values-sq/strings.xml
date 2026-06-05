@@ -19,9 +19,9 @@
     <string name="pref_alt_map_lang_handling_local_only">Prefero dhe përdor vetëm gjuhën e zonës</string>
     <string name="avoid_paved">Shmang rrugët e pashtruara</string>
     <string name="avoid_steps">Shmang shkallët</string>
-    <string name="cancel">Anullo</string>
+    <string name="cancel">Anulo</string>
     <string name="delete">Fshi</string>
-    <string name="download_maps">Hartat e shkarkuara</string>
+    <string name="download_maps">Shkarko</string>
     <string name="downloader_check_updates_button">Kontrollo për përditësime</string>
     <string name="downloader_check_updates_checking">Duke kontrolluar për përditësime...</string>
     <string name="downloader_check_updates_updated">Përditësimet e hartave janë të disponueshme!</string>
@@ -108,4 +108,5 @@
     <string name="downloader_status_maps">Hartat</string>
     <string name="downloader_download_all_button">Shkarko të gjitha</string>
     <string name="downloader_downloading">Duke shkarkuar:</string>
+    <string name="category_transport">Transport</string>
 </resources>

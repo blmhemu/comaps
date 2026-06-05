@@ -522,7 +522,7 @@
     <string name="type.landuse.forest.mixed">Skov</string>
     <string name="type.landuse.grass">Græsplæne</string>
     <string name="type.landuse.landfill">Affaldsdepot</string>
-    <string name="type.landuse.railway">Jernbaneanlæg</string>
+    <string name="type.landuse.railway">Baneterræn</string>
     <string name="type.landuse.reservoir">Vandreservoir</string>
     <string name="type.leisure.dog_park">Hundeskov</string>
     <string name="type.leisure.fitness_centre">Trænings- og motionscenter</string>

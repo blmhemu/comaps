@@ -1,10 +1,10 @@
 /* Button text (should be short) */
-"cancel" = "Anullo";
+"cancel" = "Anulo";
 /* Button which interrupts country download */
 "cancel_download" = "Anullo shkarkimin";
 /* Button which deletes downloaded country */
 "delete" = "Fshi";
-"download_maps" = "Hartat e shkarkuara";
+"download_maps" = "Shkarko";
 /* Settings/Downloader - info for country which started downloading */
 "downloading" = "Duke shkarkuar…";
 /* Title of offline maps explanation */

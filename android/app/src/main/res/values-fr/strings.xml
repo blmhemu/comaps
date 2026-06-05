@@ -962,4 +962,7 @@
     <string name="oh_unknown">Horaires d\'ouverture inconnus</string>
     <string name="editor_add_select_category_all_subtitle">Toutes les catégories</string>
     <string name="editor_add_select_category_recent_subtitle">Récemment utilisés</string>
+    <string name="sort_categories">Trier les listes de favoris</string>
+    <string name="by_recently_used">Par récemment utilisé</string>
+    <string name="by_custom">Par ordre personnalisé</string>
 </resources>
