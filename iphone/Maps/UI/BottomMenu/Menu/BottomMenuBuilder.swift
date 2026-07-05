@@ -1,6 +1,4 @@
 @objc class BottomMenuBuilder: NSObject {
-  private static let bluetoothDevicesServiceUUID = "00FF"
-
   @objc static func buildMenu(mapViewController: MapViewController,
                               controlsManager: MWMMapViewControlsManager,
                               delegate: BottomMenuDelegate) -> UIViewController {
@@ -27,8 +25,7 @@
     let interactor = BottomMenuInteractor(viewController: viewController,
                                           mapViewController: mapViewController,
                                           controlsManager: controlsManager,
-                                          delegate: delegate,
-                                          bluetoothServiceUUID: bluetoothDevicesServiceUUID)
+                                          delegate: delegate)
     let presenter = BottomMenuPresenter(view: viewController, interactor: interactor, sections: sections)
     
     interactor.presenter = presenter

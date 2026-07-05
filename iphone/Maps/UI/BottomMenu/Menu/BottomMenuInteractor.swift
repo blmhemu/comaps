@@ -1,5 +1,3 @@
-import CoreBluetooth
-
 protocol BottomMenuInteractorProtocol: AnyObject {
   func close()
   func addPlace()
@@ -26,20 +24,17 @@ class BottomMenuInteractor {
   private weak var delegate: BottomMenuDelegate?
   private weak var controlsManager: MWMMapViewControlsManager?
 
-  private let bluetoothServiceUUID: String
   private let mapsStorage = Storage.shared()
   private let trackRecorder: TrackRecordingManager = .shared
 
   init(viewController: UIViewController,
        mapViewController: MapViewController,
        controlsManager: MWMMapViewControlsManager,
-       delegate: BottomMenuDelegate,
-       bluetoothServiceUUID: String) {
+       delegate: BottomMenuDelegate) {
     self.viewController = viewController
     self.mapViewController = mapViewController
     self.delegate = delegate
     self.controlsManager = controlsManager
-    self.bluetoothServiceUUID = bluetoothServiceUUID
   }
 
   private func close(completion: @escaping () -> Void) {
@@ -140,7 +135,7 @@ extension BottomMenuInteractor: BottomMenuInteractorProtocol {
   }
 
   func openBluetoothDevices() {
-    let bluetoothViewController = BluetoothDevicesViewController(serviceUUID: CBUUID(string: bluetoothServiceUUID))
+    let bluetoothViewController = BluetoothDevicesViewController()
     let navigationController = UINavigationController(rootViewController: bluetoothViewController)
     close { [weak self] in
       self?.mapViewController?.present(navigationController, animated: true)
