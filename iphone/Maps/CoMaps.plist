@@ -131,6 +131,8 @@
 			<string>ANY</string>
 		</dict>
 	</dict>
+	<key>NSBluetoothAlwaysUsageDescription</key>
+	<string>CoMaps uses Bluetooth to connect to compatible navigation devices.</string>
 	<key>UIApplicationShortcutItems</key>
 	<array>
 		<dict>
@@ -163,6 +165,7 @@
 	<key>UIBackgroundModes</key>
 	<array>
 		<string>audio</string>
+		<string>bluetooth-central</string>
 		<string>fetch</string>
 		<string>location</string>
 	</array>

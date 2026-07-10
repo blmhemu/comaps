@@ -121,8 +121,10 @@ void InitLocalizedStrings() {
   }
   [self enableTTSForTheFirstTime];
 
-  if (![MapsAppDelegate isTestsEnvironment])
+  if (![MapsAppDelegate isTestsEnvironment]) {
+    [BluetoothNavigationServiceBridge start];
     [[iCloudSynchronizaionManager shared] start];
+  }
   
   [[DeepLinkHandler shared] applicationDidFinishLaunching:launchOptions];
   // application:openUrl:options is called later for deep links if YES is returned.

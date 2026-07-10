@@ -8,6 +8,7 @@ protocol BottomMenuInteractorProtocol: AnyObject {
   func openSettings()
   func shareLocation(cell: BottomMenuItemCell)
   func toggleTrackRecording()
+  func openBluetoothDevices()
 }
 
 @objc protocol BottomMenuDelegate {
@@ -113,6 +114,17 @@ extension BottomMenuInteractor: BottomMenuInteractorProtocol {
           break
         }
       }
+    }
+  }
+
+  func openBluetoothDevices() {
+    let bluetoothViewController = BluetoothDevicesViewController()
+    let navigationController = UINavigationController(rootViewController: bluetoothViewController)
+    guard let controlsManager else {
+      fatalError()
+    }
+    controlsManager.setMenuState(controlsManager.menuRestoreState) { [weak self] in
+      self?.mapViewController?.present(navigationController, animated: true)
     }
   }
 }

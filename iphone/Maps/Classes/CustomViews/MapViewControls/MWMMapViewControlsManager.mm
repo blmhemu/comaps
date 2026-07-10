@@ -285,6 +285,10 @@ NSString *const kMapToCategorySelectorSegue = @"MapToCategorySelectorSegue";
 }
 
 - (void)setMenuState:(MWMBottomMenuState)menuState {
+  [self setMenuState:menuState completion:nil];
+}
+
+- (void)setMenuState:(MWMBottomMenuState)menuState completion:(void (^)(void))completion {
   _menuState = menuState;
   MapViewController * ownerController = _ownerController;
   switch (_menuState) {
@@ -294,8 +298,9 @@ NSString *const kMapToCategorySelectorSegue = @"MapToCategorySelectorSegue";
         _menuController = [BottomMenuBuilder buildMenuWithMapViewController:ownerController
                                                             controlsManager:self
                                                                    delegate:self];
-        [ownerController presentViewController:_menuController animated:YES completion:nil];
-      }
+        [ownerController presentViewController:_menuController animated:YES completion:completion];
+      } else if (completion)
+        completion();
       break;
     case MWMBottomMenuStateLayers:
       _tabBarController.isHidden = NO;
@@ -303,24 +308,29 @@ NSString *const kMapToCategorySelectorSegue = @"MapToCategorySelectorSegue";
         _menuController = [BottomMenuBuilder buildLayersWithMapViewController:ownerController
                                                               controlsManager:self
                                                                      delegate:self];
-        [ownerController presentViewController:_menuController animated:YES completion:nil];
-      }
+        [ownerController presentViewController:_menuController animated:YES completion:completion];
+      } else if (completion)
+        completion();
       break;
     case MWMBottomMenuStateInactive:
       _tabBarController.isHidden = NO;
       if (_menuController != nil) {
-        [_menuController dismissViewControllerAnimated:YES completion:nil];
+        [_menuController dismissViewControllerAnimated:YES completion:completion];
         _menuController = nil;
-      }
+      } else if (completion)
+        completion();
       break;
     case MWMBottomMenuStateHidden:
       _tabBarController.isHidden = YES;
       if (_menuController != nil) {
-        [_menuController dismissViewControllerAnimated:YES completion:nil];
+        [_menuController dismissViewControllerAnimated:YES completion:completion];
         _menuController = nil;
-      }
+      } else if (completion)
+        completion();
       break;
     default:
+      if (completion)
+        completion();
       break;
   }
 }
