@@ -906,6 +906,7 @@
 "bluetooth_devices_unsupported" = "This device does not support Bluetooth scanning.";
 "bluetooth_devices_status_ready" = "Ready for navigation";
 "bluetooth_devices_status_connected" = "Connected";
+"bluetooth_devices_status_connecting" = "Connecting...";
 "bluetooth_devices_status_not_connected" = "Not Connected";
 "bluetooth_devices_status_tap_to_connect" = "%@ - tap to connect";
 "bluetooth_devices_signal_very_close" = "Very Close";

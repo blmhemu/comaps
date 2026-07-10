@@ -36,23 +36,6 @@ class BottomMenuInteractor {
     self.delegate = delegate
     self.controlsManager = controlsManager
   }
-
-  private func close(completion: @escaping () -> Void) {
-    close()
-    guard let viewController else {
-      completion()
-      return
-    }
-    if let transitionCoordinator = viewController.transitionCoordinator {
-      transitionCoordinator.animate(alongsideTransition: nil) { _ in
-        completion()
-      }
-    } else {
-      DispatchQueue.main.asyncAfter(deadline: .now() + kDefaultAnimationDuration) {
-        completion()
-      }
-    }
-  }
 }
 
 extension BottomMenuInteractor: BottomMenuInteractorProtocol {
@@ -137,7 +120,10 @@ extension BottomMenuInteractor: BottomMenuInteractorProtocol {
   func openBluetoothDevices() {
     let bluetoothViewController = BluetoothDevicesViewController()
     let navigationController = UINavigationController(rootViewController: bluetoothViewController)
-    close { [weak self] in
+    guard let controlsManager else {
+      fatalError()
+    }
+    controlsManager.setMenuState(controlsManager.menuRestoreState) { [weak self] in
       self?.mapViewController?.present(navigationController, animated: true)
     }
   }

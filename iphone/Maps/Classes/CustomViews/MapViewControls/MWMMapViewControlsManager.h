@@ -42,6 +42,8 @@ typedef NS_ENUM(NSUInteger, TrackRecordingButtonState) {
        withTransitionCoordinator:(id<UIViewControllerTransitionCoordinator>)coordinator;
 
 - (void)setTrackRecordingButtonState:(TrackRecordingButtonState)state;
+- (void)setMenuState:(MWMBottomMenuState)menuState
+          completion:(void (^_Nullable)(void))completion NS_SWIFT_NAME(setMenuState(_:completion:));
 
 #pragma mark - MWMNavigationDashboardManager
 
